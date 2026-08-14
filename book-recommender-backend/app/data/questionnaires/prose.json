@@ -1,0 +1,380 @@
+{
+  "category": "prose",
+  "title": "Test de proză",
+  "description": "Răspunde la fiecare întrebare alegând varianta care te reprezintă cel mai bine.",
+  "version": 1.0,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Îmi plac poveștile care lasă loc interpretării cititorului.",
+      "importance": 1.30,
+      "control": false,
+      "weights": {
+        "ambiguity": 0.90,
+        "reflection": 0.70,
+        "complexity": 0.40,
+        "realism": -0.20
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 2,
+      "text": "Îmi plac romanele cu mai multe fire narative și perspective diferite.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "complexity": 0.90,
+        "reflection": 0.40,
+        "characters": 0.30,
+        "pace": -0.30
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 3,
+      "text": "Îmi place să descopăr autori și culturi diferite prin intermediul lecturii.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "culture": 0.90,
+        "curiosity": 0.80,
+        "imagination": 0.30,
+        "realism": 0.20
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 4,
+      "text": "Mă implic emoțional în poveste și mă atașez de personaje.",
+      "importance": 1.30,
+      "control": false,
+      "weights": {
+        "emotionality": 0.90,
+        "characters": 0.80,
+        "reflection": 0.30
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 5,
+      "text": "Îmi plac universurile fantastice și regulile lor originale.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "imagination": 0.90,
+        "curiosity": 0.50,
+        "realism": -0.80
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 6,
+      "text": "Prefer cărțile în care acțiunea evoluează într-un ritm alert.",
+      "importance": 1.00,
+      "control": false,
+      "weights": {
+        "pace": 0.90,
+        "complexity": -0.40,
+        "reflection": -0.30
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 7,
+      "text": "O carte bună mă face să reflectez mult timp după ce am terminat-o.",
+      "importance": 1.30,
+      "control": false,
+      "weights": {
+        "reflection": 0.90,
+        "complexity": 0.60,
+        "ambiguity": 0.40
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 8,
+      "text": "Prefer poveștile inspirate din evenimente reale sau credibile.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "realism": 0.90,
+        "imagination": -0.70,
+        "characters": 0.30
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 9,
+      "text": "Evoluția personajelor este mai importantă pentru mine decât acțiunea.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "characters": 0.90,
+        "emotionality": 0.60,
+        "pace": -0.50
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 10,
+      "text": "Îmi place să citesc cărți diferite de ceea ce aleg în mod obișnuit.",
+      "importance": 1.00,
+      "control": false,
+      "weights": {
+        "curiosity": 0.90,
+        "culture": 0.50,
+        "imagination": 0.40
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+
+    {
+      "id": 11,
+      "text": "Un stil de scriere bogat și elaborat mă atrage.",
+      "importance": 0.85,
+      "control": false,
+      "weights": {
+        "complexity": 0.80,
+        "reflection": 0.50,
+        "pace": -0.40
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "O carte bună trebuie să mă emoționeze.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "emotionality": 0.90,
+        "characters": 0.50
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Îmi plac cărțile în care nu toate răspunsurile sunt oferite explicit.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "ambiguity": 0.90,
+        "reflection": 0.50,
+        "complexity": 0.40
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Sunt curios să citesc autori din culturi foarte diferite de a mea.",
+      "importance": 1.00,
+      "control": false,
+      "weights": {
+        "culture": 0.90,
+        "curiosity": 0.50,
+        "realism": 0.20
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Apreciez ideile originale chiar dacă sunt greu de imaginat.",
+      "importance": 1.00,
+      "control": false,
+      "weights": {
+        "imagination": 0.80,
+        "curiosity": 0.60,
+        "complexity": 0.30
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Dacă o carte are puțină acțiune, îmi pierd repede interesul.",
+      "importance": 0.85,
+      "control": true,
+      "weights": {
+        "pace": 0.80,
+        "reflection": -0.50,
+        "complexity": -0.40
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Îmi place să înțeleg motivațiile și conflictele interioare ale personajelor.",
+      "importance": 1.15,
+      "control": false,
+      "weights": {
+        "characters": 0.90,
+        "reflection": 0.40,
+        "emotionality": 0.60
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Îmi plac cărțile care mă provoacă intelectual.",
+      "importance": 1.30,
+      "control": false,
+      "weights": {
+        "complexity": 0.70,
+        "curiosity": 0.60,
+        "reflection": 0.70
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Îmi place să discut interpretări diferite ale aceleiași cărți.",
+      "importance": 1.00,
+      "control": false,
+      "weights": {
+        "ambiguity": 0.70,
+        "reflection": 0.70,
+        "culture": 0.30
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Prefer poveștile în care pot anticipa ușor desfășurarea evenimentelor.",
+      "importance": 0.85,
+      "control": true,
+      "weights": {
+        "ambiguity": -0.80,
+        "complexity": -0.60,
+        "realism": 0.30
+      },
+      "answers": [
+        { "id": 1, "text": "Deloc", "value": -2 },
+        { "id": 2, "text": "Puțin", "value": -1 },
+        { "id": 3, "text": "Neutru", "value": 0 },
+        { "id": 4, "text": "Mult", "value": 1 },
+        { "id": 5, "text": "Foarte mult", "value": 2 }
+      ]
+    }
+  ]
+}

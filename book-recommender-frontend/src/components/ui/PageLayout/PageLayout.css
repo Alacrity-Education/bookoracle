@@ -1,0 +1,24 @@
+.page-layout {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.5rem;
+
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.page-layout__container {
+    width: 100%;
+    max-width: 75rem;
+}
+
+@media (max-width: 48rem) {
+    .page-layout {
+        padding: 1.5rem;
+    }
+}

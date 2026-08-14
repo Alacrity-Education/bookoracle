@@ -1,0 +1,35 @@
+.primary-button{
+
+    background:var(--primary);
+
+    color:var(--primary-content);
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:16px 32px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.2s;
+
+}
+
+.primary-button:hover{
+
+    opacity:.92;
+
+}
+
+.primary-button:disabled{
+
+    opacity:.4;
+
+    cursor:not-allowed;
+
+}

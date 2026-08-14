@@ -1,0 +1,117 @@
+import type { LiteraryProfile } from "../types";
+
+export const LITERARY_PROFILES: LiteraryProfile[] = [
+    {
+        id: "explorer",
+        name: "Exploratorul",
+        description:
+            "Îți place să descoperi idei, lumi și perspective noi. Lectura este pentru tine o formă de explorare.",
+        dimensions: {
+            curiosity: 1.0,
+            reflection: 0.3,
+            complexity: 0.2,
+            emotionality: 0.0,
+            characters: 0.0,
+            pace: 0.2,
+            imagination: 0.7,
+            realism: 0.0,
+            ambiguity: 0.2,
+            culture: 0.9
+        }
+    },
+
+    {
+        id: "analyst",
+        name: "Analistul",
+        description:
+            "Îți plac cărțile complexe, care ridică întrebări și îți oferă material de gândire mult după ce ai terminat lectura.",
+        dimensions: {
+            curiosity: 0.6,
+            reflection: 1.0,
+            complexity: 0.9,
+            emotionality: 0.0,
+            characters: 0.2,
+            pace: -0.3,
+            imagination: 0.2,
+            realism: 0.1,
+            ambiguity: 0.8,
+            culture: 0.2
+        }
+    },
+
+    {
+        id: "empath",
+        name: "Empaticul",
+        description:
+            "Personajele, relațiile și emoțiile lor sunt esențiale pentru experiența ta de lectură.",
+        dimensions: {
+            curiosity: 0.1,
+            reflection: 0.4,
+            complexity: 0.1,
+            emotionality: 1.0,
+            characters: 1.0,
+            pace: -0.2,
+            imagination: 0.1,
+            realism: 0.3,
+            ambiguity: 0.1,
+            culture: 0.1
+        }
+    },
+
+    {
+        id: "adventurer",
+        name: "Aventurierul",
+        description:
+            "Cauți povești care te prind rapid, te poartă prin situații intense și nu îți dau timp să te plictisești.",
+        dimensions: {
+            curiosity: 0.4,
+            reflection: -0.2,
+            complexity: 0.1,
+            emotionality: 0.3,
+            characters: 0.2,
+            pace: 1.0,
+            imagination: 0.7,
+            realism: 0.1,
+            ambiguity: -0.2,
+            culture: 0.2
+        }
+    },
+
+    {
+        id: "realist",
+        name: "Realistul",
+        description:
+            "Preferi poveștile credibile, apropiate de oameni, societate și experiențele lumii reale.",
+        dimensions: {
+            curiosity: 0.2,
+            reflection: 0.4,
+            complexity: 0.2,
+            emotionality: 0.5,
+            characters: 0.8,
+            pace: 0.0,
+            imagination: -0.6,
+            realism: 1.0,
+            ambiguity: -0.1,
+            culture: 0.3
+        }
+    },
+
+    {
+        id: "visionary",
+        name: "Vizionarul",
+        description:
+            "Ești atras de idei neobișnuite, lumi originale și concepte care depășesc limitele realității.",
+        dimensions: {
+            curiosity: 0.7,
+            reflection: 0.4,
+            complexity: 0.5,
+            emotionality: 0.1,
+            characters: 0.0,
+            pace: 0.1,
+            imagination: 1.0,
+            realism: -0.9,
+            ambiguity: 0.6,
+            culture: 0.3
+        }
+    }
+];

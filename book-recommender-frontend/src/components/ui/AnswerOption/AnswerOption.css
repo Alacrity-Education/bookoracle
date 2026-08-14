@@ -1,0 +1,58 @@
+.answer-option{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:1rem;
+
+    width:100%;
+
+    padding:1rem;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius-medium);
+
+    background:var(--background);
+
+    cursor:pointer;
+
+    transition:all .2s ease;
+
+}
+
+.answer-option:hover{
+
+    border-color:var(--primary);
+
+}
+
+.answer-option--selected{
+
+    border-color:var(--primary);
+
+    background:rgba(101,80,163,.08);
+
+}
+
+.answer-option__indicator{
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    border:2px solid var(--primary);
+
+    flex-shrink:0;
+
+}
+
+.answer-option--selected
+.answer-option__indicator{
+
+    background:var(--primary);
+
+}
