@@ -1,0 +1,2362 @@
+{
+    "base_model": "intfloat/multilingual-e5-base",
+    "large_model": "intfloat/multilingual-e5-large",
+    "common_book_count": 421,
+    "axes": {
+        "curiosity": {
+            "book_count": 421,
+            "base": {
+                "min": -0.012643,
+                "p5": -0.005965,
+                "p25": 0.001882,
+                "median": 0.006832,
+                "mean": 0.006561624703087886,
+                "p75": 0.011244,
+                "p95": 0.018621,
+                "max": 0.025128,
+                "std": 0.007254001659941231
+            },
+            "large": {
+                "min": -0.039354,
+                "p5": -0.022792,
+                "p25": -0.014164,
+                "median": -0.008106,
+                "mean": -0.008083895486935867,
+                "p75": -0.002442,
+                "p95": 0.006728,
+                "max": 0.016362,
+                "std": 0.00898209093006817
+            },
+            "difference": {
+                "mean": -0.014645520190023752,
+                "mean_absolute": 0.01476813301662708,
+                "median_absolute": 0.014439999999999998,
+                "max_absolute": 0.036179
+            },
+            "correlation": {
+                "pearson": 0.5555771857434051,
+                "spearman": 0.5581824230807507
+            }
+        },
+        "reflection": {
+            "book_count": 421,
+            "base": {
+                "min": -0.017126,
+                "p5": -0.004821,
+                "p25": 0.001391,
+                "median": 0.005205,
+                "mean": 0.005397489311163895,
+                "p75": 0.009594,
+                "p95": 0.015492,
+                "max": 0.02708,
+                "std": 0.0061012521216374915
+            },
+            "large": {
+                "min": -0.023141,
+                "p5": -0.014463,
+                "p25": -0.004656,
+                "median": 0.00232,
+                "mean": 0.002146,
+                "p75": 0.008956,
+                "p95": 0.017918,
+                "max": 0.029573,
+                "std": 0.00981656802459356
+            },
+            "difference": {
+                "mean": -0.0032514893111638956,
+                "mean_absolute": 0.007278439429928741,
+                "median_absolute": 0.0061589999999999995,
+                "max_absolute": 0.026403
+            },
+            "correlation": {
+                "pearson": 0.4958073439071015,
+                "spearman": 0.48153576089165157
+            }
+        },
+        "complexity": {
+            "book_count": 421,
+            "base": {
+                "min": -0.01811,
+                "p5": -0.012128,
+                "p25": -0.006653,
+                "median": -0.002741,
+                "mean": -0.0027549406175771973,
+                "p75": 0.001133,
+                "p95": 0.006246,
+                "max": 0.016847,
+                "std": 0.005657309844633219
+            },
+            "large": {
+                "min": -0.034407,
+                "p5": -0.021092,
+                "p25": -0.01477,
+                "median": -0.010133,
+                "mean": -0.010335456057007126,
+                "p75": -0.005968,
+                "p95": -0.000219,
+                "max": 0.012345,
+                "std": 0.006504858881995239
+            },
+            "difference": {
+                "mean": -0.0075805154394299286,
+                "mean_absolute": 0.008219503562945369,
+                "median_absolute": 0.0071080000000000015,
+                "max_absolute": 0.031664
+            },
+            "correlation": {
+                "pearson": 0.43998189878820443,
+                "spearman": 0.4203662219832107
+            }
+        },
+        "emotionality": {
+            "book_count": 421,
+            "base": {
+                "min": -0.010332,
+                "p5": -0.00332,
+                "p25": 0.002111,
+                "median": 0.005714,
+                "mean": 0.005347883610451306,
+                "p75": 0.008863,
+                "p95": 0.013271,
+                "max": 0.022072,
+                "std": 0.005006079455873626
+            },
+            "large": {
+                "min": -0.014367,
+                "p5": -0.003596,
+                "p25": 0.003192,
+                "median": 0.007815,
+                "mean": 0.007848104513064133,
+                "p75": 0.012492,
+                "p95": 0.019856,
+                "max": 0.025947,
+                "std": 0.006894265495715919
+            },
+            "difference": {
+                "mean": 0.0025002209026128265,
+                "mean_absolute": 0.005507427553444181,
+                "median_absolute": 0.004746,
+                "max_absolute": 0.023836
+            },
+            "correlation": {
+                "pearson": 0.457836160143824,
+                "spearman": 0.4550016910128076
+            }
+        },
+        "characters": {
+            "book_count": 421,
+            "base": {
+                "min": -0.017703,
+                "p5": -0.005951,
+                "p25": -4.6e-05,
+                "median": 0.003876,
+                "mean": 0.003943121140142518,
+                "p75": 0.008301,
+                "p95": 0.013932,
+                "max": 0.021849,
+                "std": 0.006234182620626406
+            },
+            "large": {
+                "min": -0.014755,
+                "p5": -0.002291,
+                "p25": 0.003173,
+                "median": 0.00703,
+                "mean": 0.006961358669833729,
+                "p75": 0.010799,
+                "p95": 0.016298,
+                "max": 0.021464,
+                "std": 0.005750689826810568
+            },
+            "difference": {
+                "mean": 0.0030182375296912115,
+                "mean_absolute": 0.005341239904988124,
+                "median_absolute": 0.004611,
+                "max_absolute": 0.018801
+            },
+            "correlation": {
+                "pearson": 0.515940746607411,
+                "spearman": 0.48130076554690127
+            }
+        },
+        "pace": {
+            "book_count": 421,
+            "base": {
+                "min": -0.019199,
+                "p5": -0.010036,
+                "p25": -0.00596,
+                "median": -0.002797,
+                "mean": -0.002783061757719715,
+                "p75": 0.000452,
+                "p95": 0.00494,
+                "max": 0.009111,
+                "std": 0.00449641106141783
+            },
+            "large": {
+                "min": -0.019926,
+                "p5": -0.009484,
+                "p25": -0.001084,
+                "median": 0.003981,
+                "mean": 0.0036382351543942995,
+                "p75": 0.009149,
+                "p95": 0.014289,
+                "max": 0.023344,
+                "std": 0.00732092809130776
+            },
+            "difference": {
+                "mean": 0.0064212969121140145,
+                "mean_absolute": 0.007793672209026129,
+                "median_absolute": 0.0070350000000000005,
+                "max_absolute": 0.02398
+            },
+            "correlation": {
+                "pearson": 0.4263485048284274,
+                "spearman": 0.40526346302774
+            }
+        },
+        "imagination": {
+            "book_count": 421,
+            "base": {
+                "min": -0.017949,
+                "p5": -0.010023,
+                "p25": -0.003458,
+                "median": 0.002199,
+                "mean": 0.002118104513064133,
+                "p75": 0.007421,
+                "p95": 0.014661,
+                "max": 0.023542,
+                "std": 0.007547088284929887
+            },
+            "large": {
+                "min": -0.048017,
+                "p5": -0.034211,
+                "p25": -0.025366,
+                "median": -0.019389,
+                "mean": -0.019329368171021377,
+                "p75": -0.012613,
+                "p95": -0.004915,
+                "max": 0.011254,
+                "std": 0.009082601816526018
+            },
+            "difference": {
+                "mean": -0.02144747268408551,
+                "mean_absolute": 0.02144747268408551,
+                "median_absolute": 0.021693999999999998,
+                "max_absolute": 0.044515
+            },
+            "correlation": {
+                "pearson": 0.6208496795227517,
+                "spearman": 0.6298642437881911
+            }
+        },
+        "realism": {
+            "book_count": 421,
+            "base": {
+                "min": -0.016227,
+                "p5": -0.002989,
+                "p25": 0.006925,
+                "median": 0.013865,
+                "mean": 0.013171717339667459,
+                "p75": 0.020092,
+                "p95": 0.028879,
+                "max": 0.044422,
+                "std": 0.009719287049423006
+            },
+            "large": {
+                "min": -0.01685,
+                "p5": -0.007639,
+                "p25": 0.003724,
+                "median": 0.011707,
+                "mean": 0.011874306413301663,
+                "p75": 0.020134,
+                "p95": 0.030368,
+                "max": 0.041369,
+                "std": 0.011676858165258926
+            },
+            "difference": {
+                "mean": -0.0012974109263657958,
+                "mean_absolute": 0.0074066270783847985,
+                "median_absolute": 0.0062569999999999995,
+                "max_absolute": 0.031884
+            },
+            "correlation": {
+                "pearson": 0.6445488077349769,
+                "spearman": 0.6331832610391512
+            }
+        },
+        "ambiguity": {
+            "book_count": 421,
+            "base": {
+                "min": -0.014047,
+                "p5": -0.003989,
+                "p25": 0.002325,
+                "median": 0.006058,
+                "mean": 0.006411686460807601,
+                "p75": 0.010848,
+                "p95": 0.017203,
+                "max": 0.026375,
+                "std": 0.006553373682236718
+            },
+            "large": {
+                "min": -0.03423,
+                "p5": -0.022723,
+                "p25": -0.015701,
+                "median": -0.011205,
+                "mean": -0.010931964370546318,
+                "p75": -0.006803,
+                "p95": 0.00174,
+                "max": 0.012704,
+                "std": 0.00732523449779334
+            },
+            "difference": {
+                "mean": -0.01734365083135392,
+                "mean_absolute": 0.017394477434679336,
+                "median_absolute": 0.017568,
+                "max_absolute": 0.038597
+            },
+            "correlation": {
+                "pearson": 0.4383843302175801,
+                "spearman": 0.37759012159287736
+            }
+        },
+        "culture": {
+            "book_count": 421,
+            "base": {
+                "min": -0.026449,
+                "p5": -0.00984,
+                "p25": -0.003655,
+                "median": 0.001159,
+                "mean": 0.0007617885985748219,
+                "p75": 0.00523,
+                "p95": 0.010821,
+                "max": 0.016556,
+                "std": 0.006429205193927024
+            },
+            "large": {
+                "min": -0.025689,
+                "p5": -0.01771,
+                "p25": -0.009227,
+                "median": -0.004566,
+                "mean": -0.004966083135391924,
+                "p75": -0.000416,
+                "p95": 0.006494,
+                "max": 0.013465,
+                "std": 0.007152803541201642
+            },
+            "difference": {
+                "mean": -0.005727871733966746,
+                "mean_absolute": 0.007702574821852732,
+                "median_absolute": 0.007001,
+                "max_absolute": 0.026707
+            },
+            "correlation": {
+                "pearson": 0.39013391760347815,
+                "spearman": 0.3569336946938157
+            }
+        }
+    },
+    "top_absolute_differences": [
+        {
+            "axis": "curiosity",
+            "id": "drumul-egal-al-fiecărei-zile-gabriela-adameșteanu",
+            "title": "Drumul egal al fiecărei zile",
+            "author": "Gabriela Adameșteanu",
+            "base_raw": -0.003175,
+            "large_raw": -0.039354,
+            "difference": -0.036179,
+            "absolute_difference": 0.036179
+        },
+        {
+            "axis": "curiosity",
+            "id": "marea-marea-iris-murdoch",
+            "title": "Marea, marea",
+            "author": "Iris Murdoch",
+            "base_raw": 0.025128,
+            "large_raw": -0.009115,
+            "difference": -0.034243,
+            "absolute_difference": 0.034243
+        },
+        {
+            "axis": "curiosity",
+            "id": "leagănul-respirației-herta-müller",
+            "title": "Leagănul respirației",
+            "author": "Herta Müller",
+            "base_raw": 0.019297,
+            "large_raw": -0.014162,
+            "difference": -0.033459,
+            "absolute_difference": 0.033459
+        },
+        {
+            "axis": "curiosity",
+            "id": "femeia-cu-fustă-violet-natsuko-imamura",
+            "title": "Femeia cu fustă violet",
+            "author": "Natsuko Imamura",
+            "base_raw": 0.015699,
+            "large_raw": -0.016883,
+            "difference": -0.032582,
+            "absolute_difference": 0.032582
+        },
+        {
+            "axis": "curiosity",
+            "id": "rămășițele-zilei-kazuo-ishiguro",
+            "title": "Rămășițele zilei",
+            "author": "Kazuo Ishiguro",
+            "base_raw": 0.000129,
+            "large_raw": -0.032156,
+            "difference": -0.032284999999999994,
+            "absolute_difference": 0.032284999999999994
+        },
+        {
+            "axis": "curiosity",
+            "id": "poartă-ți-plugul-peste-oasele-morților-olga-tokarczuk",
+            "title": "Poartă-ți plugul peste oasele morților",
+            "author": "Olga Tokarczuk",
+            "base_raw": 0.023854,
+            "large_raw": -0.008149,
+            "difference": -0.032003000000000004,
+            "absolute_difference": 0.032003000000000004
+        },
+        {
+            "axis": "curiosity",
+            "id": "ploile-amare-alexandru-vlad",
+            "title": "Ploile amare",
+            "author": "Alexandru Vlad",
+            "base_raw": 0.008028,
+            "large_raw": -0.023328,
+            "difference": -0.031356,
+            "absolute_difference": 0.031356
+        },
+        {
+            "axis": "curiosity",
+            "id": "o-singurătate-prea-zgomotoasă-bohumil-hrabal",
+            "title": "O singurătate prea zgomotoasă",
+            "author": "Bohumil Hrabal",
+            "base_raw": 0.004007,
+            "large_raw": -0.02659,
+            "difference": -0.030597,
+            "absolute_difference": 0.030597
+        },
+        {
+            "axis": "curiosity",
+            "id": "pânza-de-păianjen-cella-serghi",
+            "title": "Pânza de păianjen",
+            "author": "Cella Serghi",
+            "base_raw": 0.0095,
+            "large_raw": -0.020861,
+            "difference": -0.030361,
+            "absolute_difference": 0.030361
+        },
+        {
+            "axis": "curiosity",
+            "id": "anna-karenina-lev-tolstoi",
+            "title": "Anna Karenina",
+            "author": "Lev Tolstoi",
+            "base_raw": 0.00685,
+            "large_raw": -0.023332,
+            "difference": -0.030182,
+            "absolute_difference": 0.030182
+        },
+        {
+            "axis": "reflection",
+            "id": "insula-comorii-robert-louis-stevenson",
+            "title": "Insula comorii",
+            "author": "Robert Louis Stevenson",
+            "base_raw": 0.013505,
+            "large_raw": -0.012898,
+            "difference": -0.026403,
+            "absolute_difference": 0.026403
+        },
+        {
+            "axis": "reflection",
+            "id": "călătoriile-lui-gulliver-jonathan-swift",
+            "title": "Călătoriile lui Gulliver",
+            "author": "Jonathan Swift",
+            "base_raw": 0.005205,
+            "large_raw": -0.020056,
+            "difference": -0.025261000000000002,
+            "absolute_difference": 0.025261000000000002
+        },
+        {
+            "axis": "reflection",
+            "id": "împăratul-muștelor-william-golding",
+            "title": "Împăratul muștelor",
+            "author": "William Golding",
+            "base_raw": 0.011136,
+            "large_raw": -0.013747,
+            "difference": -0.024883000000000002,
+            "absolute_difference": 0.024883000000000002
+        },
+        {
+            "axis": "reflection",
+            "id": "spune-mi-că-nu-i-adevărat-tell-no-one-harlan-coben",
+            "title": "Spune-mi că nu-i adevărat (Tell No One)",
+            "author": "Harlan Coben",
+            "base_raw": 0.014094,
+            "large_raw": -0.010521,
+            "difference": -0.024615,
+            "absolute_difference": 0.024615
+        },
+        {
+            "axis": "reflection",
+            "id": "vrăjitorul-din-oz-l-frank-baum",
+            "title": "Vrăjitorul din Oz",
+            "author": "L. Frank Baum",
+            "base_raw": 0.00543,
+            "large_raw": -0.018852,
+            "difference": -0.024282,
+            "absolute_difference": 0.024282
+        },
+        {
+            "axis": "reflection",
+            "id": "detectivii-sălbatici-roberto-bolaño",
+            "title": "Detectivii sălbatici",
+            "author": "Roberto Bolaño",
+            "base_raw": 0.013193,
+            "large_raw": -0.009402,
+            "difference": -0.022595,
+            "absolute_difference": 0.022595
+        },
+        {
+            "axis": "reflection",
+            "id": "cireșarii-constantin-chiriță",
+            "title": "Cireșarii",
+            "author": "Constantin Chiriță",
+            "base_raw": 0.006725,
+            "large_raw": -0.015831,
+            "difference": -0.022556,
+            "absolute_difference": 0.022556
+        },
+        {
+            "axis": "reflection",
+            "id": "hobbitul-j-r-r-tolkien",
+            "title": "Hobbitul",
+            "author": "J. R. R. Tolkien",
+            "base_raw": 0.000143,
+            "large_raw": -0.021024,
+            "difference": -0.021167000000000002,
+            "absolute_difference": 0.021167000000000002
+        },
+        {
+            "axis": "reflection",
+            "id": "o-istorie-succintă-a-șapte-crime-marlon-james",
+            "title": "O istorie succintă a șapte crime",
+            "author": "Marlon James",
+            "base_raw": 0.005513,
+            "large_raw": -0.015373,
+            "difference": -0.020886,
+            "absolute_difference": 0.020886
+        },
+        {
+            "axis": "reflection",
+            "id": "robinson-crusoe-daniel-defoe",
+            "title": "Robinson Crusoe",
+            "author": "Daniel Defoe",
+            "base_raw": 0.010857,
+            "large_raw": -0.009894,
+            "difference": -0.020751,
+            "absolute_difference": 0.020751
+        },
+        {
+            "axis": "complexity",
+            "id": "lucruri-mărunte-ca-acestea-claire-keegan",
+            "title": "Lucruri mărunte ca acestea",
+            "author": "Claire Keegan",
+            "base_raw": 0.000463,
+            "large_raw": -0.031201,
+            "difference": -0.031664,
+            "absolute_difference": 0.031664
+        },
+        {
+            "axis": "complexity",
+            "id": "insuportabila-ușurătate-a-ființei-milan-kundera",
+            "title": "Insuportabila ușurătate a ființei",
+            "author": "Milan Kundera",
+            "base_raw": -0.00052,
+            "large_raw": -0.030004,
+            "difference": -0.029484,
+            "absolute_difference": 0.029484
+        },
+        {
+            "axis": "complexity",
+            "id": "inocenții-ioana-pârvulescu",
+            "title": "Inocenții",
+            "author": "Ioana Pârvulescu",
+            "base_raw": 0.000257,
+            "large_raw": -0.026426,
+            "difference": -0.026683000000000002,
+            "absolute_difference": 0.026683000000000002
+        },
+        {
+            "axis": "complexity",
+            "id": "ploile-amare-alexandru-vlad",
+            "title": "Ploile amare",
+            "author": "Alexandru Vlad",
+            "base_raw": 0.011043,
+            "large_raw": -0.015029,
+            "difference": -0.026072,
+            "absolute_difference": 0.026072
+        },
+        {
+            "axis": "complexity",
+            "id": "ultimul-mohican-james-fenimore-cooper",
+            "title": "Ultimul mohican",
+            "author": "James Fenimore Cooper",
+            "base_raw": 0.002776,
+            "large_raw": -0.022298,
+            "difference": -0.025074,
+            "absolute_difference": 0.025074
+        },
+        {
+            "axis": "complexity",
+            "id": "circe-madeline-miller",
+            "title": "Circe",
+            "author": "Madeline Miller",
+            "base_raw": 0.01206,
+            "large_raw": -0.01176,
+            "difference": -0.02382,
+            "absolute_difference": 0.02382
+        },
+        {
+            "axis": "complexity",
+            "id": "fram-ursul-polar-cezar-petrescu",
+            "title": "Fram, ursul polar",
+            "author": "Cezar Petrescu",
+            "base_raw": 0.005131,
+            "large_raw": -0.018502,
+            "difference": -0.023633,
+            "absolute_difference": 0.023633
+        },
+        {
+            "axis": "complexity",
+            "id": "drumul-egal-al-fiecărei-zile-gabriela-adameșteanu",
+            "title": "Drumul egal al fiecărei zile",
+            "author": "Gabriela Adameșteanu",
+            "base_raw": -0.011096,
+            "large_raw": -0.034407,
+            "difference": -0.023311,
+            "absolute_difference": 0.023311
+        },
+        {
+            "axis": "complexity",
+            "id": "muzeul-inocenței-orhan-pamuk",
+            "title": "Muzeul inocenței",
+            "author": "Orhan Pamuk",
+            "base_raw": 0.003676,
+            "large_raw": -0.019542,
+            "difference": -0.023218,
+            "absolute_difference": 0.023218
+        },
+        {
+            "axis": "complexity",
+            "id": "timp-de-ucis-john-grisham",
+            "title": "Timp de ucis",
+            "author": "John Grisham",
+            "base_raw": -0.002745,
+            "large_raw": -0.024325,
+            "difference": -0.02158,
+            "absolute_difference": 0.02158
+        },
+        {
+            "axis": "emotionality",
+            "id": "ucenicul-asasinului-robin-hobb",
+            "title": "Ucenicul asasinului",
+            "author": "Robin Hobb",
+            "base_raw": 0.016298,
+            "large_raw": -0.007538,
+            "difference": -0.023836,
+            "absolute_difference": 0.023836
+        },
+        {
+            "axis": "emotionality",
+            "id": "cântecul-profetului-paul-lynch",
+            "title": "Cântecul profetului",
+            "author": "Paul Lynch",
+            "base_raw": -0.007108,
+            "large_raw": 0.013437,
+            "difference": 0.020545,
+            "absolute_difference": 0.020545
+        },
+        {
+            "axis": "emotionality",
+            "id": "povestea-slujitoarei-margaret-atwood",
+            "title": "Povestea slujitoarei",
+            "author": "Margaret Atwood",
+            "base_raw": -0.007521,
+            "large_raw": 0.01283,
+            "difference": 0.020351,
+            "absolute_difference": 0.020351
+        },
+        {
+            "axis": "emotionality",
+            "id": "noaptea-de-sânziene-mircea-eliade",
+            "title": "Noaptea de Sânziene",
+            "author": "Mircea Eliade",
+            "base_raw": 0.003878,
+            "large_raw": 0.022011,
+            "difference": 0.018133,
+            "absolute_difference": 0.018133
+        },
+        {
+            "axis": "emotionality",
+            "id": "temporada-uraganelor-fernanda-melchor",
+            "title": "Temporada uraganelor",
+            "author": "Fernanda Melchor",
+            "base_raw": 0.00161,
+            "large_raw": 0.01902,
+            "difference": 0.01741,
+            "absolute_difference": 0.01741
+        },
+        {
+            "axis": "emotionality",
+            "id": "mireasa-străvechiului-mag-vol-1-kore-yamazaki",
+            "title": "Mireasa Străvechiului Mag, Vol. 1",
+            "author": "Kore Yamazaki",
+            "base_raw": 0.004275,
+            "large_raw": 0.020874,
+            "difference": 0.016599,
+            "absolute_difference": 0.016599
+        },
+        {
+            "axis": "emotionality",
+            "id": "obiecte-ascuțite-sharp-objects-gillian-flynn",
+            "title": "Obiecte ascuțite (Sharp Objects)",
+            "author": "Gillian Flynn",
+            "base_raw": 0.00457,
+            "large_raw": -0.012014,
+            "difference": -0.016584,
+            "absolute_difference": 0.016584
+        },
+        {
+            "axis": "emotionality",
+            "id": "atlasul-norilor-david-mitchell",
+            "title": "Atlasul norilor",
+            "author": "David Mitchell",
+            "base_raw": 0.003321,
+            "large_raw": 0.019856,
+            "difference": 0.016534999999999998,
+            "absolute_difference": 0.016534999999999998
+        },
+        {
+            "axis": "emotionality",
+            "id": "zenobia-gellu-naum",
+            "title": "Zenobia",
+            "author": "Gellu Naum",
+            "base_raw": 0.008016,
+            "large_raw": 0.024416,
+            "difference": 0.016399999999999998,
+            "absolute_difference": 0.016399999999999998
+        },
+        {
+            "axis": "emotionality",
+            "id": "coraline-neil-gaiman",
+            "title": "Coraline",
+            "author": "Neil Gaiman",
+            "base_raw": 0.003312,
+            "large_raw": 0.019657,
+            "difference": 0.016345000000000002,
+            "absolute_difference": 0.016345000000000002
+        },
+        {
+            "axis": "characters",
+            "id": "conversație-la-catedrală-mario-vargas-llosa",
+            "title": "Conversație la Catedrală",
+            "author": "Mario Vargas Llosa",
+            "base_raw": -0.007166,
+            "large_raw": 0.011635,
+            "difference": 0.018801,
+            "absolute_difference": 0.018801
+        },
+        {
+            "axis": "characters",
+            "id": "timp-de-ucis-john-grisham",
+            "title": "Timp de ucis",
+            "author": "John Grisham",
+            "base_raw": -0.00781,
+            "large_raw": 0.010127,
+            "difference": 0.017937,
+            "absolute_difference": 0.017937
+        },
+        {
+            "axis": "characters",
+            "id": "mândrie-și-prejudecată-jane-austen",
+            "title": "Mândrie și prejudecată",
+            "author": "Jane Austen",
+            "base_raw": -0.001396,
+            "large_raw": 0.015923,
+            "difference": 0.017319,
+            "absolute_difference": 0.017319
+        },
+        {
+            "axis": "characters",
+            "id": "mă-găsești-când-vrei-lavinia-braniște",
+            "title": "Mă găsești când vrei",
+            "author": "Lavinia Braniște",
+            "base_raw": 0.000974,
+            "large_raw": 0.017928,
+            "difference": 0.016954,
+            "absolute_difference": 0.016954
+        },
+        {
+            "axis": "characters",
+            "id": "în-spatele-ușilor-închise-b-a-paris",
+            "title": "În spatele ușilor închise",
+            "author": "B. A. Paris",
+            "base_raw": -0.006541,
+            "large_raw": 0.009896,
+            "difference": 0.016437,
+            "absolute_difference": 0.016437
+        },
+        {
+            "axis": "characters",
+            "id": "contele-de-monte-cristo-alexandre-dumas",
+            "title": "Contele de Monte-Cristo",
+            "author": "Alexandre Dumas",
+            "base_raw": -0.008513,
+            "large_raw": 0.00765,
+            "difference": 0.016163,
+            "absolute_difference": 0.016163
+        },
+        {
+            "axis": "characters",
+            "id": "ispășire-ian-mcewan",
+            "title": "Ispășire",
+            "author": "Ian McEwan",
+            "base_raw": -0.005639,
+            "large_raw": 0.009906,
+            "difference": 0.015545,
+            "absolute_difference": 0.015545
+        },
+        {
+            "axis": "characters",
+            "id": "grădina-de-sticlă-tatiana-țîbuleac",
+            "title": "Grădina de sticlă",
+            "author": "Tatiana Țîbuleac",
+            "base_raw": 0.003452,
+            "large_raw": 0.018967,
+            "difference": 0.015515000000000001,
+            "absolute_difference": 0.015515000000000001
+        },
+        {
+            "axis": "characters",
+            "id": "memoriile-postume-ale-lui-brás-cubas-machado-de-assis",
+            "title": "Memoriile postume ale lui Brás Cubas",
+            "author": "Machado de Assis",
+            "base_raw": 0.013941,
+            "large_raw": -0.001088,
+            "difference": -0.015029,
+            "absolute_difference": 0.015029
+        },
+        {
+            "axis": "characters",
+            "id": "drumul-egal-al-fiecărei-zile-gabriela-adameșteanu",
+            "title": "Drumul egal al fiecărei zile",
+            "author": "Gabriela Adameșteanu",
+            "base_raw": 0.00288,
+            "large_raw": 0.01777,
+            "difference": 0.01489,
+            "absolute_difference": 0.01489
+        },
+        {
+            "axis": "pace",
+            "id": "exhalation-ted-chiang",
+            "title": "Exhalation",
+            "author": "Ted Chiang",
+            "base_raw": -0.01277,
+            "large_raw": 0.01121,
+            "difference": 0.02398,
+            "absolute_difference": 0.02398
+        },
+        {
+            "axis": "pace",
+            "id": "the-fifth-season-n-k-jemisin",
+            "title": "The Fifth Season",
+            "author": "N. K. Jemisin",
+            "base_raw": -0.008275,
+            "large_raw": 0.015332,
+            "difference": 0.023607,
+            "absolute_difference": 0.023607
+        },
+        {
+            "axis": "pace",
+            "id": "capcana-killing-floor-lee-child",
+            "title": "Capcana (Killing Floor)",
+            "author": "Lee Child",
+            "base_raw": -0.006536,
+            "large_raw": 0.015734,
+            "difference": 0.02227,
+            "absolute_difference": 0.02227
+        },
+        {
+            "axis": "pace",
+            "id": "născuți-din-ceață-brandon-sanderson",
+            "title": "Născuți din ceață",
+            "author": "Brandon Sanderson",
+            "base_raw": -0.006571,
+            "large_raw": 0.015268,
+            "difference": 0.021839,
+            "absolute_difference": 0.021839
+        },
+        {
+            "axis": "pace",
+            "id": "dezrădăcinat-sașa-zare",
+            "title": "Dezrădăcinat",
+            "author": "Sașa Zare",
+            "base_raw": -0.007214,
+            "large_raw": 0.012675,
+            "difference": 0.019889,
+            "absolute_difference": 0.019889
+        },
+        {
+            "axis": "pace",
+            "id": "problema-celor-trei-corpuri-liu-cixin",
+            "title": "Problema celor trei corpuri",
+            "author": "Liu Cixin",
+            "base_raw": -0.003508,
+            "large_raw": 0.016341,
+            "difference": 0.019849000000000002,
+            "absolute_difference": 0.019849000000000002
+        },
+        {
+            "axis": "pace",
+            "id": "coma-robin-cook",
+            "title": "Coma",
+            "author": "Robin Cook",
+            "base_raw": -0.00837,
+            "large_raw": 0.011347,
+            "difference": 0.019717,
+            "absolute_difference": 0.019717
+        },
+        {
+            "axis": "pace",
+            "id": "cântecul-profetului-paul-lynch",
+            "title": "Cântecul profetului",
+            "author": "Paul Lynch",
+            "base_raw": 0.000362,
+            "large_raw": 0.019765,
+            "difference": 0.019403,
+            "absolute_difference": 0.019403
+        },
+        {
+            "axis": "pace",
+            "id": "iepurele-blestemat-bora-chung",
+            "title": "Iepurele blestemat",
+            "author": "Bora Chung",
+            "base_raw": -0.005973,
+            "large_raw": 0.013391,
+            "difference": 0.019364,
+            "absolute_difference": 0.019364
+        },
+        {
+            "axis": "pace",
+            "id": "pendulul-lui-foucault-umberto-eco",
+            "title": "Pendulul lui Foucault",
+            "author": "Umberto Eco",
+            "base_raw": -0.010022,
+            "large_raw": 0.009018,
+            "difference": 0.01904,
+            "absolute_difference": 0.01904
+        },
+        {
+            "axis": "imagination",
+            "id": "obiecte-ascuțite-sharp-objects-gillian-flynn",
+            "title": "Obiecte ascuțite (Sharp Objects)",
+            "author": "Gillian Flynn",
+            "base_raw": 0.002913,
+            "large_raw": -0.041602,
+            "difference": -0.044515,
+            "absolute_difference": 0.044515
+        },
+        {
+            "axis": "imagination",
+            "id": "lucruri-mărunte-ca-acestea-claire-keegan",
+            "title": "Lucruri mărunte ca acestea",
+            "author": "Claire Keegan",
+            "base_raw": -0.003695,
+            "large_raw": -0.048017,
+            "difference": -0.044322,
+            "absolute_difference": 0.044322
+        },
+        {
+            "axis": "imagination",
+            "id": "prietenul-cel-mic-donna-tartt",
+            "title": "Prietenul cel mic",
+            "author": "Donna Tartt",
+            "base_raw": -0.002766,
+            "large_raw": -0.043502,
+            "difference": -0.040736,
+            "absolute_difference": 0.040736
+        },
+        {
+            "axis": "imagination",
+            "id": "ucenicul-asasinului-robin-hobb",
+            "title": "Ucenicul asasinului",
+            "author": "Robin Hobb",
+            "base_raw": 0.009195,
+            "large_raw": -0.029219,
+            "difference": -0.038414,
+            "absolute_difference": 0.038414
+        },
+        {
+            "axis": "imagination",
+            "id": "frunze-de-dor-ion-druță",
+            "title": "Frunze de dor",
+            "author": "Ion Druță",
+            "base_raw": 0.004182,
+            "large_raw": -0.034211,
+            "difference": -0.038393,
+            "absolute_difference": 0.038393
+        },
+        {
+            "axis": "imagination",
+            "id": "marile-speranțe-charles-dickens",
+            "title": "Marile speranțe",
+            "author": "Charles Dickens",
+            "base_raw": 0.012672,
+            "large_raw": -0.024572,
+            "difference": -0.037244,
+            "absolute_difference": 0.037244
+        },
+        {
+            "axis": "imagination",
+            "id": "drumul-egal-al-fiecărei-zile-gabriela-adameșteanu",
+            "title": "Drumul egal al fiecărei zile",
+            "author": "Gabriela Adameșteanu",
+            "base_raw": -0.001029,
+            "large_raw": -0.037503,
+            "difference": -0.036474,
+            "absolute_difference": 0.036474
+        },
+        {
+            "axis": "imagination",
+            "id": "inocenții-ioana-pârvulescu",
+            "title": "Inocenții",
+            "author": "Ioana Pârvulescu",
+            "base_raw": -0.000413,
+            "large_raw": -0.036865,
+            "difference": -0.036452000000000005,
+            "absolute_difference": 0.036452000000000005
+        },
+        {
+            "axis": "imagination",
+            "id": "pasărea-cu-piept-roșu-jo-nesbø",
+            "title": "Pasărea cu piept roșu",
+            "author": "Jo Nesbø",
+            "base_raw": 0.009002,
+            "large_raw": -0.027357,
+            "difference": -0.036359,
+            "absolute_difference": 0.036359
+        },
+        {
+            "axis": "imagination",
+            "id": "la-medeleni-ionel-teodoreanu",
+            "title": "La Medeleni",
+            "author": "Ionel Teodoreanu",
+            "base_raw": -0.008262,
+            "large_raw": -0.044472,
+            "difference": -0.03621,
+            "absolute_difference": 0.03621
+        },
+        {
+            "axis": "realism",
+            "id": "marțianul-andy-weir",
+            "title": "Marțianul",
+            "author": "Andy Weir",
+            "base_raw": 0.021114,
+            "large_raw": -0.01077,
+            "difference": -0.031884,
+            "absolute_difference": 0.031884
+        },
+        {
+            "axis": "realism",
+            "id": "bel-canto-ann-patchett",
+            "title": "Bel Canto",
+            "author": "Ann Patchett",
+            "base_raw": 0.027883,
+            "large_raw": 0.000638,
+            "difference": -0.027245000000000002,
+            "absolute_difference": 0.027245000000000002
+        },
+        {
+            "axis": "realism",
+            "id": "la-medeleni-ionel-teodoreanu",
+            "title": "La Medeleni",
+            "author": "Ionel Teodoreanu",
+            "base_raw": 0.013771,
+            "large_raw": 0.040995,
+            "difference": 0.027223999999999998,
+            "absolute_difference": 0.027223999999999998
+        },
+        {
+            "axis": "realism",
+            "id": "drumul-egal-al-fiecărei-zile-gabriela-adameșteanu",
+            "title": "Drumul egal al fiecărei zile",
+            "author": "Gabriela Adameșteanu",
+            "base_raw": 0.015529,
+            "large_raw": 0.040143,
+            "difference": 0.024613999999999997,
+            "absolute_difference": 0.024613999999999997
+        },
+        {
+            "axis": "realism",
+            "id": "insuportabila-ușurătate-a-ființei-milan-kundera",
+            "title": "Insuportabila ușurătate a ființei",
+            "author": "Milan Kundera",
+            "base_raw": -0.007256,
+            "large_raw": 0.017203,
+            "difference": 0.024459,
+            "absolute_difference": 0.024459
+        },
+        {
+            "axis": "realism",
+            "id": "psalm-pentru-cei-construiți-în-sălbăticie-becky-chambers",
+            "title": "Psalm pentru cei construiți în sălbăticie",
+            "author": "Becky Chambers",
+            "base_raw": 0.017885,
+            "large_raw": -0.006359,
+            "difference": -0.024244,
+            "absolute_difference": 0.024244
+        },
+        {
+            "axis": "realism",
+            "id": "extrem-de-tare-și-incredibil-de-aproape-jonathan-safran-foer",
+            "title": "Extrem de tare și incredibil de aproape",
+            "author": "Jonathan Safran Foer",
+            "base_raw": 0.009989,
+            "large_raw": -0.012867,
+            "difference": -0.022856,
+            "absolute_difference": 0.022856
+        },
+        {
+            "axis": "realism",
+            "id": "ispășire-ian-mcewan",
+            "title": "Ispășire",
+            "author": "Ian McEwan",
+            "base_raw": 0.001606,
+            "large_raw": 0.023891,
+            "difference": 0.022285,
+            "absolute_difference": 0.022285
+        },
+        {
+            "axis": "realism",
+            "id": "tunelul-ernesto-sabato",
+            "title": "Tunelul",
+            "author": "Ernesto Sabato",
+            "base_raw": 0.021223,
+            "large_raw": -0.000377,
+            "difference": -0.021599999999999998,
+            "absolute_difference": 0.021599999999999998
+        },
+        {
+            "axis": "realism",
+            "id": "lucruri-mărunte-ca-acestea-claire-keegan",
+            "title": "Lucruri mărunte ca acestea",
+            "author": "Claire Keegan",
+            "base_raw": 0.010423,
+            "large_raw": 0.031607,
+            "difference": 0.021184,
+            "absolute_difference": 0.021184
+        },
+        {
+            "axis": "ambiguity",
+            "id": "istoria-secretă-donna-tartt",
+            "title": "Istoria secretă",
+            "author": "Donna Tartt",
+            "base_raw": 0.004367,
+            "large_raw": -0.03423,
+            "difference": -0.038597,
+            "absolute_difference": 0.038597
+        },
+        {
+            "axis": "ambiguity",
+            "id": "îngeri-și-demoni-dan-brown",
+            "title": "Îngeri și demoni",
+            "author": "Dan Brown",
+            "base_raw": 0.017917,
+            "large_raw": -0.017872,
+            "difference": -0.035789,
+            "absolute_difference": 0.035789
+        },
+        {
+            "axis": "ambiguity",
+            "id": "cronicile-marțiene-ray-bradbury",
+            "title": "Cronicile marțiene",
+            "author": "Ray Bradbury",
+            "base_raw": 0.012158,
+            "large_raw": -0.022366,
+            "difference": -0.034524,
+            "absolute_difference": 0.034524
+        },
+        {
+            "axis": "ambiguity",
+            "id": "it-stephen-king",
+            "title": "It",
+            "author": "Stephen King",
+            "base_raw": 0.017265,
+            "large_raw": -0.017031,
+            "difference": -0.034296,
+            "absolute_difference": 0.034296
+        },
+        {
+            "axis": "ambiguity",
+            "id": "de-două-mii-de-ani-mihail-sebastian",
+            "title": "De două mii de ani",
+            "author": "Mihail Sebastian",
+            "base_raw": 0.026045,
+            "large_raw": -0.00804,
+            "difference": -0.034085,
+            "absolute_difference": 0.034085
+        },
+        {
+            "axis": "ambiguity",
+            "id": "sugestia-donato-carrisi",
+            "title": "Sugestia",
+            "author": "Donato Carrisi",
+            "base_raw": 0.020294,
+            "large_raw": -0.012233,
+            "difference": -0.032527,
+            "absolute_difference": 0.032527
+        },
+        {
+            "axis": "ambiguity",
+            "id": "parfumul-patrick-süskind",
+            "title": "Parfumul",
+            "author": "Patrick Süskind",
+            "base_raw": 0.014365,
+            "large_raw": -0.018011,
+            "difference": -0.032376,
+            "absolute_difference": 0.032376
+        },
+        {
+            "axis": "ambiguity",
+            "id": "împăratul-muștelor-william-golding",
+            "title": "Împăratul muștelor",
+            "author": "William Golding",
+            "base_raw": 0.011551,
+            "large_raw": -0.020586,
+            "difference": -0.032137,
+            "absolute_difference": 0.032137
+        },
+        {
+            "axis": "ambiguity",
+            "id": "epidemia-robin-cook",
+            "title": "Epidemia",
+            "author": "Robin Cook",
+            "base_raw": 0.009712,
+            "large_raw": -0.022168,
+            "difference": -0.03188,
+            "absolute_difference": 0.03188
+        },
+        {
+            "axis": "ambiguity",
+            "id": "circe-madeline-miller",
+            "title": "Circe",
+            "author": "Madeline Miller",
+            "base_raw": 0.020908,
+            "large_raw": -0.01041,
+            "difference": -0.031318,
+            "absolute_difference": 0.031318
+        },
+        {
+            "axis": "culture",
+            "id": "împăratul-muștelor-william-golding",
+            "title": "Împăratul muștelor",
+            "author": "William Golding",
+            "base_raw": 0.013198,
+            "large_raw": -0.013509,
+            "difference": -0.026707,
+            "absolute_difference": 0.026707
+        },
+        {
+            "axis": "culture",
+            "id": "taxi-khaled-al-khamissi",
+            "title": "Taxi",
+            "author": "Khaled Al Khamissi",
+            "base_raw": 0.00731,
+            "large_raw": -0.017891,
+            "difference": -0.025201,
+            "absolute_difference": 0.025201
+        },
+        {
+            "axis": "culture",
+            "id": "ghidul-autostopistului-galactic-douglas-adams",
+            "title": "Ghidul autostopistului galactic",
+            "author": "Douglas Adams",
+            "base_raw": -0.001472,
+            "large_raw": -0.025689,
+            "difference": -0.024217,
+            "absolute_difference": 0.024217
+        },
+        {
+            "axis": "culture",
+            "id": "război-cu-salamandrele-karel-čapek",
+            "title": "Război cu salamandrele",
+            "author": "Karel Čapek",
+            "base_raw": 0.01387,
+            "large_raw": -0.010339,
+            "difference": -0.024209,
+            "absolute_difference": 0.024209
+        },
+        {
+            "axis": "culture",
+            "id": "free-food-for-millionaires-min-jin-lee",
+            "title": "Free Food for Millionaires",
+            "author": "Min Jin Lee",
+            "base_raw": 0.010351,
+            "large_raw": -0.01356,
+            "difference": -0.023911,
+            "absolute_difference": 0.023911
+        },
+        {
+            "axis": "culture",
+            "id": "zeii-înșiși-isaac-asimov",
+            "title": "Zeii înșiși",
+            "author": "Isaac Asimov",
+            "base_raw": 0.002173,
+            "large_raw": -0.021683,
+            "difference": -0.023856000000000002,
+            "absolute_difference": 0.023856000000000002
+        },
+        {
+            "axis": "culture",
+            "id": "klara-și-soarele-kazuo-ishiguro",
+            "title": "Klara și Soarele",
+            "author": "Kazuo Ishiguro",
+            "base_raw": 0.010821,
+            "large_raw": -0.012729,
+            "difference": -0.02355,
+            "absolute_difference": 0.02355
+        },
+        {
+            "axis": "culture",
+            "id": "20000-de-leghe-sub-mări-jules-verne",
+            "title": "20.000 de leghe sub mări",
+            "author": "Jules Verne",
+            "base_raw": 0.009419,
+            "large_raw": -0.01292,
+            "difference": -0.022338999999999998,
+            "absolute_difference": 0.022338999999999998
+        },
+        {
+            "axis": "culture",
+            "id": "solaris-stanisław-lem",
+            "title": "Solaris",
+            "author": "Stanisław Lem",
+            "base_raw": -0.000547,
+            "large_raw": -0.022117,
+            "difference": -0.021570000000000002,
+            "absolute_difference": 0.021570000000000002
+        },
+        {
+            "axis": "culture",
+            "id": "zei-mici-terry-pratchett",
+            "title": "Zei mici",
+            "author": "Terry Pratchett",
+            "base_raw": 0.003765,
+            "large_raw": -0.017666,
+            "difference": -0.021431000000000002,
+            "absolute_difference": 0.021431000000000002
+        }
+    ],
+    "top_rank_changes": [
+        {
+            "axis": "curiosity",
+            "id": "avocatul-din-limuzină-the-lincoln-lawyer-michael-connelly",
+            "title": "Avocatul din limuzină (The Lincoln Lawyer)",
+            "author": "Michael Connelly",
+            "base_rank": 20.0,
+            "large_rank": 385.0,
+            "rank_change": 365.0,
+            "absolute_rank_change": 365.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "femeia-cu-fustă-violet-natsuko-imamura",
+            "title": "Femeia cu fustă violet",
+            "author": "Natsuko Imamura",
+            "base_rank": 374.0,
+            "large_rank": 68.0,
+            "rank_change": -306.0,
+            "absolute_rank_change": 306.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "leagănul-respirației-herta-müller",
+            "title": "Leagănul respirației",
+            "author": "Herta Müller",
+            "base_rank": 405.0,
+            "large_rank": 107.0,
+            "rank_change": -298.0,
+            "absolute_rank_change": 298.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "omul-din-castelul-înalt-philip-k-dick",
+            "title": "Omul din castelul înalt",
+            "author": "Philip K. Dick",
+            "base_rank": 69.0,
+            "large_rank": 367.0,
+            "rank_change": 298.0,
+            "absolute_rank_change": 298.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "strange-weather-in-tokyo-hiromi-kawakami",
+            "title": "Strange Weather in Tokyo",
+            "author": "Hiromi Kawakami",
+            "base_rank": 33.0,
+            "large_rank": 309.0,
+            "rank_change": 276.0,
+            "absolute_rank_change": 276.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "tapetul-galben-charlotte-perkins-gilman",
+            "title": "Tapetul galben",
+            "author": "Charlotte Perkins Gilman",
+            "base_rank": 318.0,
+            "large_rank": 53.0,
+            "rank_change": -265.0,
+            "absolute_rank_change": 265.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "pasărea-cu-piept-roșu-jo-nesbø",
+            "title": "Pasărea cu piept roșu",
+            "author": "Jo Nesbø",
+            "base_rank": 395.0,
+            "large_rank": 136.0,
+            "rank_change": -259.0,
+            "absolute_rank_change": 259.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "rușine-salman-rushdie",
+            "title": "Rușine",
+            "author": "Salman Rushdie",
+            "base_rank": 347.0,
+            "large_rank": 89.0,
+            "rank_change": -258.0,
+            "absolute_rank_change": 258.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "codul-lui-da-vinci-dan-brown",
+            "title": "Codul lui Da Vinci",
+            "author": "Dan Brown",
+            "base_rank": 117.0,
+            "large_rank": 374.0,
+            "rank_change": 257.0,
+            "absolute_rank_change": 257.0
+        },
+        {
+            "axis": "curiosity",
+            "id": "poliția-memoriei-yōko-ogawa",
+            "title": "Poliția memoriei",
+            "author": "Yōko Ogawa",
+            "base_rank": 300.0,
+            "large_rank": 44.0,
+            "rank_change": -256.0,
+            "absolute_rank_change": 256.0
+        },
+        {
+            "axis": "reflection",
+            "id": "insula-comorii-robert-louis-stevenson",
+            "title": "Insula comorii",
+            "author": "Robert Louis Stevenson",
+            "base_rank": 385.0,
+            "large_rank": 28.0,
+            "rank_change": -357.0,
+            "absolute_rank_change": 357.0
+        },
+        {
+            "axis": "reflection",
+            "id": "biblioteca-de-la-miezul-nopții-matt-haig",
+            "title": "Biblioteca de la miezul nopții",
+            "author": "Matt Haig",
+            "base_rank": 55.0,
+            "large_rank": 401.5,
+            "rank_change": 346.5,
+            "absolute_rank_change": 346.5
+        },
+        {
+            "axis": "reflection",
+            "id": "spune-mi-că-nu-i-adevărat-tell-no-one-harlan-coben",
+            "title": "Spune-mi că nu-i adevărat (Tell No One)",
+            "author": "Harlan Coben",
+            "base_rank": 388.0,
+            "large_rank": 48.0,
+            "rank_change": -340.0,
+            "absolute_rank_change": 340.0
+        },
+        {
+            "axis": "reflection",
+            "id": "împăratul-muștelor-william-golding",
+            "title": "Împăratul muștelor",
+            "author": "William Golding",
+            "base_rank": 348.0,
+            "large_rank": 24.0,
+            "rank_change": -324.0,
+            "absolute_rank_change": 324.0
+        },
+        {
+            "axis": "reflection",
+            "id": "detectivii-sălbatici-roberto-bolaño",
+            "title": "Detectivii sălbatici",
+            "author": "Roberto Bolaño",
+            "base_rank": 381.0,
+            "large_rank": 60.0,
+            "rank_change": -321.0,
+            "absolute_rank_change": 321.0
+        },
+        {
+            "axis": "reflection",
+            "id": "noaptea-de-sânziene-mircea-eliade",
+            "title": "Noaptea de Sânziene",
+            "author": "Mircea Eliade",
+            "base_rank": 68.0,
+            "large_rank": 376.0,
+            "rank_change": 308.0,
+            "absolute_rank_change": 308.0
+        },
+        {
+            "axis": "reflection",
+            "id": "un-veac-de-singurătate-gabriel-garcía-márquez",
+            "title": "Un veac de singurătate",
+            "author": "Gabriel García Márquez",
+            "base_rank": 47.0,
+            "large_rank": 351.0,
+            "rank_change": 304.0,
+            "absolute_rank_change": 304.0
+        },
+        {
+            "axis": "reflection",
+            "id": "muzeul-secretelor-abandonate-oksana-zabujko",
+            "title": "Muzeul secretelor abandonate",
+            "author": "Oksana Zabujko",
+            "base_rank": 83.0,
+            "large_rank": 377.0,
+            "rank_change": 294.0,
+            "absolute_rank_change": 294.0
+        },
+        {
+            "axis": "reflection",
+            "id": "fructele-mâniei-john-steinbeck",
+            "title": "Fructele mâniei",
+            "author": "John Steinbeck",
+            "base_rank": 384.0,
+            "large_rank": 94.0,
+            "rank_change": -290.0,
+            "absolute_rank_change": 290.0
+        },
+        {
+            "axis": "reflection",
+            "id": "robinson-crusoe-daniel-defoe",
+            "title": "Robinson Crusoe",
+            "author": "Daniel Defoe",
+            "base_rank": 343.0,
+            "large_rank": 56.0,
+            "rank_change": -287.0,
+            "absolute_rank_change": 287.0
+        },
+        {
+            "axis": "complexity",
+            "id": "acasă-pe-câmpia-armaghedonului-marta-petreu",
+            "title": "Acasă, pe Câmpia Armaghedonului",
+            "author": "Marta Petreu",
+            "base_rank": 45.0,
+            "large_rank": 405.0,
+            "rank_change": 360.0,
+            "absolute_rank_change": 360.0
+        },
+        {
+            "axis": "complexity",
+            "id": "fram-ursul-polar-cezar-petrescu",
+            "title": "Fram, ursul polar",
+            "author": "Cezar Petrescu",
+            "base_rank": 392.0,
+            "large_rank": 44.0,
+            "rank_change": -348.0,
+            "absolute_rank_change": 348.0
+        },
+        {
+            "axis": "complexity",
+            "id": "peștele-are-picioare-jón-kalman-stefánsson",
+            "title": "Peștele are picioare",
+            "author": "Jón Kalman Stefánsson",
+            "base_rank": 59.0,
+            "large_rank": 406.0,
+            "rank_change": 347.0,
+            "absolute_rank_change": 347.0
+        },
+        {
+            "axis": "complexity",
+            "id": "ultimul-mohican-james-fenimore-cooper",
+            "title": "Ultimul mohican",
+            "author": "James Fenimore Cooper",
+            "base_rank": 357.0,
+            "large_rank": 12.0,
+            "rank_change": -345.0,
+            "absolute_rank_change": 345.0
+        },
+        {
+            "axis": "complexity",
+            "id": "muzeul-inocenței-orhan-pamuk",
+            "title": "Muzeul inocenței",
+            "author": "Orhan Pamuk",
+            "base_rank": 375.0,
+            "large_rank": 32.0,
+            "rank_change": -343.0,
+            "absolute_rank_change": 343.0
+        },
+        {
+            "axis": "complexity",
+            "id": "eleganța-ariciului-muriel-barbery",
+            "title": "Eleganța ariciului",
+            "author": "Muriel Barbery",
+            "base_rank": 60.0,
+            "large_rank": 379.0,
+            "rank_change": 319.0,
+            "absolute_rank_change": 319.0
+        },
+        {
+            "axis": "complexity",
+            "id": "sinuciderea-fecioarelor-jeffrey-eugenides",
+            "title": "Sinuciderea fecioarelor",
+            "author": "Jeffrey Eugenides",
+            "base_rank": 360.5,
+            "large_rank": 45.0,
+            "rank_change": -315.5,
+            "absolute_rank_change": 315.5
+        },
+        {
+            "axis": "complexity",
+            "id": "omul-din-castelul-înalt-philip-k-dick",
+            "title": "Omul din castelul înalt",
+            "author": "Philip K. Dick",
+            "base_rank": 101.0,
+            "large_rank": 416.0,
+            "rank_change": 315.0,
+            "absolute_rank_change": 315.0
+        },
+        {
+            "axis": "complexity",
+            "id": "ploile-amare-alexandru-vlad",
+            "title": "Ploile amare",
+            "author": "Alexandru Vlad",
+            "base_rank": 417.0,
+            "large_rank": 103.0,
+            "rank_change": -314.0,
+            "absolute_rank_change": 314.0
+        },
+        {
+            "axis": "complexity",
+            "id": "m-ai-păcălit-o-dată-fool-me-once-harlan-coben",
+            "title": "M-ai păcălit o dată (Fool Me Once)",
+            "author": "Harlan Coben",
+            "base_rank": 97.0,
+            "large_rank": 410.0,
+            "rank_change": 313.0,
+            "absolute_rank_change": 313.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "ucenicul-asasinului-robin-hobb",
+            "title": "Ucenicul asasinului",
+            "author": "Robin Hobb",
+            "base_rank": 420.0,
+            "large_rank": 8.0,
+            "rank_change": -412.0,
+            "absolute_rank_change": 412.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "cântecul-profetului-paul-lynch",
+            "title": "Cântecul profetului",
+            "author": "Paul Lynch",
+            "base_rank": 6.0,
+            "large_rank": 334.0,
+            "rank_change": 328.0,
+            "absolute_rank_change": 328.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "un-lung-drum-spre-o-planetă-mică-și-furioasă-becky-chambers",
+            "title": "Un lung drum spre o planetă mică și furioasă",
+            "author": "Becky Chambers",
+            "base_rank": 362.0,
+            "large_rank": 43.0,
+            "rank_change": -319.0,
+            "absolute_rank_change": 319.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "povestea-slujitoarei-margaret-atwood",
+            "title": "Povestea slujitoarei",
+            "author": "Margaret Atwood",
+            "base_rank": 4.0,
+            "large_rank": 321.0,
+            "rank_change": 317.0,
+            "absolute_rank_change": 317.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "patria-fernando-aramburu",
+            "title": "Patria",
+            "author": "Fernando Aramburu",
+            "base_rank": 51.0,
+            "large_rank": 363.0,
+            "rank_change": 312.0,
+            "absolute_rank_change": 312.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "temporada-uraganelor-fernanda-melchor",
+            "title": "Temporada uraganelor",
+            "author": "Fernanda Melchor",
+            "base_rank": 90.0,
+            "large_rank": 395.0,
+            "rank_change": 305.0,
+            "absolute_rank_change": 305.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "daniel-stein-traducător-ludmila-ulițkaia",
+            "title": "Daniel Stein, traducător",
+            "author": "Ludmila Ulițkaia",
+            "base_rank": 73.0,
+            "large_rank": 370.0,
+            "rank_change": 297.0,
+            "absolute_rank_change": 297.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "tigru-alb-aravind-adiga",
+            "title": "Tigru alb",
+            "author": "Aravind Adiga",
+            "base_rank": 328.0,
+            "large_rank": 38.0,
+            "rank_change": -290.0,
+            "absolute_rank_change": 290.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "orașul-hoților-david-benioff",
+            "title": "Orașul hoților",
+            "author": "David Benioff",
+            "base_rank": 363.0,
+            "large_rank": 74.0,
+            "rank_change": -289.0,
+            "absolute_rank_change": 289.0
+        },
+        {
+            "axis": "emotionality",
+            "id": "capcana-killing-floor-lee-child",
+            "title": "Capcana (Killing Floor)",
+            "author": "Lee Child",
+            "base_rank": 337.0,
+            "large_rank": 57.0,
+            "rank_change": -280.0,
+            "absolute_rank_change": 280.0
+        },
+        {
+            "axis": "characters",
+            "id": "memoriile-postume-ale-lui-brás-cubas-machado-de-assis",
+            "title": "Memoriile postume ale lui Brás Cubas",
+            "author": "Machado de Assis",
+            "base_rank": 401.0,
+            "large_rank": 36.0,
+            "rank_change": -365.0,
+            "absolute_rank_change": 365.0
+        },
+        {
+            "axis": "characters",
+            "id": "marțianul-andy-weir",
+            "title": "Marțianul",
+            "author": "Andy Weir",
+            "base_rank": 377.0,
+            "large_rank": 37.0,
+            "rank_change": -340.0,
+            "absolute_rank_change": 340.0
+        },
+        {
+            "axis": "characters",
+            "id": "my-year-of-rest-and-relaxation-anul-meu-de-odihnă-și-relaxare-ottessa-moshfegh",
+            "title": "My Year of Rest and Relaxation (Anul meu de odihnă și relaxare)",
+            "author": "Ottessa Moshfegh",
+            "base_rank": 385.0,
+            "large_rank": 53.0,
+            "rank_change": -332.0,
+            "absolute_rank_change": 332.0
+        },
+        {
+            "axis": "characters",
+            "id": "conversație-la-catedrală-mario-vargas-llosa",
+            "title": "Conversație la Catedrală",
+            "author": "Mario Vargas Llosa",
+            "base_rank": 14.0,
+            "large_rank": 337.0,
+            "rank_change": 323.0,
+            "absolute_rank_change": 323.0
+        },
+        {
+            "axis": "characters",
+            "id": "mândrie-și-prejudecată-jane-austen",
+            "title": "Mândrie și prejudecată",
+            "author": "Jane Austen",
+            "base_rank": 81.0,
+            "large_rank": 395.0,
+            "rank_change": 314.0,
+            "absolute_rank_change": 314.0
+        },
+        {
+            "axis": "characters",
+            "id": "timp-de-ucis-john-grisham",
+            "title": "Timp de ucis",
+            "author": "John Grisham",
+            "base_rank": 12.0,
+            "large_rank": 299.0,
+            "rank_change": 287.0,
+            "absolute_rank_change": 287.0
+        },
+        {
+            "axis": "characters",
+            "id": "motanul-care-voia-să-salveze-cărțile-sōsuke-natsukawa",
+            "title": "Motanul care voia să salveze cărțile",
+            "author": "Sōsuke Natsukawa",
+            "base_rank": 378.0,
+            "large_rank": 98.0,
+            "rank_change": -280.0,
+            "absolute_rank_change": 280.0
+        },
+        {
+            "axis": "characters",
+            "id": "mă-găsești-când-vrei-lavinia-braniște",
+            "title": "Mă găsești când vrei",
+            "author": "Lavinia Braniște",
+            "base_rank": 128.0,
+            "large_rank": 408.0,
+            "rank_change": 280.0,
+            "absolute_rank_change": 280.0
+        },
+        {
+            "axis": "characters",
+            "id": "aproape-de-inima-vijelioasă-clarice-lispector",
+            "title": "Aproape de inima vijelioasă",
+            "author": "Clarice Lispector",
+            "base_rank": 115.0,
+            "large_rank": 389.0,
+            "rank_change": 274.0,
+            "absolute_rank_change": 274.0
+        },
+        {
+            "axis": "characters",
+            "id": "în-spatele-ușilor-închise-b-a-paris",
+            "title": "În spatele ușilor închise",
+            "author": "B. A. Paris",
+            "base_rank": 16.0,
+            "large_rank": 289.0,
+            "rank_change": 273.0,
+            "absolute_rank_change": 273.0
+        },
+        {
+            "axis": "pace",
+            "id": "povara-bunătății-noastre-ion-druță",
+            "title": "Povara bunătății noastre",
+            "author": "Ion Druță",
+            "base_rank": 409.0,
+            "large_rank": 27.0,
+            "rank_change": -382.0,
+            "absolute_rank_change": 382.0
+        },
+        {
+            "axis": "pace",
+            "id": "bătrânul-și-marea-ernest-hemingway",
+            "title": "Bătrânul și marea",
+            "author": "Ernest Hemingway",
+            "base_rank": 396.0,
+            "large_rank": 23.0,
+            "rank_change": -373.0,
+            "absolute_rank_change": 373.0
+        },
+        {
+            "axis": "pace",
+            "id": "bunica-mi-a-zis-să-ți-spun-că-îi-pare-rău-fredrik-backman",
+            "title": "Bunica mi-a zis să-ți spun că îi pare rău",
+            "author": "Fredrik Backman",
+            "base_rank": 373.0,
+            "large_rank": 6.0,
+            "rank_change": -367.0,
+            "absolute_rank_change": 367.0
+        },
+        {
+            "axis": "pace",
+            "id": "șoareci-și-oameni-john-steinbeck",
+            "title": "Șoareci și oameni",
+            "author": "John Steinbeck",
+            "base_rank": 378.0,
+            "large_rank": 17.0,
+            "rank_change": -361.0,
+            "absolute_rank_change": 361.0
+        },
+        {
+            "axis": "pace",
+            "id": "the-fifth-season-n-k-jemisin",
+            "title": "The Fifth Season",
+            "author": "N. K. Jemisin",
+            "base_rank": 47.0,
+            "large_rank": 405.0,
+            "rank_change": 358.0,
+            "absolute_rank_change": 358.0
+        },
+        {
+            "axis": "pace",
+            "id": "exhalation-ted-chiang",
+            "title": "Exhalation",
+            "author": "Ted Chiang",
+            "base_rank": 7.0,
+            "large_rank": 351.0,
+            "rank_change": 344.0,
+            "absolute_rank_change": 344.0
+        },
+        {
+            "axis": "pace",
+            "id": "capcana-killing-floor-lee-child",
+            "title": "Capcana (Killing Floor)",
+            "author": "Lee Child",
+            "base_rank": 89.0,
+            "large_rank": 407.0,
+            "rank_change": 318.0,
+            "absolute_rank_change": 318.0
+        },
+        {
+            "axis": "pace",
+            "id": "născuți-din-ceață-brandon-sanderson",
+            "title": "Născuți din ceață",
+            "author": "Brandon Sanderson",
+            "base_rank": 88.0,
+            "large_rank": 404.0,
+            "rank_change": 316.0,
+            "absolute_rank_change": 316.0
+        },
+        {
+            "axis": "pace",
+            "id": "coma-robin-cook",
+            "title": "Coma",
+            "author": "Robin Cook",
+            "base_rank": 42.0,
+            "large_rank": 353.0,
+            "rank_change": 311.0,
+            "absolute_rank_change": 311.0
+        },
+        {
+            "axis": "pace",
+            "id": "anna-karenina-lev-tolstoi",
+            "title": "Anna Karenina",
+            "author": "Lev Tolstoi",
+            "base_rank": 379.0,
+            "large_rank": 69.0,
+            "rank_change": -310.0,
+            "absolute_rank_change": 310.0
+        },
+        {
+            "axis": "imagination",
+            "id": "născuți-din-ceață-brandon-sanderson",
+            "title": "Născuți din ceață",
+            "author": "Brandon Sanderson",
+            "base_rank": 92.0,
+            "large_rank": 402.0,
+            "rank_change": 310.0,
+            "absolute_rank_change": 310.0
+        },
+        {
+            "axis": "imagination",
+            "id": "vegetariana-han-kang",
+            "title": "Vegetariana",
+            "author": "Han Kang",
+            "base_rank": 27.0,
+            "large_rank": 331.0,
+            "rank_change": 304.0,
+            "absolute_rank_change": 304.0
+        },
+        {
+            "axis": "imagination",
+            "id": "strange-weather-in-tokyo-hiromi-kawakami",
+            "title": "Strange Weather in Tokyo",
+            "author": "Hiromi Kawakami",
+            "base_rank": 25.0,
+            "large_rank": 324.0,
+            "rank_change": 299.0,
+            "absolute_rank_change": 299.0
+        },
+        {
+            "axis": "imagination",
+            "id": "maitreyi-mircea-eliade",
+            "title": "Maitreyi",
+            "author": "Mircea Eliade",
+            "base_rank": 79.0,
+            "large_rank": 374.0,
+            "rank_change": 295.0,
+            "absolute_rank_change": 295.0
+        },
+        {
+            "axis": "imagination",
+            "id": "ucenicul-asasinului-robin-hobb",
+            "title": "Ucenicul asasinului",
+            "author": "Robin Hobb",
+            "base_rank": 346.0,
+            "large_rank": 52.0,
+            "rank_change": -294.0,
+            "absolute_rank_change": 294.0
+        },
+        {
+            "axis": "imagination",
+            "id": "kindred-octavia-e-butler",
+            "title": "Kindred",
+            "author": "Octavia E. Butler",
+            "base_rank": 13.0,
+            "large_rank": 279.0,
+            "rank_change": 266.0,
+            "absolute_rank_change": 266.0
+        },
+        {
+            "axis": "imagination",
+            "id": "marile-speranțe-charles-dickens",
+            "title": "Marile speranțe",
+            "author": "Charles Dickens",
+            "base_rank": 386.0,
+            "large_rank": 123.0,
+            "rank_change": -263.0,
+            "absolute_rank_change": 263.0
+        },
+        {
+            "axis": "imagination",
+            "id": "adam-și-eva-liviu-rebreanu",
+            "title": "Adam și Eva",
+            "author": "Liviu Rebreanu",
+            "base_rank": 102.0,
+            "large_rank": 363.0,
+            "rank_change": 261.0,
+            "absolute_rank_change": 261.0
+        },
+        {
+            "axis": "imagination",
+            "id": "toată-lumina-pe-care-nu-o-putem-vedea-anthony-doerr",
+            "title": "Toată lumina pe care nu o putem vedea",
+            "author": "Anthony Doerr",
+            "base_rank": 125.0,
+            "large_rank": 385.0,
+            "rank_change": 260.0,
+            "absolute_rank_change": 260.0
+        },
+        {
+            "axis": "imagination",
+            "id": "pasărea-cu-piept-roșu-jo-nesbø",
+            "title": "Pasărea cu piept roșu",
+            "author": "Jo Nesbø",
+            "base_rank": 337.0,
+            "large_rank": 80.0,
+            "rank_change": -257.0,
+            "absolute_rank_change": 257.0
+        },
+        {
+            "axis": "realism",
+            "id": "marțianul-andy-weir",
+            "title": "Marțianul",
+            "author": "Andy Weir",
+            "base_rank": 338.0,
+            "large_rank": 15.0,
+            "rank_change": -323.0,
+            "absolute_rank_change": 323.0
+        },
+        {
+            "axis": "realism",
+            "id": "bel-canto-ann-patchett",
+            "title": "Bel Canto",
+            "author": "Ann Patchett",
+            "base_rank": 393.0,
+            "large_rank": 80.0,
+            "rank_change": -313.0,
+            "absolute_rank_change": 313.0
+        },
+        {
+            "axis": "realism",
+            "id": "ispășire-ian-mcewan",
+            "title": "Ispășire",
+            "author": "Ian McEwan",
+            "base_rank": 58.0,
+            "large_rank": 354.0,
+            "rank_change": 296.0,
+            "absolute_rank_change": 296.0
+        },
+        {
+            "axis": "realism",
+            "id": "tunelul-ernesto-sabato",
+            "title": "Tunelul",
+            "author": "Ernesto Sabato",
+            "base_rank": 343.0,
+            "large_rank": 66.0,
+            "rank_change": -277.0,
+            "absolute_rank_change": 277.0
+        },
+        {
+            "axis": "realism",
+            "id": "elevul-dima-dintr-a-șaptea-mihail-drumeș",
+            "title": "Elevul Dima dintr-a șaptea",
+            "author": "Mihail Drumeș",
+            "base_rank": 107.0,
+            "large_rank": 376.0,
+            "rank_change": 269.0,
+            "absolute_rank_change": 269.0
+        },
+        {
+            "axis": "realism",
+            "id": "gluma-milan-kundera",
+            "title": "Gluma",
+            "author": "Milan Kundera",
+            "base_rank": 41.0,
+            "large_rank": 308.0,
+            "rank_change": 267.0,
+            "absolute_rank_change": 267.0
+        },
+        {
+            "axis": "realism",
+            "id": "insuportabila-ușurătate-a-ființei-milan-kundera",
+            "title": "Insuportabila ușurătate a ființei",
+            "author": "Milan Kundera",
+            "base_rank": 11.0,
+            "large_rank": 278.0,
+            "rank_change": 267.0,
+            "absolute_rank_change": 267.0
+        },
+        {
+            "axis": "realism",
+            "id": "doamna-bovary-gustave-flaubert",
+            "title": "Doamna Bovary",
+            "author": "Gustave Flaubert",
+            "base_rank": 89.0,
+            "large_rank": 352.0,
+            "rank_change": 263.0,
+            "absolute_rank_change": 263.0
+        },
+        {
+            "axis": "realism",
+            "id": "totul-se-destramă-chinua-achebe",
+            "title": "Totul se destramă",
+            "author": "Chinua Achebe",
+            "base_rank": 82.0,
+            "large_rank": 342.0,
+            "rank_change": 260.0,
+            "absolute_rank_change": 260.0
+        },
+        {
+            "axis": "realism",
+            "id": "psalm-pentru-cei-construiți-în-sălbăticie-becky-chambers",
+            "title": "Psalm pentru cei construiți în sălbăticie",
+            "author": "Becky Chambers",
+            "base_rank": 281.0,
+            "large_rank": 27.0,
+            "rank_change": -254.0,
+            "absolute_rank_change": 254.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "gabriela-cuișoare-și-scorțișoară-jorge-amado",
+            "title": "Gabriela, cuișoare și scorțișoară",
+            "author": "Jorge Amado",
+            "base_rank": 41.0,
+            "large_rank": 378.0,
+            "rank_change": 337.0,
+            "absolute_rank_change": 337.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "îngeri-și-demoni-dan-brown",
+            "title": "Îngeri și demoni",
+            "author": "Dan Brown",
+            "base_rank": 403.0,
+            "large_rank": 67.0,
+            "rank_change": -336.0,
+            "absolute_rank_change": 336.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "dimineață-pierdută-gabriela-adameșteanu",
+            "title": "Dimineață pierdută",
+            "author": "Gabriela Adameșteanu",
+            "base_rank": 92.0,
+            "large_rank": 416.0,
+            "rank_change": 324.0,
+            "absolute_rank_change": 324.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "it-stephen-king",
+            "title": "It",
+            "author": "Stephen King",
+            "base_rank": 401.0,
+            "large_rank": 78.0,
+            "rank_change": -323.0,
+            "absolute_rank_change": 323.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "alchimistul-paulo-coelho",
+            "title": "Alchimistul",
+            "author": "Paulo Coelho",
+            "base_rank": 62.0,
+            "large_rank": 384.5,
+            "rank_change": 322.5,
+            "absolute_rank_change": 322.5
+        },
+        {
+            "axis": "ambiguity",
+            "id": "kim-jiyoung-născută-în-1982-cho-nam-joo",
+            "title": "Kim Jiyoung, născută în 1982",
+            "author": "Cho Nam-joo",
+            "base_rank": 57.0,
+            "large_rank": 375.0,
+            "rank_change": 318.0,
+            "absolute_rank_change": 318.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "cronicile-marțiene-ray-bradbury",
+            "title": "Cronicile marțiene",
+            "author": "Ray Bradbury",
+            "base_rank": 342.0,
+            "large_rank": 25.0,
+            "rank_change": -317.0,
+            "absolute_rank_change": 317.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "cântecul-păsării-de-plajă-tudor-ganea",
+            "title": "Cântecul păsării de plajă",
+            "author": "Tudor Ganea",
+            "base_rank": 51.0,
+            "large_rank": 366.0,
+            "rank_change": 315.0,
+            "absolute_rank_change": 315.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "parfumul-patrick-süskind",
+            "title": "Parfumul",
+            "author": "Patrick Süskind",
+            "base_rank": 376.0,
+            "large_rank": 61.0,
+            "rank_change": -315.0,
+            "absolute_rank_change": 315.0
+        },
+        {
+            "axis": "ambiguity",
+            "id": "să-nu-lași-moartea-să-te-găsească-bogdan-răileanu",
+            "title": "Să nu lași moartea să te găsească",
+            "author": "Bogdan Răileanu",
+            "base_rank": 106.0,
+            "large_rank": 413.0,
+            "rank_change": 307.0,
+            "absolute_rank_change": 307.0
+        },
+        {
+            "axis": "culture",
+            "id": "împăratul-muștelor-william-golding",
+            "title": "Împăratul muștelor",
+            "author": "William Golding",
+            "base_rank": 415.0,
+            "large_rank": 47.0,
+            "rank_change": -368.0,
+            "absolute_rank_change": 368.0
+        },
+        {
+            "axis": "culture",
+            "id": "free-food-for-millionaires-min-jin-lee",
+            "title": "Free Food for Millionaires",
+            "author": "Min Jin Lee",
+            "base_rank": 397.0,
+            "large_rank": 45.0,
+            "rank_change": -352.0,
+            "absolute_rank_change": 352.0
+        },
+        {
+            "axis": "culture",
+            "id": "klara-și-soarele-kazuo-ishiguro",
+            "title": "Klara și Soarele",
+            "author": "Kazuo Ishiguro",
+            "base_rank": 400.0,
+            "large_rank": 56.0,
+            "rank_change": -344.0,
+            "absolute_rank_change": 344.0
+        },
+        {
+            "axis": "culture",
+            "id": "taxi-khaled-al-khamissi",
+            "title": "Taxi",
+            "author": "Khaled Al Khamissi",
+            "base_rank": 359.0,
+            "large_rank": 20.0,
+            "rank_change": -339.0,
+            "absolute_rank_change": 339.0
+        },
+        {
+            "axis": "culture",
+            "id": "20000-de-leghe-sub-mări-jules-verne",
+            "title": "20.000 de leghe sub mări",
+            "author": "Jules Verne",
+            "base_rank": 382.0,
+            "large_rank": 53.0,
+            "rank_change": -329.0,
+            "absolute_rank_change": 329.0
+        },
+        {
+            "axis": "culture",
+            "id": "război-cu-salamandrele-karel-čapek",
+            "title": "Război cu salamandrele",
+            "author": "Karel Čapek",
+            "base_rank": 418.0,
+            "large_rank": 90.0,
+            "rank_change": -328.0,
+            "absolute_rank_change": 328.0
+        },
+        {
+            "axis": "culture",
+            "id": "moștenirea-eszterei-sándor-márai",
+            "title": "Moștenirea Eszterei",
+            "author": "Sándor Márai",
+            "base_rank": 61.0,
+            "large_rank": 384.0,
+            "rank_change": 323.0,
+            "absolute_rank_change": 323.0
+        },
+        {
+            "axis": "culture",
+            "id": "muzeul-secretelor-abandonate-oksana-zabujko",
+            "title": "Muzeul secretelor abandonate",
+            "author": "Oksana Zabujko",
+            "base_rank": 34.0,
+            "large_rank": 354.0,
+            "rank_change": 320.0,
+            "absolute_rank_change": 320.0
+        },
+        {
+            "axis": "culture",
+            "id": "dezrădăcinații-cătălin-ceaușoglu",
+            "title": "Dezrădăcinații",
+            "author": "Cătălin Ceaușoglu",
+            "base_rank": 4.0,
+            "large_rank": 319.0,
+            "rank_change": 315.0,
+            "absolute_rank_change": 315.0
+        },
+        {
+            "axis": "culture",
+            "id": "pasărea-cu-piept-roșu-jo-nesbø",
+            "title": "Pasărea cu piept roșu",
+            "author": "Jo Nesbø",
+            "base_rank": 99.0,
+            "large_rank": 411.0,
+            "rank_change": 312.0,
+            "absolute_rank_change": 312.0
+        }
+    ],
+    "note": "Comparison uses raw positive_similarity - negative_similarity."
+}

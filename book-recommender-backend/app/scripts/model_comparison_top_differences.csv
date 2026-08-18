@@ -1,0 +1,101 @@
+axis,id,title,author,base_raw,large_raw,difference,absolute_difference
+curiosity,drumul-egal-al-fiecărei-zile-gabriela-adameșteanu,Drumul egal al fiecărei zile,Gabriela Adameșteanu,-0.003175,-0.039354,-0.036179,0.036179
+curiosity,marea-marea-iris-murdoch,"Marea, marea",Iris Murdoch,0.025128,-0.009115,-0.034243,0.034243
+curiosity,leagănul-respirației-herta-müller,Leagănul respirației,Herta Müller,0.019297,-0.014162,-0.033459,0.033459
+curiosity,femeia-cu-fustă-violet-natsuko-imamura,Femeia cu fustă violet,Natsuko Imamura,0.015699,-0.016883,-0.032582,0.032582
+curiosity,rămășițele-zilei-kazuo-ishiguro,Rămășițele zilei,Kazuo Ishiguro,0.000129,-0.032156,-0.032284999999999994,0.032284999999999994
+curiosity,poartă-ți-plugul-peste-oasele-morților-olga-tokarczuk,Poartă-ți plugul peste oasele morților,Olga Tokarczuk,0.023854,-0.008149,-0.032003000000000004,0.032003000000000004
+curiosity,ploile-amare-alexandru-vlad,Ploile amare,Alexandru Vlad,0.008028,-0.023328,-0.031356,0.031356
+curiosity,o-singurătate-prea-zgomotoasă-bohumil-hrabal,O singurătate prea zgomotoasă,Bohumil Hrabal,0.004007,-0.02659,-0.030597,0.030597
+curiosity,pânza-de-păianjen-cella-serghi,Pânza de păianjen,Cella Serghi,0.0095,-0.020861,-0.030361,0.030361
+curiosity,anna-karenina-lev-tolstoi,Anna Karenina,Lev Tolstoi,0.00685,-0.023332,-0.030182,0.030182
+reflection,insula-comorii-robert-louis-stevenson,Insula comorii,Robert Louis Stevenson,0.013505,-0.012898,-0.026403,0.026403
+reflection,călătoriile-lui-gulliver-jonathan-swift,Călătoriile lui Gulliver,Jonathan Swift,0.005205,-0.020056,-0.025261000000000002,0.025261000000000002
+reflection,împăratul-muștelor-william-golding,Împăratul muștelor,William Golding,0.011136,-0.013747,-0.024883000000000002,0.024883000000000002
+reflection,spune-mi-că-nu-i-adevărat-tell-no-one-harlan-coben,Spune-mi că nu-i adevărat (Tell No One),Harlan Coben,0.014094,-0.010521,-0.024615,0.024615
+reflection,vrăjitorul-din-oz-l-frank-baum,Vrăjitorul din Oz,L. Frank Baum,0.00543,-0.018852,-0.024282,0.024282
+reflection,detectivii-sălbatici-roberto-bolaño,Detectivii sălbatici,Roberto Bolaño,0.013193,-0.009402,-0.022595,0.022595
+reflection,cireșarii-constantin-chiriță,Cireșarii,Constantin Chiriță,0.006725,-0.015831,-0.022556,0.022556
+reflection,hobbitul-j-r-r-tolkien,Hobbitul,J. R. R. Tolkien,0.000143,-0.021024,-0.021167000000000002,0.021167000000000002
+reflection,o-istorie-succintă-a-șapte-crime-marlon-james,O istorie succintă a șapte crime,Marlon James,0.005513,-0.015373,-0.020886,0.020886
+reflection,robinson-crusoe-daniel-defoe,Robinson Crusoe,Daniel Defoe,0.010857,-0.009894,-0.020751,0.020751
+complexity,lucruri-mărunte-ca-acestea-claire-keegan,Lucruri mărunte ca acestea,Claire Keegan,0.000463,-0.031201,-0.031664,0.031664
+complexity,insuportabila-ușurătate-a-ființei-milan-kundera,Insuportabila ușurătate a ființei,Milan Kundera,-0.00052,-0.030004,-0.029484,0.029484
+complexity,inocenții-ioana-pârvulescu,Inocenții,Ioana Pârvulescu,0.000257,-0.026426,-0.026683000000000002,0.026683000000000002
+complexity,ploile-amare-alexandru-vlad,Ploile amare,Alexandru Vlad,0.011043,-0.015029,-0.026072,0.026072
+complexity,ultimul-mohican-james-fenimore-cooper,Ultimul mohican,James Fenimore Cooper,0.002776,-0.022298,-0.025074,0.025074
+complexity,circe-madeline-miller,Circe,Madeline Miller,0.01206,-0.01176,-0.02382,0.02382
+complexity,fram-ursul-polar-cezar-petrescu,"Fram, ursul polar",Cezar Petrescu,0.005131,-0.018502,-0.023633,0.023633
+complexity,drumul-egal-al-fiecărei-zile-gabriela-adameșteanu,Drumul egal al fiecărei zile,Gabriela Adameșteanu,-0.011096,-0.034407,-0.023311,0.023311
+complexity,muzeul-inocenței-orhan-pamuk,Muzeul inocenței,Orhan Pamuk,0.003676,-0.019542,-0.023218,0.023218
+complexity,timp-de-ucis-john-grisham,Timp de ucis,John Grisham,-0.002745,-0.024325,-0.02158,0.02158
+emotionality,ucenicul-asasinului-robin-hobb,Ucenicul asasinului,Robin Hobb,0.016298,-0.007538,-0.023836,0.023836
+emotionality,cântecul-profetului-paul-lynch,Cântecul profetului,Paul Lynch,-0.007108,0.013437,0.020545,0.020545
+emotionality,povestea-slujitoarei-margaret-atwood,Povestea slujitoarei,Margaret Atwood,-0.007521,0.01283,0.020351,0.020351
+emotionality,noaptea-de-sânziene-mircea-eliade,Noaptea de Sânziene,Mircea Eliade,0.003878,0.022011,0.018133,0.018133
+emotionality,temporada-uraganelor-fernanda-melchor,Temporada uraganelor,Fernanda Melchor,0.00161,0.01902,0.01741,0.01741
+emotionality,mireasa-străvechiului-mag-vol-1-kore-yamazaki,"Mireasa Străvechiului Mag, Vol. 1",Kore Yamazaki,0.004275,0.020874,0.016599,0.016599
+emotionality,obiecte-ascuțite-sharp-objects-gillian-flynn,Obiecte ascuțite (Sharp Objects),Gillian Flynn,0.00457,-0.012014,-0.016584,0.016584
+emotionality,atlasul-norilor-david-mitchell,Atlasul norilor,David Mitchell,0.003321,0.019856,0.016534999999999998,0.016534999999999998
+emotionality,zenobia-gellu-naum,Zenobia,Gellu Naum,0.008016,0.024416,0.016399999999999998,0.016399999999999998
+emotionality,coraline-neil-gaiman,Coraline,Neil Gaiman,0.003312,0.019657,0.016345000000000002,0.016345000000000002
+characters,conversație-la-catedrală-mario-vargas-llosa,Conversație la Catedrală,Mario Vargas Llosa,-0.007166,0.011635,0.018801,0.018801
+characters,timp-de-ucis-john-grisham,Timp de ucis,John Grisham,-0.00781,0.010127,0.017937,0.017937
+characters,mândrie-și-prejudecată-jane-austen,Mândrie și prejudecată,Jane Austen,-0.001396,0.015923,0.017319,0.017319
+characters,mă-găsești-când-vrei-lavinia-braniște,Mă găsești când vrei,Lavinia Braniște,0.000974,0.017928,0.016954,0.016954
+characters,în-spatele-ușilor-închise-b-a-paris,În spatele ușilor închise,B. A. Paris,-0.006541,0.009896,0.016437,0.016437
+characters,contele-de-monte-cristo-alexandre-dumas,Contele de Monte-Cristo,Alexandre Dumas,-0.008513,0.00765,0.016163,0.016163
+characters,ispășire-ian-mcewan,Ispășire,Ian McEwan,-0.005639,0.009906,0.015545,0.015545
+characters,grădina-de-sticlă-tatiana-țîbuleac,Grădina de sticlă,Tatiana Țîbuleac,0.003452,0.018967,0.015515000000000001,0.015515000000000001
+characters,memoriile-postume-ale-lui-brás-cubas-machado-de-assis,Memoriile postume ale lui Brás Cubas,Machado de Assis,0.013941,-0.001088,-0.015029,0.015029
+characters,drumul-egal-al-fiecărei-zile-gabriela-adameșteanu,Drumul egal al fiecărei zile,Gabriela Adameșteanu,0.00288,0.01777,0.01489,0.01489
+pace,exhalation-ted-chiang,Exhalation,Ted Chiang,-0.01277,0.01121,0.02398,0.02398
+pace,the-fifth-season-n-k-jemisin,The Fifth Season,N. K. Jemisin,-0.008275,0.015332,0.023607,0.023607
+pace,capcana-killing-floor-lee-child,Capcana (Killing Floor),Lee Child,-0.006536,0.015734,0.02227,0.02227
+pace,născuți-din-ceață-brandon-sanderson,Născuți din ceață,Brandon Sanderson,-0.006571,0.015268,0.021839,0.021839
+pace,dezrădăcinat-sașa-zare,Dezrădăcinat,Sașa Zare,-0.007214,0.012675,0.019889,0.019889
+pace,problema-celor-trei-corpuri-liu-cixin,Problema celor trei corpuri,Liu Cixin,-0.003508,0.016341,0.019849000000000002,0.019849000000000002
+pace,coma-robin-cook,Coma,Robin Cook,-0.00837,0.011347,0.019717,0.019717
+pace,cântecul-profetului-paul-lynch,Cântecul profetului,Paul Lynch,0.000362,0.019765,0.019403,0.019403
+pace,iepurele-blestemat-bora-chung,Iepurele blestemat,Bora Chung,-0.005973,0.013391,0.019364,0.019364
+pace,pendulul-lui-foucault-umberto-eco,Pendulul lui Foucault,Umberto Eco,-0.010022,0.009018,0.01904,0.01904
+imagination,obiecte-ascuțite-sharp-objects-gillian-flynn,Obiecte ascuțite (Sharp Objects),Gillian Flynn,0.002913,-0.041602,-0.044515,0.044515
+imagination,lucruri-mărunte-ca-acestea-claire-keegan,Lucruri mărunte ca acestea,Claire Keegan,-0.003695,-0.048017,-0.044322,0.044322
+imagination,prietenul-cel-mic-donna-tartt,Prietenul cel mic,Donna Tartt,-0.002766,-0.043502,-0.040736,0.040736
+imagination,ucenicul-asasinului-robin-hobb,Ucenicul asasinului,Robin Hobb,0.009195,-0.029219,-0.038414,0.038414
+imagination,frunze-de-dor-ion-druță,Frunze de dor,Ion Druță,0.004182,-0.034211,-0.038393,0.038393
+imagination,marile-speranțe-charles-dickens,Marile speranțe,Charles Dickens,0.012672,-0.024572,-0.037244,0.037244
+imagination,drumul-egal-al-fiecărei-zile-gabriela-adameșteanu,Drumul egal al fiecărei zile,Gabriela Adameșteanu,-0.001029,-0.037503,-0.036474,0.036474
+imagination,inocenții-ioana-pârvulescu,Inocenții,Ioana Pârvulescu,-0.000413,-0.036865,-0.036452000000000005,0.036452000000000005
+imagination,pasărea-cu-piept-roșu-jo-nesbø,Pasărea cu piept roșu,Jo Nesbø,0.009002,-0.027357,-0.036359,0.036359
+imagination,la-medeleni-ionel-teodoreanu,La Medeleni,Ionel Teodoreanu,-0.008262,-0.044472,-0.03621,0.03621
+realism,marțianul-andy-weir,Marțianul,Andy Weir,0.021114,-0.01077,-0.031884,0.031884
+realism,bel-canto-ann-patchett,Bel Canto,Ann Patchett,0.027883,0.000638,-0.027245000000000002,0.027245000000000002
+realism,la-medeleni-ionel-teodoreanu,La Medeleni,Ionel Teodoreanu,0.013771,0.040995,0.027223999999999998,0.027223999999999998
+realism,drumul-egal-al-fiecărei-zile-gabriela-adameșteanu,Drumul egal al fiecărei zile,Gabriela Adameșteanu,0.015529,0.040143,0.024613999999999997,0.024613999999999997
+realism,insuportabila-ușurătate-a-ființei-milan-kundera,Insuportabila ușurătate a ființei,Milan Kundera,-0.007256,0.017203,0.024459,0.024459
+realism,psalm-pentru-cei-construiți-în-sălbăticie-becky-chambers,Psalm pentru cei construiți în sălbăticie,Becky Chambers,0.017885,-0.006359,-0.024244,0.024244
+realism,extrem-de-tare-și-incredibil-de-aproape-jonathan-safran-foer,Extrem de tare și incredibil de aproape,Jonathan Safran Foer,0.009989,-0.012867,-0.022856,0.022856
+realism,ispășire-ian-mcewan,Ispășire,Ian McEwan,0.001606,0.023891,0.022285,0.022285
+realism,tunelul-ernesto-sabato,Tunelul,Ernesto Sabato,0.021223,-0.000377,-0.021599999999999998,0.021599999999999998
+realism,lucruri-mărunte-ca-acestea-claire-keegan,Lucruri mărunte ca acestea,Claire Keegan,0.010423,0.031607,0.021184,0.021184
+ambiguity,istoria-secretă-donna-tartt,Istoria secretă,Donna Tartt,0.004367,-0.03423,-0.038597,0.038597
+ambiguity,îngeri-și-demoni-dan-brown,Îngeri și demoni,Dan Brown,0.017917,-0.017872,-0.035789,0.035789
+ambiguity,cronicile-marțiene-ray-bradbury,Cronicile marțiene,Ray Bradbury,0.012158,-0.022366,-0.034524,0.034524
+ambiguity,it-stephen-king,It,Stephen King,0.017265,-0.017031,-0.034296,0.034296
+ambiguity,de-două-mii-de-ani-mihail-sebastian,De două mii de ani,Mihail Sebastian,0.026045,-0.00804,-0.034085,0.034085
+ambiguity,sugestia-donato-carrisi,Sugestia,Donato Carrisi,0.020294,-0.012233,-0.032527,0.032527
+ambiguity,parfumul-patrick-süskind,Parfumul,Patrick Süskind,0.014365,-0.018011,-0.032376,0.032376
+ambiguity,împăratul-muștelor-william-golding,Împăratul muștelor,William Golding,0.011551,-0.020586,-0.032137,0.032137
+ambiguity,epidemia-robin-cook,Epidemia,Robin Cook,0.009712,-0.022168,-0.03188,0.03188
+ambiguity,circe-madeline-miller,Circe,Madeline Miller,0.020908,-0.01041,-0.031318,0.031318
+culture,împăratul-muștelor-william-golding,Împăratul muștelor,William Golding,0.013198,-0.013509,-0.026707,0.026707
+culture,taxi-khaled-al-khamissi,Taxi,Khaled Al Khamissi,0.00731,-0.017891,-0.025201,0.025201
+culture,ghidul-autostopistului-galactic-douglas-adams,Ghidul autostopistului galactic,Douglas Adams,-0.001472,-0.025689,-0.024217,0.024217
+culture,război-cu-salamandrele-karel-čapek,Război cu salamandrele,Karel Čapek,0.01387,-0.010339,-0.024209,0.024209
+culture,free-food-for-millionaires-min-jin-lee,Free Food for Millionaires,Min Jin Lee,0.010351,-0.01356,-0.023911,0.023911
+culture,zeii-înșiși-isaac-asimov,Zeii înșiși,Isaac Asimov,0.002173,-0.021683,-0.023856000000000002,0.023856000000000002
+culture,klara-și-soarele-kazuo-ishiguro,Klara și Soarele,Kazuo Ishiguro,0.010821,-0.012729,-0.02355,0.02355
+culture,20000-de-leghe-sub-mări-jules-verne,20.000 de leghe sub mări,Jules Verne,0.009419,-0.01292,-0.022338999999999998,0.022338999999999998
+culture,solaris-stanisław-lem,Solaris,Stanisław Lem,-0.000547,-0.022117,-0.021570000000000002,0.021570000000000002
+culture,zei-mici-terry-pratchett,Zei mici,Terry Pratchett,0.003765,-0.017666,-0.021431000000000002,0.021431000000000002

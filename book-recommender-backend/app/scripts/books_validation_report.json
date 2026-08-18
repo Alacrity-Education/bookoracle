@@ -1,0 +1,150 @@
+{
+  "input": "books.json",
+  "book_count": 421,
+  "dimensions": [
+    "curiosity",
+    "reflection",
+    "complexity",
+    "emotionality",
+    "characters",
+    "pace",
+    "imagination",
+    "realism",
+    "ambiguity",
+    "culture"
+  ],
+  "expected_range": [
+    -1.0,
+    1.0
+  ],
+  "validation": {
+    "errors": [],
+    "warnings": [
+      "Duplicate title 'Străinul' appears 2 times."
+    ],
+    "duplicate_ids": {},
+    "duplicate_titles": {
+      "Străinul": 2
+    },
+    "dimension_presence": {
+      "curiosity": 421,
+      "reflection": 421,
+      "complexity": 421,
+      "emotionality": 421,
+      "characters": 421,
+      "pace": 421,
+      "imagination": 421,
+      "realism": 421,
+      "ambiguity": 421,
+      "culture": 421
+    },
+    "dimension_invalid": {},
+    "dimension_out_of_range": {},
+    "score_values": {
+      "1": 332,
+      "2": 89
+    }
+  },
+  "distributions": {
+    "curiosity": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.828389,
+      "median": -0.355663,
+      "mean": -0.3451799073634204,
+      "p90": 0.149422,
+      "max": 0.717862,
+      "std": 0.37319861074830396
+    },
+    "reflection": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.613469,
+      "median": 0.129463,
+      "mean": 0.11183933729216153,
+      "p90": 0.801018,
+      "max": 1.0,
+      "std": 0.5206160117906645
+    },
+    "complexity": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.601076,
+      "median": -0.045203,
+      "mean": -0.030757152019002372,
+      "p90": 0.575787,
+      "max": 1.0,
+      "std": 0.4729142576340539
+    },
+    "emotionality": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.526626,
+      "median": 0.231961,
+      "mean": 0.16359690973871732,
+      "p90": 0.855152,
+      "max": 1.0,
+      "std": 0.5151458460493187
+    },
+    "characters": {
+      "n": 421,
+      "min": -0.90535,
+      "p10": -0.029895,
+      "median": 0.431371,
+      "mean": 0.41960899999999995,
+      "p90": 0.889737,
+      "max": 1.0,
+      "std": 0.3382592744402729
+    },
+    "pace": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.425093,
+      "median": 0.278615,
+      "mean": 0.24726779572446558,
+      "p90": 0.902172,
+      "max": 1.0,
+      "std": 0.48679254515722314
+    },
+    "imagination": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.881246,
+      "median": -0.566753,
+      "mean": -0.5588268741092637,
+      "p90": -0.236817,
+      "max": 0.328968,
+      "std": 0.2525910170468947
+    },
+    "realism": {
+      "n": 421,
+      "min": -0.554879,
+      "p10": -0.127686,
+      "median": 0.385516,
+      "mean": 0.38310598812351543,
+      "p90": 0.87605,
+      "max": 1.0,
+      "std": 0.36893910615488196
+    },
+    "ambiguity": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.876799,
+      "median": -0.395431,
+      "mean": -0.37370335866983373,
+      "p90": 0.095499,
+      "max": 0.988903,
+      "std": 0.37963470163671204
+    },
+    "culture": {
+      "n": 421,
+      "min": -1.0,
+      "p10": -0.798256,
+      "median": -0.043571,
+      "mean": -0.04964638479809976,
+      "p90": 0.684713,
+      "max": 1.0,
+      "std": 0.5471832918491468
+    }
+  }
+}

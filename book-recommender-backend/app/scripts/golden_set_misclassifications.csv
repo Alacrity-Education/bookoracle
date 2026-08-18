@@ -1,0 +1,69 @@
+model,axis,expected,predicted,raw,title,author,id
+base,curiosity,high,LOW,0.008742,Problema celor trei corpuri,Liu Cixin,problema-celor-trei-corpuri-liu-cixin
+base,curiosity,high,LOW,0.002407,Codul lui Da Vinci,Dan Brown,codul-lui-da-vinci-dan-brown
+base,curiosity,low,HIGH,0.016376,Bătrânul și marea,Ernest Hemingway,bătrânul-și-marea-ernest-hemingway
+base,reflection,high,LOW,0.004087,Insuportabila ușurătate a ființei,Milan Kundera,insuportabila-ușurătate-a-ființei-milan-kundera
+base,reflection,high,LOW,0.003771,Tunelul,Ernesto Sabato,tunelul-ernesto-sabato
+base,reflection,high,LOW,-0.00033,Noaptea de Sânziene,Mircea Eliade,noaptea-de-sânziene-mircea-eliade
+base,reflection,high,LOW,-0.00144,Un veac de singurătate,Gabriel García Márquez,un-veac-de-singurătate-gabriel-garcía-márquez
+base,reflection,low,HIGH,0.013505,Insula comorii,Robert Louis Stevenson,insula-comorii-robert-louis-stevenson
+base,reflection,low,HIGH,0.006725,Cireșarii,Constantin Chiriță,cireșarii-constantin-chiriță
+base,reflection,low,HIGH,0.010857,Robinson Crusoe,Daniel Defoe,robinson-crusoe-daniel-defoe
+base,complexity,high,LOW,-0.001611,Pendulul lui Foucault,Umberto Eco,pendulul-lui-foucault-umberto-eco
+base,complexity,high,LOW,-0.005137,Detectivii sălbatici,Roberto Bolaño,detectivii-sălbatici-roberto-bolaño
+base,complexity,high,LOW,-0.00052,Insuportabila ușurătate a ființei,Milan Kundera,insuportabila-ușurătate-a-ființei-milan-kundera
+base,complexity,high,LOW,-0.005383,Conversație la Catedrală,Mario Vargas Llosa,conversație-la-catedrală-mario-vargas-llosa
+base,complexity,low,HIGH,0.005131,"Fram, ursul polar",Cezar Petrescu,fram-ursul-polar-cezar-petrescu
+base,complexity,low,HIGH,0.003024,Motanul care voia să salveze cărțile,Sōsuke Natsukawa,motanul-care-voia-să-salveze-cărțile-sōsuke-natsukawa
+base,complexity,low,HIGH,0.005634,Vrăjitorul din Oz,L. Frank Baum,vrăjitorul-din-oz-l-frank-baum
+base,emotionality,high,LOW,0.000501,Ispășire,Ian McEwan,ispășire-ian-mcewan
+base,emotionality,high,LOW,-0.000509,Toată lumina pe care nu o putem vedea,Anthony Doerr,toată-lumina-pe-care-nu-o-putem-vedea-anthony-doerr
+base,emotionality,high,LOW,-0.007521,Povestea slujitoarei,Margaret Atwood,povestea-slujitoarei-margaret-atwood
+base,emotionality,low,HIGH,0.009076,Marțianul,Andy Weir,marțianul-andy-weir
+base,emotionality,low,HIGH,0.01447,20.000 de leghe sub mări,Jules Verne,20000-de-leghe-sub-mări-jules-verne
+base,emotionality,low,HIGH,0.004939,Fundația,Isaac Asimov,fundația-isaac-asimov
+base,emotionality,low,HIGH,0.005295,Pendulul lui Foucault,Umberto Eco,pendulul-lui-foucault-umberto-eco
+base,characters,high,LOW,-0.001396,Mândrie și prejudecată,Jane Austen,mândrie-și-prejudecată-jane-austen
+base,characters,high,LOW,0.001318,Crimă și pedeapsă,Fyodor Dostoevsky,crimă-și-pedeapsă-fyodor-dostoevsky
+base,characters,high,LOW,-0.005639,Ispășire,Ian McEwan,ispășire-ian-mcewan
+base,characters,high,LOW,-0.001357,Rămășițele zilei,Kazuo Ishiguro,rămășițele-zilei-kazuo-ishiguro
+base,characters,low,HIGH,0.011502,Marțianul,Andy Weir,marțianul-andy-weir
+base,characters,low,HIGH,0.005279,Vrăjitorul din Oz,L. Frank Baum,vrăjitorul-din-oz-l-frank-baum
+base,pace,high,LOW,-0.006536,Capcana (Killing Floor),Lee Child,capcana-killing-floor-lee-child
+base,pace,high,LOW,-0.00837,Coma,Robin Cook,coma-robin-cook
+base,pace,high,LOW,-0.006571,Născuți din ceață,Brandon Sanderson,născuți-din-ceață-brandon-sanderson
+base,pace,high,LOW,-0.008275,The Fifth Season,N. K. Jemisin,the-fifth-season-n-k-jemisin
+base,pace,low,HIGH,0.004111,Bătrânul și marea,Ernest Hemingway,bătrânul-și-marea-ernest-hemingway
+base,pace,low,HIGH,0.00274,Anna Karenina,Lev Tolstoi,anna-karenina-lev-tolstoi
+base,pace,low,HIGH,-0.000195,Drumul egal al fiecărei zile,Gabriela Adameșteanu,drumul-egal-al-fiecărei-zile-gabriela-adameșteanu
+base,pace,low,HIGH,0.005678,Povara bunătății noastre,Ion Druță,povara-bunătății-noastre-ion-druță
+base,imagination,high,LOW,-0.005378,Un veac de singurătate,Gabriel García Márquez,un-veac-de-singurătate-gabriel-garcía-márquez
+base,imagination,high,LOW,-0.004414,Născuți din ceață,Brandon Sanderson,născuți-din-ceață-brandon-sanderson
+base,imagination,low,HIGH,0.000435,Anna Karenina,Lev Tolstoi,anna-karenina-lev-tolstoi
+base,realism,low,HIGH,0.015225,Cronicile marțiene,Ray Bradbury,cronicile-marțiene-ray-bradbury
+base,ambiguity,high,LOW,-0.000455,Tunelul,Ernesto Sabato,tunelul-ernesto-sabato
+base,ambiguity,low,HIGH,0.007558,Insula comorii,Robert Louis Stevenson,insula-comorii-robert-louis-stevenson
+base,culture,high,LOW,-0.00723,Un veac de singurătate,Gabriel García Márquez,un-veac-de-singurătate-gabriel-garcía-márquez
+base,culture,high,LOW,0.00154,De două mii de ani,Mihail Sebastian,de-două-mii-de-ani-mihail-sebastian
+base,culture,high,LOW,-0.004491,Muzeul inocenței,Orhan Pamuk,muzeul-inocenței-orhan-pamuk
+base,culture,high,LOW,0.002326,Anna Karenina,Lev Tolstoi,anna-karenina-lev-tolstoi
+base,culture,high,LOW,-0.000687,Pânza de păianjen,Cella Serghi,pânza-de-păianjen-cella-serghi
+base,culture,low,HIGH,0.009419,20.000 de leghe sub mări,Jules Verne,20000-de-leghe-sub-mări-jules-verne
+base,culture,low,HIGH,0.007728,Codul lui Da Vinci,Dan Brown,codul-lui-da-vinci-dan-brown
+base,culture,low,HIGH,0.00567,Insula comorii,Robert Louis Stevenson,insula-comorii-robert-louis-stevenson
+base,culture,low,HIGH,0.01101,Vrăjitorul din Oz,L. Frank Baum,vrăjitorul-din-oz-l-frank-baum
+large,curiosity,low,HIGH,-0.006693,Bătrânul și marea,Ernest Hemingway,bătrânul-și-marea-ernest-hemingway
+large,reflection,high,LOW,-0.003009,Tunelul,Ernesto Sabato,tunelul-ernesto-sabato
+large,complexity,high,LOW,-0.009853,Insuportabila ușurătate a ființei,Milan Kundera,insuportabila-ușurătate-a-ființei-milan-kundera
+large,complexity,high,LOW,-0.00327,Muzeul inocenței,Orhan Pamuk,muzeul-inocenței-orhan-pamuk
+large,complexity,low,HIGH,0.000171,"Fram, ursul polar",Cezar Petrescu,fram-ursul-polar-cezar-petrescu
+large,complexity,low,HIGH,0.005129,Vrăjitorul din Oz,L. Frank Baum,vrăjitorul-din-oz-l-frank-baum
+large,emotionality,high,LOW,-0.002894,Povestea slujitoarei,Margaret Atwood,povestea-slujitoarei-margaret-atwood
+large,emotionality,low,HIGH,0.002948,Codul lui Da Vinci,Dan Brown,codul-lui-da-vinci-dan-brown
+large,characters,high,LOW,0.003848,Rămășițele zilei,Kazuo Ishiguro,rămășițele-zilei-kazuo-ishiguro
+large,pace,low,HIGH,0.009018,Pendulul lui Foucault,Umberto Eco,pendulul-lui-foucault-umberto-eco
+large,imagination,high,LOW,-0.027072,Un veac de singurătate,Gabriel García Márquez,un-veac-de-singurătate-gabriel-garcía-márquez
+large,ambiguity,high,LOW,-0.00974,Rămășițele zilei,Kazuo Ishiguro,rămășițele-zilei-kazuo-ishiguro
+large,culture,high,LOW,-0.006038,Muzeul inocenței,Orhan Pamuk,muzeul-inocenței-orhan-pamuk
+large,culture,low,HIGH,0.001698,Coma,Robin Cook,coma-robin-cook
+large,culture,low,HIGH,0.004958,Codul lui Da Vinci,Dan Brown,codul-lui-da-vinci-dan-brown

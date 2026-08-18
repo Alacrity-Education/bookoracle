@@ -1,0 +1,796 @@
+{
+  "input": "books.json",
+  "book_count": 421,
+  "valid_book_count": 421,
+  "skipped_books": 0,
+  "dimensions": [
+    "curiosity",
+    "reflection",
+    "complexity",
+    "emotionality",
+    "characters",
+    "pace",
+    "imagination",
+    "realism",
+    "ambiguity",
+    "culture"
+  ],
+  "dimension_stats": {
+    "curiosity": {
+      "n": 421,
+      "mean": -0.3451799073634204,
+      "median": -0.355663,
+      "std": 0.37319861074830396,
+      "min": -1.0,
+      "max": 0.717862
+    },
+    "reflection": {
+      "n": 421,
+      "mean": 0.11183933729216153,
+      "median": 0.129463,
+      "std": 0.5206160117906645,
+      "min": -1.0,
+      "max": 1.0
+    },
+    "complexity": {
+      "n": 421,
+      "mean": -0.030757152019002372,
+      "median": -0.045203,
+      "std": 0.4729142576340539,
+      "min": -1.0,
+      "max": 1.0
+    },
+    "emotionality": {
+      "n": 421,
+      "mean": 0.16359690973871732,
+      "median": 0.231961,
+      "std": 0.5151458460493187,
+      "min": -1.0,
+      "max": 1.0
+    },
+    "characters": {
+      "n": 421,
+      "mean": 0.41960899999999995,
+      "median": 0.431371,
+      "std": 0.3382592744402729,
+      "min": -0.90535,
+      "max": 1.0
+    },
+    "pace": {
+      "n": 421,
+      "mean": 0.24726779572446558,
+      "median": 0.278615,
+      "std": 0.48679254515722314,
+      "min": -1.0,
+      "max": 1.0
+    },
+    "imagination": {
+      "n": 421,
+      "mean": -0.5588268741092637,
+      "median": -0.566753,
+      "std": 0.2525910170468947,
+      "min": -1.0,
+      "max": 0.328968
+    },
+    "realism": {
+      "n": 421,
+      "mean": 0.38310598812351543,
+      "median": 0.385516,
+      "std": 0.36893910615488196,
+      "min": -0.554879,
+      "max": 1.0
+    },
+    "ambiguity": {
+      "n": 421,
+      "mean": -0.37370335866983373,
+      "median": -0.395431,
+      "std": 0.37963470163671204,
+      "min": -1.0,
+      "max": 0.988903
+    },
+    "culture": {
+      "n": 421,
+      "mean": -0.04964638479809976,
+      "median": -0.043571,
+      "std": 0.5471832918491468,
+      "min": -1.0,
+      "max": 1.0
+    }
+  },
+  "pearson_matrix": {
+    "curiosity": {
+      "curiosity": 1.0,
+      "reflection": -0.20791682552005192,
+      "complexity": 0.24259699023843595,
+      "emotionality": -0.43043179694643274,
+      "characters": -0.38163293479887933,
+      "pace": 0.34901638695677584,
+      "imagination": 0.7205356704002565,
+      "realism": -0.5423798802222282,
+      "ambiguity": 0.15055541028942385,
+      "culture": -0.41426713647517266
+    },
+    "reflection": {
+      "curiosity": -0.20791682552005192,
+      "reflection": 1.0000000000000002,
+      "complexity": 0.16283635785134687,
+      "emotionality": 0.25148602817304094,
+      "characters": 0.5138726187046757,
+      "pace": -0.4642937048534401,
+      "imagination": -0.08083672160782591,
+      "realism": 0.20863343620803465,
+      "ambiguity": 0.11351558948811787,
+      "culture": 0.3337943979205256
+    },
+    "complexity": {
+      "curiosity": 0.24259699023843595,
+      "reflection": 0.16283635785134687,
+      "complexity": 1.0000000000000002,
+      "emotionality": 0.015318589501901772,
+      "characters": 0.1013944128968987,
+      "pace": -0.041621968818490035,
+      "imagination": 0.36834699523782993,
+      "realism": -0.14615512209529413,
+      "ambiguity": 0.2950079684464057,
+      "culture": 0.17531811451759577
+    },
+    "emotionality": {
+      "curiosity": -0.43043179694643274,
+      "reflection": 0.25148602817304094,
+      "complexity": 0.015318589501901772,
+      "emotionality": 0.9999999999999999,
+      "characters": 0.4997721358200796,
+      "pace": -0.4239885328130577,
+      "imagination": -0.47743658192591687,
+      "realism": 0.46835898097108675,
+      "ambiguity": -0.00944866502323991,
+      "culture": 0.4730759716696244
+    },
+    "characters": {
+      "curiosity": -0.38163293479887933,
+      "reflection": 0.5138726187046757,
+      "complexity": 0.1013944128968987,
+      "emotionality": 0.4997721358200796,
+      "characters": 1.0000000000000002,
+      "pace": -0.22358811731252187,
+      "imagination": -0.18710086767569342,
+      "realism": 0.4232434072401017,
+      "ambiguity": 0.037717242835374885,
+      "culture": 0.62005192618553
+    },
+    "pace": {
+      "curiosity": 0.34901638695677584,
+      "reflection": -0.4642937048534401,
+      "complexity": -0.041621968818490035,
+      "emotionality": -0.4239885328130577,
+      "characters": -0.22358811731252187,
+      "pace": 1.0000000000000002,
+      "imagination": 0.36134045920281177,
+      "realism": -0.31932720654654184,
+      "ambiguity": -0.025994633268624674,
+      "culture": -0.23226434072666802
+    },
+    "imagination": {
+      "curiosity": 0.7205356704002565,
+      "reflection": -0.08083672160782591,
+      "complexity": 0.36834699523782993,
+      "emotionality": -0.47743658192591687,
+      "characters": -0.18710086767569342,
+      "pace": 0.36134045920281177,
+      "imagination": 1.0000000000000002,
+      "realism": -0.6616440429730485,
+      "ambiguity": 0.18106992431440913,
+      "culture": -0.2654154789433976
+    },
+    "realism": {
+      "curiosity": -0.5423798802222282,
+      "reflection": 0.20863343620803465,
+      "complexity": -0.14615512209529413,
+      "emotionality": 0.46835898097108675,
+      "characters": 0.4232434072401017,
+      "pace": -0.31932720654654184,
+      "imagination": -0.6616440429730485,
+      "realism": 1.0,
+      "ambiguity": 0.022822972900035036,
+      "culture": 0.4448661073189225
+    },
+    "ambiguity": {
+      "curiosity": 0.15055541028942385,
+      "reflection": 0.11351558948811787,
+      "complexity": 0.2950079684464057,
+      "emotionality": -0.00944866502323991,
+      "characters": 0.037717242835374885,
+      "pace": -0.025994633268624674,
+      "imagination": 0.18106992431440913,
+      "realism": 0.022822972900035036,
+      "ambiguity": 1.0000000000000002,
+      "culture": 0.06830518118113792
+    },
+    "culture": {
+      "curiosity": -0.41426713647517266,
+      "reflection": 0.3337943979205256,
+      "complexity": 0.17531811451759577,
+      "emotionality": 0.4730759716696244,
+      "characters": 0.62005192618553,
+      "pace": -0.23226434072666802,
+      "imagination": -0.2654154789433976,
+      "realism": 0.4448661073189225,
+      "ambiguity": 0.06830518118113792,
+      "culture": 1.0
+    }
+  },
+  "spearman_matrix": {
+    "curiosity": {
+      "curiosity": 1.0000000000000002,
+      "reflection": -0.1958170390049921,
+      "complexity": 0.22253918510431048,
+      "emotionality": -0.4181240071268472,
+      "characters": -0.3845660834726158,
+      "pace": 0.3257565765876735,
+      "imagination": 0.7068120334528685,
+      "realism": -0.5405360652226869,
+      "ambiguity": 0.14224706944004253,
+      "culture": -0.4162384929770503
+    },
+    "reflection": {
+      "curiosity": -0.1958170390049921,
+      "reflection": 0.9999999999999999,
+      "complexity": 0.17780211333366636,
+      "emotionality": 0.25068978316709206,
+      "characters": 0.5078021778219243,
+      "pace": -0.4641539901456615,
+      "imagination": -0.07682290001717167,
+      "realism": 0.19861573499224952,
+      "ambiguity": 0.1265431912608587,
+      "culture": 0.32373390639436556
+    },
+    "complexity": {
+      "curiosity": 0.22253918510431048,
+      "reflection": 0.17780211333366636,
+      "complexity": 1.0,
+      "emotionality": 0.029472375287895012,
+      "characters": 0.11904607572500314,
+      "pace": -0.03953615681050158,
+      "imagination": 0.3430651745114875,
+      "realism": -0.11359037176429268,
+      "ambiguity": 0.2887806426487611,
+      "culture": 0.16767236848706848
+    },
+    "emotionality": {
+      "curiosity": -0.4181240071268472,
+      "reflection": 0.25068978316709206,
+      "complexity": 0.029472375287895012,
+      "emotionality": 0.9999999999999999,
+      "characters": 0.4971329685679553,
+      "pace": -0.4240285723329487,
+      "imagination": -0.4700506890019948,
+      "realism": 0.4579667388892667,
+      "ambiguity": 0.018280233106937962,
+      "culture": 0.46412756088604473
+    },
+    "characters": {
+      "curiosity": -0.3845660834726158,
+      "reflection": 0.5078021778219243,
+      "complexity": 0.11904607572500314,
+      "emotionality": 0.4971329685679553,
+      "characters": 1.0000000000000002,
+      "pace": -0.2314630412453732,
+      "imagination": -0.20223499503682035,
+      "realism": 0.43354063980826363,
+      "ambiguity": 0.04309835749031592,
+      "culture": 0.6145010955870632
+    },
+    "pace": {
+      "curiosity": 0.3257565765876735,
+      "reflection": -0.4641539901456615,
+      "complexity": -0.03953615681050158,
+      "emotionality": -0.4240285723329487,
+      "characters": -0.2314630412453732,
+      "pace": 1.0,
+      "imagination": 0.3368076275131431,
+      "realism": -0.31064547176727003,
+      "ambiguity": -0.03443671205520633,
+      "culture": -0.229395116560672
+    },
+    "imagination": {
+      "curiosity": 0.7068120334528685,
+      "reflection": -0.07682290001717167,
+      "complexity": 0.3430651745114875,
+      "emotionality": -0.4700506890019948,
+      "characters": -0.20223499503682035,
+      "pace": 0.3368076275131431,
+      "imagination": 1.0000000000000002,
+      "realism": -0.6402613552588756,
+      "ambiguity": 0.16901024072486953,
+      "culture": -0.2773881519231321
+    },
+    "realism": {
+      "curiosity": -0.5405360652226869,
+      "reflection": 0.19861573499224952,
+      "complexity": -0.11359037176429268,
+      "emotionality": 0.4579667388892667,
+      "characters": 0.43354063980826363,
+      "pace": -0.31064547176727003,
+      "imagination": -0.6402613552588756,
+      "realism": 1.0000000000000002,
+      "ambiguity": 0.044056372199149006,
+      "culture": 0.44999883029419807
+    },
+    "ambiguity": {
+      "curiosity": 0.14224706944004253,
+      "reflection": 0.1265431912608587,
+      "complexity": 0.2887806426487611,
+      "emotionality": 0.018280233106937962,
+      "characters": 0.04309835749031592,
+      "pace": -0.03443671205520633,
+      "imagination": 0.16901024072486953,
+      "realism": 0.044056372199149006,
+      "ambiguity": 1.0000000000000002,
+      "culture": 0.06976315511296524
+    },
+    "culture": {
+      "curiosity": -0.4162384929770503,
+      "reflection": 0.32373390639436556,
+      "complexity": 0.16767236848706848,
+      "emotionality": 0.46412756088604473,
+      "characters": 0.6145010955870632,
+      "pace": -0.229395116560672,
+      "imagination": -0.2773881519231321,
+      "realism": 0.44999883029419807,
+      "ambiguity": 0.06976315511296524,
+      "culture": 1.0000000000000002
+    }
+  },
+  "pairs_sorted_by_absolute_correlation": [
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "imagination",
+      "pearson": 0.7205356704002565,
+      "spearman": 0.7068120334528685,
+      "abs_pearson": 0.7205356704002565,
+      "abs_spearman": 0.7068120334528685,
+      "label_pearson": "strong",
+      "label_spearman": "strong"
+    },
+    {
+      "dimension_a": "imagination",
+      "dimension_b": "realism",
+      "pearson": -0.6616440429730485,
+      "spearman": -0.6402613552588756,
+      "abs_pearson": 0.6616440429730485,
+      "abs_spearman": 0.6402613552588756,
+      "label_pearson": "strong",
+      "label_spearman": "strong"
+    },
+    {
+      "dimension_a": "characters",
+      "dimension_b": "culture",
+      "pearson": 0.62005192618553,
+      "spearman": 0.6145010955870632,
+      "abs_pearson": 0.62005192618553,
+      "abs_spearman": 0.6145010955870632,
+      "label_pearson": "strong",
+      "label_spearman": "strong"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "realism",
+      "pearson": -0.5423798802222282,
+      "spearman": -0.5405360652226869,
+      "abs_pearson": 0.5423798802222282,
+      "abs_spearman": 0.5405360652226869,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "characters",
+      "pearson": 0.5138726187046757,
+      "spearman": 0.5078021778219243,
+      "abs_pearson": 0.5138726187046757,
+      "abs_spearman": 0.5078021778219243,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "emotionality",
+      "dimension_b": "characters",
+      "pearson": 0.4997721358200796,
+      "spearman": 0.4971329685679553,
+      "abs_pearson": 0.4997721358200796,
+      "abs_spearman": 0.4971329685679553,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "emotionality",
+      "dimension_b": "imagination",
+      "pearson": -0.47743658192591687,
+      "spearman": -0.4700506890019948,
+      "abs_pearson": 0.47743658192591687,
+      "abs_spearman": 0.4700506890019948,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "emotionality",
+      "dimension_b": "culture",
+      "pearson": 0.4730759716696244,
+      "spearman": 0.46412756088604473,
+      "abs_pearson": 0.4730759716696244,
+      "abs_spearman": 0.46412756088604473,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "emotionality",
+      "dimension_b": "realism",
+      "pearson": 0.46835898097108675,
+      "spearman": 0.4579667388892667,
+      "abs_pearson": 0.46835898097108675,
+      "abs_spearman": 0.4579667388892667,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "pace",
+      "pearson": -0.4642937048534401,
+      "spearman": -0.4641539901456615,
+      "abs_pearson": 0.4642937048534401,
+      "abs_spearman": 0.4641539901456615,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "realism",
+      "dimension_b": "culture",
+      "pearson": 0.4448661073189225,
+      "spearman": 0.44999883029419807,
+      "abs_pearson": 0.4448661073189225,
+      "abs_spearman": 0.44999883029419807,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "characters",
+      "dimension_b": "realism",
+      "pearson": 0.4232434072401017,
+      "spearman": 0.43354063980826363,
+      "abs_pearson": 0.4232434072401017,
+      "abs_spearman": 0.43354063980826363,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "emotionality",
+      "pearson": -0.43043179694643274,
+      "spearman": -0.4181240071268472,
+      "abs_pearson": 0.43043179694643274,
+      "abs_spearman": 0.4181240071268472,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "emotionality",
+      "dimension_b": "pace",
+      "pearson": -0.4239885328130577,
+      "spearman": -0.4240285723329487,
+      "abs_pearson": 0.4239885328130577,
+      "abs_spearman": 0.4240285723329487,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "culture",
+      "pearson": -0.41426713647517266,
+      "spearman": -0.4162384929770503,
+      "abs_pearson": 0.41426713647517266,
+      "abs_spearman": 0.4162384929770503,
+      "label_pearson": "moderate",
+      "label_spearman": "moderate"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "characters",
+      "pearson": -0.38163293479887933,
+      "spearman": -0.3845660834726158,
+      "abs_pearson": 0.38163293479887933,
+      "abs_spearman": 0.3845660834726158,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "complexity",
+      "dimension_b": "imagination",
+      "pearson": 0.36834699523782993,
+      "spearman": 0.3430651745114875,
+      "abs_pearson": 0.36834699523782993,
+      "abs_spearman": 0.3430651745114875,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "pace",
+      "dimension_b": "imagination",
+      "pearson": 0.36134045920281177,
+      "spearman": 0.3368076275131431,
+      "abs_pearson": 0.36134045920281177,
+      "abs_spearman": 0.3368076275131431,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "pace",
+      "pearson": 0.34901638695677584,
+      "spearman": 0.3257565765876735,
+      "abs_pearson": 0.34901638695677584,
+      "abs_spearman": 0.3257565765876735,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "culture",
+      "pearson": 0.3337943979205256,
+      "spearman": 0.32373390639436556,
+      "abs_pearson": 0.3337943979205256,
+      "abs_spearman": 0.32373390639436556,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "pace",
+      "dimension_b": "realism",
+      "pearson": -0.31932720654654184,
+      "spearman": -0.31064547176727003,
+      "abs_pearson": 0.31932720654654184,
+      "abs_spearman": 0.31064547176727003,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "complexity",
+      "dimension_b": "ambiguity",
+      "pearson": 0.2950079684464057,
+      "spearman": 0.2887806426487611,
+      "abs_pearson": 0.2950079684464057,
+      "abs_spearman": 0.2887806426487611,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "imagination",
+      "dimension_b": "culture",
+      "pearson": -0.2654154789433976,
+      "spearman": -0.2773881519231321,
+      "abs_pearson": 0.2654154789433976,
+      "abs_spearman": 0.2773881519231321,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "emotionality",
+      "pearson": 0.25148602817304094,
+      "spearman": 0.25068978316709206,
+      "abs_pearson": 0.25148602817304094,
+      "abs_spearman": 0.25068978316709206,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "complexity",
+      "pearson": 0.24259699023843595,
+      "spearman": 0.22253918510431048,
+      "abs_pearson": 0.24259699023843595,
+      "abs_spearman": 0.22253918510431048,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "pace",
+      "dimension_b": "culture",
+      "pearson": -0.23226434072666802,
+      "spearman": -0.229395116560672,
+      "abs_pearson": 0.23226434072666802,
+      "abs_spearman": 0.229395116560672,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "characters",
+      "dimension_b": "pace",
+      "pearson": -0.22358811731252187,
+      "spearman": -0.2314630412453732,
+      "abs_pearson": 0.22358811731252187,
+      "abs_spearman": 0.2314630412453732,
+      "label_pearson": "weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "realism",
+      "pearson": 0.20863343620803465,
+      "spearman": 0.19861573499224952,
+      "abs_pearson": 0.20863343620803465,
+      "abs_spearman": 0.19861573499224952,
+      "label_pearson": "weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "reflection",
+      "pearson": -0.20791682552005192,
+      "spearman": -0.1958170390049921,
+      "abs_pearson": 0.20791682552005192,
+      "abs_spearman": 0.1958170390049921,
+      "label_pearson": "weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "characters",
+      "dimension_b": "imagination",
+      "pearson": -0.18710086767569342,
+      "spearman": -0.20223499503682035,
+      "abs_pearson": 0.18710086767569342,
+      "abs_spearman": 0.20223499503682035,
+      "label_pearson": "very weak",
+      "label_spearman": "weak"
+    },
+    {
+      "dimension_a": "imagination",
+      "dimension_b": "ambiguity",
+      "pearson": 0.18106992431440913,
+      "spearman": 0.16901024072486953,
+      "abs_pearson": 0.18106992431440913,
+      "abs_spearman": 0.16901024072486953,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "complexity",
+      "pearson": 0.16283635785134687,
+      "spearman": 0.17780211333366636,
+      "abs_pearson": 0.16283635785134687,
+      "abs_spearman": 0.17780211333366636,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "complexity",
+      "dimension_b": "culture",
+      "pearson": 0.17531811451759577,
+      "spearman": 0.16767236848706848,
+      "abs_pearson": 0.17531811451759577,
+      "abs_spearman": 0.16767236848706848,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "curiosity",
+      "dimension_b": "ambiguity",
+      "pearson": 0.15055541028942385,
+      "spearman": 0.14224706944004253,
+      "abs_pearson": 0.15055541028942385,
+      "abs_spearman": 0.14224706944004253,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "complexity",
+      "dimension_b": "realism",
+      "pearson": -0.14615512209529413,
+      "spearman": -0.11359037176429268,
+      "abs_pearson": 0.14615512209529413,
+      "abs_spearman": 0.11359037176429268,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "ambiguity",
+      "pearson": 0.11351558948811787,
+      "spearman": 0.1265431912608587,
+      "abs_pearson": 0.11351558948811787,
+      "abs_spearman": 0.1265431912608587,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "complexity",
+      "dimension_b": "characters",
+      "pearson": 0.1013944128968987,
+      "spearman": 0.11904607572500314,
+      "abs_pearson": 0.1013944128968987,
+      "abs_spearman": 0.11904607572500314,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "reflection",
+      "dimension_b": "imagination",
+      "pearson": -0.08083672160782591,
+      "spearman": -0.07682290001717167,
+      "abs_pearson": 0.08083672160782591,
+      "abs_spearman": 0.07682290001717167,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "ambiguity",
+      "dimension_b": "culture",
+      "pearson": 0.06830518118113792,
+      "spearman": 0.06976315511296524,
+      "abs_pearson": 0.06830518118113792,
+      "abs_spearman": 0.06976315511296524,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "realism",
+      "dimension_b": "ambiguity",
+      "pearson": 0.022822972900035036,
+      "spearman": 0.044056372199149006,
+      "abs_pearson": 0.022822972900035036,
+      "abs_spearman": 0.044056372199149006,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "characters",
+      "dimension_b": "ambiguity",
+      "pearson": 0.037717242835374885,
+      "spearman": 0.04309835749031592,
+      "abs_pearson": 0.037717242835374885,
+      "abs_spearman": 0.04309835749031592,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "complexity",
+      "dimension_b": "pace",
+      "pearson": -0.041621968818490035,
+      "spearman": -0.03953615681050158,
+      "abs_pearson": 0.041621968818490035,
+      "abs_spearman": 0.03953615681050158,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "pace",
+      "dimension_b": "ambiguity",
+      "pearson": -0.025994633268624674,
+      "spearman": -0.03443671205520633,
+      "abs_pearson": 0.025994633268624674,
+      "abs_spearman": 0.03443671205520633,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "complexity",
+      "dimension_b": "emotionality",
+      "pearson": 0.015318589501901772,
+      "spearman": 0.029472375287895012,
+      "abs_pearson": 0.015318589501901772,
+      "abs_spearman": 0.029472375287895012,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    },
+    {
+      "dimension_a": "emotionality",
+      "dimension_b": "ambiguity",
+      "pearson": -0.00944866502323991,
+      "spearman": 0.018280233106937962,
+      "abs_pearson": 0.00944866502323991,
+      "abs_spearman": 0.018280233106937962,
+      "label_pearson": "very weak",
+      "label_spearman": "very weak"
+    }
+  ]
+}

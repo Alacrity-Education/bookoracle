@@ -1,0 +1,546 @@
+{
+    "version": "1.0",
+    "description": "LIRA golden set v1 for validating semantic book-profile axes.",
+    "axes": {
+        "curiosity": {
+            "high": [
+                [
+                    "20.000 de leghe sub mări",
+                    "Jules Verne"
+                ],
+                [
+                    "Călătoriile lui Gulliver",
+                    "Jonathan Swift"
+                ],
+                [
+                    "Hobbitul",
+                    "J. R. R. Tolkien"
+                ],
+                [
+                    "Problema celor trei corpuri",
+                    "Liu Cixin"
+                ],
+                [
+                    "Codul lui Da Vinci",
+                    "Dan Brown"
+                ],
+                [
+                    "Robinson Crusoe",
+                    "Daniel Defoe"
+                ]
+            ],
+            "low": [
+                [
+                    "Rămășițele zilei",
+                    "Kazuo Ishiguro"
+                ],
+                [
+                    "Bătrânul și marea",
+                    "Ernest Hemingway"
+                ],
+                [
+                    "Lucruri mărunte ca acestea",
+                    "Claire Keegan"
+                ],
+                [
+                    "Pânza de păianjen",
+                    "Cella Serghi"
+                ],
+                [
+                    "Drumul egal al fiecărei zile",
+                    "Gabriela Adameșteanu"
+                ],
+                [
+                    "Frunze de dor",
+                    "Ion Druță"
+                ]
+            ]
+        },
+        "reflection": {
+            "high": [
+                [
+                    "Crimă și pedeapsă",
+                    "Fyodor Dostoevsky"
+                ],
+                [
+                    "Insuportabila ușurătate a ființei",
+                    "Milan Kundera"
+                ],
+                [
+                    "Tunelul",
+                    "Ernesto Sabato"
+                ],
+                [
+                    "Noaptea de Sânziene",
+                    "Mircea Eliade"
+                ],
+                [
+                    "De două mii de ani",
+                    "Mihail Sebastian"
+                ],
+                [
+                    "Un veac de singurătate",
+                    "Gabriel García Márquez"
+                ]
+            ],
+            "low": [
+                [
+                    "Insula comorii",
+                    "Robert Louis Stevenson"
+                ],
+                [
+                    "Cireșarii",
+                    "Constantin Chiriță"
+                ],
+                [
+                    "Robinson Crusoe",
+                    "Daniel Defoe"
+                ],
+                [
+                    "Codul lui Da Vinci",
+                    "Dan Brown"
+                ],
+                [
+                    "Coma",
+                    "Robin Cook"
+                ],
+                [
+                    "Capcana (Killing Floor)",
+                    "Lee Child"
+                ]
+            ]
+        },
+        "complexity": {
+            "high": [
+                [
+                    "Pendulul lui Foucault",
+                    "Umberto Eco"
+                ],
+                [
+                    "Detectivii sălbatici",
+                    "Roberto Bolaño"
+                ],
+                [
+                    "Atlasul norilor",
+                    "David Mitchell"
+                ],
+                [
+                    "Insuportabila ușurătate a ființei",
+                    "Milan Kundera"
+                ],
+                [
+                    "Muzeul inocenței",
+                    "Orhan Pamuk"
+                ],
+                [
+                    "Conversație la Catedrală",
+                    "Mario Vargas Llosa"
+                ]
+            ],
+            "low": [
+                [
+                    "Fram, ursul polar",
+                    "Cezar Petrescu"
+                ],
+                [
+                    "Cireșarii",
+                    "Constantin Chiriță"
+                ],
+                [
+                    "Coma",
+                    "Robin Cook"
+                ],
+                [
+                    "Capcana (Killing Floor)",
+                    "Lee Child"
+                ],
+                [
+                    "Motanul care voia să salveze cărțile",
+                    "Sōsuke Natsukawa"
+                ],
+                [
+                    "Vrăjitorul din Oz",
+                    "L. Frank Baum"
+                ]
+            ]
+        },
+        "emotionality": {
+            "high": [
+                [
+                    "Ucenicul asasinului",
+                    "Robin Hobb"
+                ],
+                [
+                    "Ispășire",
+                    "Ian McEwan"
+                ],
+                [
+                    "Șoareci și oameni",
+                    "John Steinbeck"
+                ],
+                [
+                    "Toată lumina pe care nu o putem vedea",
+                    "Anthony Doerr"
+                ],
+                [
+                    "Mândrie și prejudecată",
+                    "Jane Austen"
+                ],
+                [
+                    "Povestea slujitoarei",
+                    "Margaret Atwood"
+                ]
+            ],
+            "low": [
+                [
+                    "Marțianul",
+                    "Andy Weir"
+                ],
+                [
+                    "20.000 de leghe sub mări",
+                    "Jules Verne"
+                ],
+                [
+                    "Fundația",
+                    "Isaac Asimov"
+                ],
+                [
+                    "Problema celor trei corpuri",
+                    "Liu Cixin"
+                ],
+                [
+                    "Pendulul lui Foucault",
+                    "Umberto Eco"
+                ],
+                [
+                    "Codul lui Da Vinci",
+                    "Dan Brown"
+                ]
+            ] 
+        },
+        "characters": {
+            "high": [
+                [
+                    "Anna Karenina",
+                    "Lev Tolstoi"
+                ],
+                [
+                    "Mândrie și prejudecată",
+                    "Jane Austen"
+                ],
+                [
+                    "Crimă și pedeapsă",
+                    "Fyodor Dostoevsky"
+                ],
+                [
+                    "Ispășire",
+                    "Ian McEwan"
+                ],
+                [
+                    "Rămășițele zilei",
+                    "Kazuo Ishiguro"
+                ],
+                [
+                    "Muzeul inocenței",
+                    "Orhan Pamuk"
+                ]
+            ],
+            "low": [
+                [
+                    "20.000 de leghe sub mări",
+                    "Jules Verne"
+                ],
+                [
+                    "Fundația",
+                    "Isaac Asimov"
+                ],
+                [
+                    "Coma",
+                    "Robin Cook"
+                ],
+                [
+                    "Marțianul",
+                    "Andy Weir"
+                ],
+                [
+                    "Cireșarii",
+                    "Constantin Chiriță"
+                ],
+                [
+                    "Vrăjitorul din Oz",
+                    "L. Frank Baum"
+                ]
+            ]
+        },
+        "pace": {
+            "high": [
+                [
+                    "Capcana (Killing Floor)",
+                    "Lee Child"
+                ],
+                [
+                    "Coma",
+                    "Robin Cook"
+                ],
+                [
+                    "Codul lui Da Vinci",
+                    "Dan Brown"
+                ],
+                [
+                    "Născuți din ceață",
+                    "Brandon Sanderson"
+                ],
+                [
+                    "The Fifth Season",
+                    "N. K. Jemisin"
+                ],
+                [
+                    "Insula comorii",
+                    "Robert Louis Stevenson"
+                ]
+            ],
+            "low": [
+                [
+                    "Rămășițele zilei",
+                    "Kazuo Ishiguro"
+                ],
+                [
+                    "Bătrânul și marea",
+                    "Ernest Hemingway"
+                ],
+                [
+                    "Anna Karenina",
+                    "Lev Tolstoi"
+                ],
+                [
+                    "Pendulul lui Foucault",
+                    "Umberto Eco"
+                ],
+                [
+                    "Drumul egal al fiecărei zile",
+                    "Gabriela Adameșteanu"
+                ],
+                [
+                    "Povara bunătății noastre",
+                    "Ion Druță"
+                ]
+            ]
+        },
+        "imagination": {
+            "high": [
+                [
+                    "Hobbitul",
+                    "J. R. R. Tolkien"
+                ],
+                [
+                    "Vrăjitorul din Oz",
+                    "L. Frank Baum"
+                ],
+                [
+                    "Un veac de singurătate",
+                    "Gabriel García Márquez"
+                ],
+                [
+                    "Problema celor trei corpuri",
+                    "Liu Cixin"
+                ],
+                [
+                    "Născuți din ceață",
+                    "Brandon Sanderson"
+                ],
+                [
+                    "Cronicile marțiene",
+                    "Ray Bradbury"
+                ]
+            ],
+            "low": [
+                [
+                    "Rămășițele zilei",
+                    "Kazuo Ishiguro"
+                ],
+                [
+                    "Anna Karenina",
+                    "Lev Tolstoi"
+                ],
+                [
+                    "Mândrie și prejudecată",
+                    "Jane Austen"
+                ],
+                [
+                    "Bătrânul și marea",
+                    "Ernest Hemingway"
+                ],
+                [
+                    "Șoareci și oameni",
+                    "John Steinbeck"
+                ],
+                [
+                    "Drumul egal al fiecărei zile",
+                    "Gabriela Adameșteanu"
+                ]
+            ]
+        },
+        "realism": {
+            "high": [
+                [
+                    "Anna Karenina",
+                    "Lev Tolstoi"
+                ],
+                [
+                    "Mândrie și prejudecată",
+                    "Jane Austen"
+                ],
+                [
+                    "Rămășițele zilei",
+                    "Kazuo Ishiguro"
+                ],
+                [
+                    "Șoareci și oameni",
+                    "John Steinbeck"
+                ],
+                [
+                    "Pânza de păianjen",
+                    "Cella Serghi"
+                ],
+                [
+                    "Drumul egal al fiecărei zile",
+                    "Gabriela Adameșteanu"
+                ]
+            ],
+            "low": [
+                [
+                    "Hobbitul",
+                    "J. R. R. Tolkien"
+                ],
+                [
+                    "Vrăjitorul din Oz",
+                    "L. Frank Baum"
+                ],
+                [
+                    "Născuți din ceață",
+                    "Brandon Sanderson"
+                ],
+                [
+                    "Problema celor trei corpuri",
+                    "Liu Cixin"
+                ],
+                [
+                    "Cronicile marțiene",
+                    "Ray Bradbury"
+                ],
+                [
+                    "Un veac de singurătate",
+                    "Gabriel García Márquez"
+                ]
+            ]
+        },
+        "ambiguity": {
+            "high": [
+                [
+                    "Tunelul",
+                    "Ernesto Sabato"
+                ],
+                [
+                    "Rămășițele zilei",
+                    "Kazuo Ishiguro"
+                ],
+                [
+                    "Dicționarul khazar",
+                    "Milorad Pavić"
+                ],
+                [
+                    "Insuportabila ușurătate a ființei",
+                    "Milan Kundera"
+                ],
+                [
+                    "Pendulul lui Foucault",
+                    "Umberto Eco"
+                ],
+                [
+                    "Noaptea de Sânziene",
+                    "Mircea Eliade"
+                ]
+            ],
+            "low": [
+                [
+                    "Codul lui Da Vinci",
+                    "Dan Brown"
+                ],
+                [
+                    "Ultimul mohican",
+                    "James Fenimore Cooper"
+                ],
+                [
+                    "Insula comorii",
+                    "Robert Louis Stevenson"
+                ],
+                [
+                    "Cireșarii",
+                    "Constantin Chiriță"
+                ],
+                [
+                    "Marțianul",
+                    "Andy Weir"
+                ],
+                [
+                    "David Copperfield",
+                    "Charles Dickens"
+                ]
+            ]
+        },
+        "culture": {
+            "high": [
+                [
+                    "Un veac de singurătate",
+                    "Gabriel García Márquez"
+                ],
+                [
+                    "De două mii de ani",
+                    "Mihail Sebastian"
+                ],
+                [
+                    "Noaptea de Sânziene",
+                    "Mircea Eliade"
+                ],
+                [
+                    "Muzeul inocenței",
+                    "Orhan Pamuk"
+                ],
+                [
+                    "Anna Karenina",
+                    "Lev Tolstoi"
+                ],
+                [
+                    "Pânza de păianjen",
+                    "Cella Serghi"
+                ]
+            ],
+            "low": [
+                [
+                    "Marțianul",
+                    "Andy Weir"
+                ],
+                [
+                    "20.000 de leghe sub mări",
+                    "Jules Verne"
+                ],
+                [
+                    "Coma",
+                    "Robin Cook"
+                ],
+                [
+                    "Codul lui Da Vinci",
+                    "Dan Brown"
+                ],
+                [
+                    "Insula comorii",
+                    "Robert Louis Stevenson"
+                ],
+                [
+                    "Vrăjitorul din Oz",
+                    "L. Frank Baum"
+                ]
+            ]
+        }
+    }
+}

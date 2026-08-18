@@ -1,0 +1,101 @@
+axis,id,title,author,base_rank,large_rank,rank_change,absolute_rank_change
+curiosity,avocatul-din-limuzină-the-lincoln-lawyer-michael-connelly,Avocatul din limuzină (The Lincoln Lawyer),Michael Connelly,20.0,385.0,365.0,365.0
+curiosity,femeia-cu-fustă-violet-natsuko-imamura,Femeia cu fustă violet,Natsuko Imamura,374.0,68.0,-306.0,306.0
+curiosity,leagănul-respirației-herta-müller,Leagănul respirației,Herta Müller,405.0,107.0,-298.0,298.0
+curiosity,omul-din-castelul-înalt-philip-k-dick,Omul din castelul înalt,Philip K. Dick,69.0,367.0,298.0,298.0
+curiosity,strange-weather-in-tokyo-hiromi-kawakami,Strange Weather in Tokyo,Hiromi Kawakami,33.0,309.0,276.0,276.0
+curiosity,tapetul-galben-charlotte-perkins-gilman,Tapetul galben,Charlotte Perkins Gilman,318.0,53.0,-265.0,265.0
+curiosity,pasărea-cu-piept-roșu-jo-nesbø,Pasărea cu piept roșu,Jo Nesbø,395.0,136.0,-259.0,259.0
+curiosity,rușine-salman-rushdie,Rușine,Salman Rushdie,347.0,89.0,-258.0,258.0
+curiosity,codul-lui-da-vinci-dan-brown,Codul lui Da Vinci,Dan Brown,117.0,374.0,257.0,257.0
+curiosity,poliția-memoriei-yōko-ogawa,Poliția memoriei,Yōko Ogawa,300.0,44.0,-256.0,256.0
+reflection,insula-comorii-robert-louis-stevenson,Insula comorii,Robert Louis Stevenson,385.0,28.0,-357.0,357.0
+reflection,biblioteca-de-la-miezul-nopții-matt-haig,Biblioteca de la miezul nopții,Matt Haig,55.0,401.5,346.5,346.5
+reflection,spune-mi-că-nu-i-adevărat-tell-no-one-harlan-coben,Spune-mi că nu-i adevărat (Tell No One),Harlan Coben,388.0,48.0,-340.0,340.0
+reflection,împăratul-muștelor-william-golding,Împăratul muștelor,William Golding,348.0,24.0,-324.0,324.0
+reflection,detectivii-sălbatici-roberto-bolaño,Detectivii sălbatici,Roberto Bolaño,381.0,60.0,-321.0,321.0
+reflection,noaptea-de-sânziene-mircea-eliade,Noaptea de Sânziene,Mircea Eliade,68.0,376.0,308.0,308.0
+reflection,un-veac-de-singurătate-gabriel-garcía-márquez,Un veac de singurătate,Gabriel García Márquez,47.0,351.0,304.0,304.0
+reflection,muzeul-secretelor-abandonate-oksana-zabujko,Muzeul secretelor abandonate,Oksana Zabujko,83.0,377.0,294.0,294.0
+reflection,fructele-mâniei-john-steinbeck,Fructele mâniei,John Steinbeck,384.0,94.0,-290.0,290.0
+reflection,robinson-crusoe-daniel-defoe,Robinson Crusoe,Daniel Defoe,343.0,56.0,-287.0,287.0
+complexity,acasă-pe-câmpia-armaghedonului-marta-petreu,"Acasă, pe Câmpia Armaghedonului",Marta Petreu,45.0,405.0,360.0,360.0
+complexity,fram-ursul-polar-cezar-petrescu,"Fram, ursul polar",Cezar Petrescu,392.0,44.0,-348.0,348.0
+complexity,peștele-are-picioare-jón-kalman-stefánsson,Peștele are picioare,Jón Kalman Stefánsson,59.0,406.0,347.0,347.0
+complexity,ultimul-mohican-james-fenimore-cooper,Ultimul mohican,James Fenimore Cooper,357.0,12.0,-345.0,345.0
+complexity,muzeul-inocenței-orhan-pamuk,Muzeul inocenței,Orhan Pamuk,375.0,32.0,-343.0,343.0
+complexity,eleganța-ariciului-muriel-barbery,Eleganța ariciului,Muriel Barbery,60.0,379.0,319.0,319.0
+complexity,sinuciderea-fecioarelor-jeffrey-eugenides,Sinuciderea fecioarelor,Jeffrey Eugenides,360.5,45.0,-315.5,315.5
+complexity,omul-din-castelul-înalt-philip-k-dick,Omul din castelul înalt,Philip K. Dick,101.0,416.0,315.0,315.0
+complexity,ploile-amare-alexandru-vlad,Ploile amare,Alexandru Vlad,417.0,103.0,-314.0,314.0
+complexity,m-ai-păcălit-o-dată-fool-me-once-harlan-coben,M-ai păcălit o dată (Fool Me Once),Harlan Coben,97.0,410.0,313.0,313.0
+emotionality,ucenicul-asasinului-robin-hobb,Ucenicul asasinului,Robin Hobb,420.0,8.0,-412.0,412.0
+emotionality,cântecul-profetului-paul-lynch,Cântecul profetului,Paul Lynch,6.0,334.0,328.0,328.0
+emotionality,un-lung-drum-spre-o-planetă-mică-și-furioasă-becky-chambers,Un lung drum spre o planetă mică și furioasă,Becky Chambers,362.0,43.0,-319.0,319.0
+emotionality,povestea-slujitoarei-margaret-atwood,Povestea slujitoarei,Margaret Atwood,4.0,321.0,317.0,317.0
+emotionality,patria-fernando-aramburu,Patria,Fernando Aramburu,51.0,363.0,312.0,312.0
+emotionality,temporada-uraganelor-fernanda-melchor,Temporada uraganelor,Fernanda Melchor,90.0,395.0,305.0,305.0
+emotionality,daniel-stein-traducător-ludmila-ulițkaia,"Daniel Stein, traducător",Ludmila Ulițkaia,73.0,370.0,297.0,297.0
+emotionality,tigru-alb-aravind-adiga,Tigru alb,Aravind Adiga,328.0,38.0,-290.0,290.0
+emotionality,orașul-hoților-david-benioff,Orașul hoților,David Benioff,363.0,74.0,-289.0,289.0
+emotionality,capcana-killing-floor-lee-child,Capcana (Killing Floor),Lee Child,337.0,57.0,-280.0,280.0
+characters,memoriile-postume-ale-lui-brás-cubas-machado-de-assis,Memoriile postume ale lui Brás Cubas,Machado de Assis,401.0,36.0,-365.0,365.0
+characters,marțianul-andy-weir,Marțianul,Andy Weir,377.0,37.0,-340.0,340.0
+characters,my-year-of-rest-and-relaxation-anul-meu-de-odihnă-și-relaxare-ottessa-moshfegh,My Year of Rest and Relaxation (Anul meu de odihnă și relaxare),Ottessa Moshfegh,385.0,53.0,-332.0,332.0
+characters,conversație-la-catedrală-mario-vargas-llosa,Conversație la Catedrală,Mario Vargas Llosa,14.0,337.0,323.0,323.0
+characters,mândrie-și-prejudecată-jane-austen,Mândrie și prejudecată,Jane Austen,81.0,395.0,314.0,314.0
+characters,timp-de-ucis-john-grisham,Timp de ucis,John Grisham,12.0,299.0,287.0,287.0
+characters,motanul-care-voia-să-salveze-cărțile-sōsuke-natsukawa,Motanul care voia să salveze cărțile,Sōsuke Natsukawa,378.0,98.0,-280.0,280.0
+characters,mă-găsești-când-vrei-lavinia-braniște,Mă găsești când vrei,Lavinia Braniște,128.0,408.0,280.0,280.0
+characters,aproape-de-inima-vijelioasă-clarice-lispector,Aproape de inima vijelioasă,Clarice Lispector,115.0,389.0,274.0,274.0
+characters,în-spatele-ușilor-închise-b-a-paris,În spatele ușilor închise,B. A. Paris,16.0,289.0,273.0,273.0
+pace,povara-bunătății-noastre-ion-druță,Povara bunătății noastre,Ion Druță,409.0,27.0,-382.0,382.0
+pace,bătrânul-și-marea-ernest-hemingway,Bătrânul și marea,Ernest Hemingway,396.0,23.0,-373.0,373.0
+pace,bunica-mi-a-zis-să-ți-spun-că-îi-pare-rău-fredrik-backman,Bunica mi-a zis să-ți spun că îi pare rău,Fredrik Backman,373.0,6.0,-367.0,367.0
+pace,șoareci-și-oameni-john-steinbeck,Șoareci și oameni,John Steinbeck,378.0,17.0,-361.0,361.0
+pace,the-fifth-season-n-k-jemisin,The Fifth Season,N. K. Jemisin,47.0,405.0,358.0,358.0
+pace,exhalation-ted-chiang,Exhalation,Ted Chiang,7.0,351.0,344.0,344.0
+pace,capcana-killing-floor-lee-child,Capcana (Killing Floor),Lee Child,89.0,407.0,318.0,318.0
+pace,născuți-din-ceață-brandon-sanderson,Născuți din ceață,Brandon Sanderson,88.0,404.0,316.0,316.0
+pace,coma-robin-cook,Coma,Robin Cook,42.0,353.0,311.0,311.0
+pace,anna-karenina-lev-tolstoi,Anna Karenina,Lev Tolstoi,379.0,69.0,-310.0,310.0
+imagination,născuți-din-ceață-brandon-sanderson,Născuți din ceață,Brandon Sanderson,92.0,402.0,310.0,310.0
+imagination,vegetariana-han-kang,Vegetariana,Han Kang,27.0,331.0,304.0,304.0
+imagination,strange-weather-in-tokyo-hiromi-kawakami,Strange Weather in Tokyo,Hiromi Kawakami,25.0,324.0,299.0,299.0
+imagination,maitreyi-mircea-eliade,Maitreyi,Mircea Eliade,79.0,374.0,295.0,295.0
+imagination,ucenicul-asasinului-robin-hobb,Ucenicul asasinului,Robin Hobb,346.0,52.0,-294.0,294.0
+imagination,kindred-octavia-e-butler,Kindred,Octavia E. Butler,13.0,279.0,266.0,266.0
+imagination,marile-speranțe-charles-dickens,Marile speranțe,Charles Dickens,386.0,123.0,-263.0,263.0
+imagination,adam-și-eva-liviu-rebreanu,Adam și Eva,Liviu Rebreanu,102.0,363.0,261.0,261.0
+imagination,toată-lumina-pe-care-nu-o-putem-vedea-anthony-doerr,Toată lumina pe care nu o putem vedea,Anthony Doerr,125.0,385.0,260.0,260.0
+imagination,pasărea-cu-piept-roșu-jo-nesbø,Pasărea cu piept roșu,Jo Nesbø,337.0,80.0,-257.0,257.0
+realism,marțianul-andy-weir,Marțianul,Andy Weir,338.0,15.0,-323.0,323.0
+realism,bel-canto-ann-patchett,Bel Canto,Ann Patchett,393.0,80.0,-313.0,313.0
+realism,ispășire-ian-mcewan,Ispășire,Ian McEwan,58.0,354.0,296.0,296.0
+realism,tunelul-ernesto-sabato,Tunelul,Ernesto Sabato,343.0,66.0,-277.0,277.0
+realism,elevul-dima-dintr-a-șaptea-mihail-drumeș,Elevul Dima dintr-a șaptea,Mihail Drumeș,107.0,376.0,269.0,269.0
+realism,gluma-milan-kundera,Gluma,Milan Kundera,41.0,308.0,267.0,267.0
+realism,insuportabila-ușurătate-a-ființei-milan-kundera,Insuportabila ușurătate a ființei,Milan Kundera,11.0,278.0,267.0,267.0
+realism,doamna-bovary-gustave-flaubert,Doamna Bovary,Gustave Flaubert,89.0,352.0,263.0,263.0
+realism,totul-se-destramă-chinua-achebe,Totul se destramă,Chinua Achebe,82.0,342.0,260.0,260.0
+realism,psalm-pentru-cei-construiți-în-sălbăticie-becky-chambers,Psalm pentru cei construiți în sălbăticie,Becky Chambers,281.0,27.0,-254.0,254.0
+ambiguity,gabriela-cuișoare-și-scorțișoară-jorge-amado,"Gabriela, cuișoare și scorțișoară",Jorge Amado,41.0,378.0,337.0,337.0
+ambiguity,îngeri-și-demoni-dan-brown,Îngeri și demoni,Dan Brown,403.0,67.0,-336.0,336.0
+ambiguity,dimineață-pierdută-gabriela-adameșteanu,Dimineață pierdută,Gabriela Adameșteanu,92.0,416.0,324.0,324.0
+ambiguity,it-stephen-king,It,Stephen King,401.0,78.0,-323.0,323.0
+ambiguity,alchimistul-paulo-coelho,Alchimistul,Paulo Coelho,62.0,384.5,322.5,322.5
+ambiguity,kim-jiyoung-născută-în-1982-cho-nam-joo,"Kim Jiyoung, născută în 1982",Cho Nam-joo,57.0,375.0,318.0,318.0
+ambiguity,cronicile-marțiene-ray-bradbury,Cronicile marțiene,Ray Bradbury,342.0,25.0,-317.0,317.0
+ambiguity,cântecul-păsării-de-plajă-tudor-ganea,Cântecul păsării de plajă,Tudor Ganea,51.0,366.0,315.0,315.0
+ambiguity,parfumul-patrick-süskind,Parfumul,Patrick Süskind,376.0,61.0,-315.0,315.0
+ambiguity,să-nu-lași-moartea-să-te-găsească-bogdan-răileanu,Să nu lași moartea să te găsească,Bogdan Răileanu,106.0,413.0,307.0,307.0
+culture,împăratul-muștelor-william-golding,Împăratul muștelor,William Golding,415.0,47.0,-368.0,368.0
+culture,free-food-for-millionaires-min-jin-lee,Free Food for Millionaires,Min Jin Lee,397.0,45.0,-352.0,352.0
+culture,klara-și-soarele-kazuo-ishiguro,Klara și Soarele,Kazuo Ishiguro,400.0,56.0,-344.0,344.0
+culture,taxi-khaled-al-khamissi,Taxi,Khaled Al Khamissi,359.0,20.0,-339.0,339.0
+culture,20000-de-leghe-sub-mări-jules-verne,20.000 de leghe sub mări,Jules Verne,382.0,53.0,-329.0,329.0
+culture,război-cu-salamandrele-karel-čapek,Război cu salamandrele,Karel Čapek,418.0,90.0,-328.0,328.0
+culture,moștenirea-eszterei-sándor-márai,Moștenirea Eszterei,Sándor Márai,61.0,384.0,323.0,323.0
+culture,muzeul-secretelor-abandonate-oksana-zabujko,Muzeul secretelor abandonate,Oksana Zabujko,34.0,354.0,320.0,320.0
+culture,dezrădăcinații-cătălin-ceaușoglu,Dezrădăcinații,Cătălin Ceaușoglu,4.0,319.0,315.0,315.0
+culture,pasărea-cu-piept-roșu-jo-nesbø,Pasărea cu piept roșu,Jo Nesbø,99.0,411.0,312.0,312.0
