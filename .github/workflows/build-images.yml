@@ -1,0 +1,182 @@
+name: Build and push images
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+
+# Two images built from one commit share the same tags, so a single
+# IMAGE_TAG in Coolify always pins a matching frontend/backend pair.
+# Both are therefore rebuilt on every run, even if only one changed.
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: backend
+            context: book-recommender-backend
+          - name: frontend
+            context: book-recommender-frontend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Pull requests are built to prove they compile, but never published.
+      - name: Log in to GHCR
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # metadata-action lowercases the image name, which GHCR requires and the
+      # Alacrity-Education owner would otherwise violate.
+      - name: Derive tags and labels
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ github.repository }}-${{ matrix.name }}
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=sha,format=short
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+
+      - name: Build and push
+        id: build
+        uses: docker/build-push-action@v6
+        with:
+          context: ${{ matrix.context }}
+          push: ${{ github.event_name != 'pull_request' }}
+          load: ${{ github.event_name == 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          # Coolify hosts are x86; add linux/arm64 here if that changes.
+          platforms: linux/amd64
+          cache-from: type=gha,scope=${{ matrix.name }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.name }}
+
+      - name: Summarise
+        run: |
+          echo "### ${{ matrix.name }}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "${{ steps.meta.outputs.tags }}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+  # Boots the freshly built backend and exercises the real recommendation
+  # path, which reads every seed JSON file shipped in the image. Catches a
+  # missing or malformed data file that an image build alone would not.
+  # Boots both freshly built images wired together exactly as compose wires
+  # them, then exercises the real request path: browser -> Next proxy ->
+  # FastAPI. Catches a broken proxy, a missing seed file, or a server
+  # component that fails to render, none of which a build alone would reveal.
+  smoke-test:
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+
+    steps:
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # GHCR requires a lowercase path; the owner name is mixed case.
+      # The sha- tag comes from metadata-action's type=sha,format=short.
+      - name: Resolve image references
+        run: |
+          PREFIX=$(echo "${{ env.REGISTRY }}/${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
+          echo "BACKEND_IMAGE=${PREFIX}-backend:sha-${GITHUB_SHA::7}" >> "$GITHUB_ENV"
+          echo "FRONTEND_IMAGE=${PREFIX}-frontend:sha-${GITHUB_SHA::7}" >> "$GITHUB_ENV"
+
+      - name: Start the stack
+        run: |
+          set -euo pipefail
+
+          # A user-defined network gives DNS by container name, which is how
+          # BACKEND_URL resolves `backend` under compose too.
+          docker network create lira-test
+
+          docker run -d --name backend --network lira-test "$BACKEND_IMAGE"
+
+          docker run -d --name frontend --network lira-test \
+            -e BACKEND_URL=http://backend:8000 \
+            -p 3000:3000 "$FRONTEND_IMAGE"
+
+          for i in $(seq 1 45); do
+            if curl -fsS http://127.0.0.1:3000/healthz >/dev/null 2>&1; then
+              echo "frontend is up"
+              exit 0
+            fi
+            sleep 2
+          done
+
+          echo "::error::frontend did not become healthy"
+          exit 1
+
+      - name: Check the full request path
+        run: |
+          set -euo pipefail
+
+          # Server-rendered questionnaire: the question text must be in the
+          # initial HTML, which only happens if the server reached FastAPI.
+          curl -fsS http://127.0.0.1:3000/questionnaire/prose \
+            | grep -q 'Îmi plac poveștile'
+          echo "SSR of /questionnaire/prose: ok"
+
+          # 20 mid-scale answers: enough to score a profile and rank books.
+          BODY=$(python3 -c "import json; print(json.dumps({'answers': {str(i): 3 for i in range(1, 21)}}))")
+
+          # Same-origin proxy, the only path the browser ever uses.
+          curl -fsS http://127.0.0.1:3000/api/questionnaires/prose | grep -q '"questions"'
+          echo "proxy GET: ok"
+
+          curl -fsS -X POST http://127.0.0.1:3000/api/recommendations/prose \
+            -H 'Content-Type: application/json' -d "$BODY" | grep -q '"recommendations"'
+          echo "proxy POST: ok"
+
+          # The backend must NOT be reachable from outside the network.
+          if curl -fsS --max-time 5 http://127.0.0.1:8000/ >/dev/null 2>&1; then
+            echo "::error::backend is publicly reachable but should be internal"
+            exit 1
+          fi
+          echo "backend is not externally exposed: ok"
+
+          echo "smoke test passed"
+
+      - name: Container logs
+        if: always()
+        run: |
+          echo "--- frontend ---"; docker logs frontend 2>&1 | tail -50 || true
+          echo "--- backend ---";  docker logs backend  2>&1 | tail -50 || true
+
+      - name: Tear down
+        if: always()
+        run: |
+          docker rm -f frontend backend >/dev/null 2>&1 || true
+          docker network rm lira-test >/dev/null 2>&1 || true

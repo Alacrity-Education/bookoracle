@@ -1,7 +1,9 @@
 # Frontend
 node_modules/
-dist/
-.vite/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
 
 # Backend
 __pycache__/

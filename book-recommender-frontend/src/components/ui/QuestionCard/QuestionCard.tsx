@@ -15,6 +15,8 @@ interface QuestionCardProps {
     onAnswerChange: (value: number) => void;
     onNext: () => void;
     onPrevious?: () => void;
+    /** Blocks the final submit while the request is in flight. */
+    nextDisabled?: boolean;
 }
 
 function QuestionCard({
@@ -22,9 +24,10 @@ function QuestionCard({
     current,
     total,
     selectedAnswer,
-    onAnswerChange: onAnswerChange,
+    onAnswerChange,
     onNext,
     onPrevious,
+    nextDisabled = false,
 }: QuestionCardProps) {
 
     const isLastQuestion = current === total;
@@ -68,7 +71,7 @@ function QuestionCard({
 
                 <Button
                     onClick={onNext}
-                    disabled={selectedAnswer === null}
+                    disabled={selectedAnswer === null || nextDisabled}
                 >
                     {isLastQuestion
                         ? "Vezi recomandările"

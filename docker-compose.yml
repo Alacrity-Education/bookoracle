@@ -1,0 +1,84 @@
+# LIRA — deployment stack for Coolify.
+#
+# Images are built and published by .github/workflows/build-images.yml.
+# Nothing is built here: Coolify only pulls the tags below.
+#
+# Coolify setup:
+#   1. New Resource > Docker Compose, point it at this file.
+#   2. Set the environment variables listed in .env.example.
+#   3. Assign a domain to the `frontend` service only.
+#
+# The browser talks exclusively to the Next server, which reaches FastAPI over
+# the internal network. So the backend needs no domain, no CORS and no public
+# port, and the frontend image carries no baked-in API URL — moving domains is
+# a restart, not a rebuild.
+
+services:
+  backend:
+    image: ghcr.io/alacrity-education/bookoracle-backend:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+
+    environment:
+      # Where participations.csv / newsletter.csv are written. Matches the
+      # volume below; the seed JSON stays in the image and updates on deploy.
+      DATA_OUTPUT_DIR: /data
+
+      # Result emails. The /complete endpoint returns 500 without these
+      # when a user picks email delivery.
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASSWORD: ${SMTP_PASSWORD}
+      SMTP_FROM: ${SMTP_FROM}
+
+    volumes:
+      # Survives redeploys. Read the CSVs with:
+      #   docker compose cp backend:/data/participations.csv .
+      - lira-data:/data
+
+    # Internal only — deliberately not `ports`, so the API is unreachable
+    # from outside the compose network.
+    expose:
+      - "8000"
+
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - |
+          import sys, urllib.request
+          sys.exit(0 if urllib.request.urlopen("http://127.0.0.1:8000/", timeout=4).status == 200 else 1)
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  frontend:
+    image: ghcr.io/alacrity-education/bookoracle-frontend:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+
+    environment:
+      # Resolved per request by the Next server, never compiled into the
+      # bundle. `backend` is this compose service name.
+      BACKEND_URL: http://backend:8000
+
+    # This is the only service that should get a domain in Coolify.
+    expose:
+      - "3000"
+
+    # The questionnaire page is server-rendered from the backend, so starting
+    # before it is healthy would serve the error state.
+    depends_on:
+      backend:
+        condition: service_healthy
+
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://127.0.0.1:3000/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  lira-data:

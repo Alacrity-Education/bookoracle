@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI
 
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,6 +11,17 @@ from app.api.routes import recommendations
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# Comma-separated list of allowed browser origins.
+# In the deployed stack the browser talks to the Next server, which proxies
+# to this API server-side, so no cross-origin request is made and this is
+# unused. It still matters if the API is ever exposed publicly, and for
+# calling it directly during development.
+CORS_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
+    if origin.strip()
+]
 
 app = FastAPI(
     title="LIRA API",
@@ -29,9 +42,7 @@ app.include_router(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-    ],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

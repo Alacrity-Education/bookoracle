@@ -1,4 +1,5 @@
 import csv
+import os
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
@@ -6,8 +7,13 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
-PARTICIPATIONS_PATH = DATA_DIR / "participations.csv"
-NEWSLETTER_PATH = DATA_DIR / "newsletter.csv"
+# Writable output directory. Kept separate from DATA_DIR so the read-only
+# seed data shipped in the image stays updatable on every deploy, while the
+# collected CSVs live on a mounted volume.
+OUTPUT_DIR = Path(os.getenv("DATA_OUTPUT_DIR") or DATA_DIR)
+
+PARTICIPATIONS_PATH = OUTPUT_DIR / "participations.csv"
+NEWSLETTER_PATH = OUTPUT_DIR / "newsletter.csv"
 
 
 PARTICIPATION_FIELDS = [
@@ -33,7 +39,7 @@ def save_participation(
     newsletter: bool = False,
 ) -> None:
 
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     participant_id = str(uuid.uuid4())
     timestamp = datetime.now(timezone.utc).isoformat()

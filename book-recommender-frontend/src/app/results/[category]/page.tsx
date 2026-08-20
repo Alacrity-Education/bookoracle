@@ -1,0 +1,163 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
+import PageLayout from "@/components/ui/PageLayout/PageLayout";
+import Button from "@/components/ui/Button/Button";
+
+import participationService from "@/services/participationService";
+import { useSession } from "@/lib/session";
+
+import "./Results.css";
+
+export default function ResultsPage() {
+  const router = useRouter();
+  const { session, ready } = useSession();
+
+  // Wait for sessionStorage to be read before concluding there is no result,
+  // otherwise a refresh would flash the empty state.
+  if (!ready) {
+    return (
+      <PageLayout>
+        <p>Se încarcă...</p>
+      </PageLayout>
+    );
+  }
+
+  if (!session) {
+    return (
+      <PageLayout>
+        <section className="results-page results-empty">
+          <h1>Rezultatul nu este disponibil</h1>
+
+          <p>Nu am putut încărca rezultatul testului.</p>
+
+          <Button onClick={() => router.push("/")}>Înapoi la început</Button>
+        </section>
+      </PageLayout>
+    );
+  }
+
+  const { result, recommendations, answers, category } = session;
+  const mainProfile = result.profiles[0];
+
+  const handleFinish = async (destination: "email" | "finish") => {
+    if (destination === "email") {
+      router.push("/email");
+      return;
+    }
+
+    try {
+      await participationService.complete(category, {
+        answers,
+        destination: "finish",
+        newsletter: false,
+      });
+
+      router.push("/finish");
+    } catch (error) {
+      console.error("Could not save participation:", error);
+    }
+  };
+
+  return (
+    <PageLayout>
+      <section className="results-page">
+
+        {/* ========================= */}
+        {/* Literary profile            */}
+        {/* ========================= */}
+
+        <section className="results-profile">
+
+          <p className="results-eyebrow">Profilul tău literar</p>
+
+          <h1>{mainProfile.name}</h1>
+
+          <p className="results-description">{mainProfile.description}</p>
+
+          <div className="profile-match">
+            <span className="profile-match-label">
+              Potrivire cu profilul tău
+            </span>
+
+            <strong>{Math.round(mainProfile.similarity * 100)}%</strong>
+          </div>
+
+          <p className="profile-explanation">
+            Acesta este profilul literar care se potrivește cel mai bine cu
+            răspunsurile tale.
+          </p>
+
+        </section>
+
+
+        {/* ========================= */}
+        {/* Recommendations             */}
+        {/* ========================= */}
+
+        <section className="results-recommendations">
+
+          <div className="recommendations-header">
+            <p className="results-eyebrow">Recomandările LIRA</p>
+
+            <h2>Uite ce cărți îți recomandăm</h2>
+
+            <p>Am ales aceste cărți pe baza personalității tale literare.</p>
+          </div>
+
+          {recommendations.length > 0 ? (
+            <div className="recommendation-list">
+              {recommendations.map((book) => (
+                <article className="recommendation-card" key={book.book_id}>
+
+                  <div className="recommendation-rank">
+                    {String(book.rank).padStart(2, "0")}
+                  </div>
+
+                  <div className="recommendation-content">
+
+                    <h3>{book.title}</h3>
+
+                    <p className="recommendation-author">{book.author}</p>
+
+                    <div className="recommendation-meta">
+                      <span>Potrivire cu profilul tău</span>
+
+                      <strong>{Math.round(book.base_score * 100)}%</strong>
+                    </div>
+
+                  </div>
+
+                </article>
+              ))}
+            </div>
+          ) : (
+            <p className="recommendations-empty">
+              Recomandările nu sunt disponibile momentan.
+            </p>
+          )}
+
+        </section>
+
+
+        {/* ========================= */}
+        {/* Actions                     */}
+        {/* ========================= */}
+
+        <div className="results-actions">
+
+          <Button onClick={() => handleFinish("email")}>
+            Trimite-mi rezultatele pe mail
+          </Button>
+
+          <Button onClick={() => handleFinish("finish")}>
+            Revin la început
+          </Button>
+
+        </div>
+
+      </section>
+    </PageLayout>
+  );
+}

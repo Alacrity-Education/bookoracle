@@ -6,3 +6,4 @@ export * from "./dimensionScores";
 export * from "./literaryProfile";
 export * from "./Recommendation";
 export type { DimensionContribution, ProfileResult, QuestionnaireResult } from "./questionnaireResult";
+export * from "./Session";

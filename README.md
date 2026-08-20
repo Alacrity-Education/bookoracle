@@ -10,7 +10,7 @@ LIRA/
 │   └── FastAPI
 │
 ├── book-recommender-frontend/
-│   └── React + Vite
+│   └── Next.js (App Router)
 │
 └── README.md
 ```
@@ -133,7 +133,7 @@ CTRL + C
 
 ---
 
-# 3. Frontend — React + Vite
+# 3. Frontend — Next.js
 
 Deschide un al doilea terminal.
 
@@ -162,28 +162,24 @@ book-recommender-frontend/
 creează fișierul:
 
 ```text
-.env
+.env.local
 ```
 
 și adaugă:
 
 ```env
-VITE_API_URL=http://127.0.0.1:8000/api
+BACKEND_URL=http://127.0.0.1:8000
 ```
 
-Acest fișier nu trebuie inclus în Git dacă este configurat ca fișier local/development.
+Acest fișier nu trebuie inclus în Git.
 
-Pentru repository poate exista un:
+`BACKEND_URL` este citit **doar pe server**, la fiecare cerere. Browserul nu
+apelează niciodată FastAPI direct: apelează rutele `/api/*` ale aplicației
+Next, care redirecționează cererea către backend. De aceea adresa backend-ului
+nu ajunge niciodată în bundle-ul trimis în browser, iar schimbarea ei nu
+necesită rebuild.
 
-```text
-.env.example
-```
-
-cu:
-
-```env
-VITE_API_URL=http://127.0.0.1:8000/api
-```
+Pentru repository există un `.env.example` cu aceeași valoare.
 
 ---
 
@@ -201,10 +197,10 @@ rulează:
 npm run dev
 ```
 
-Vite va afișa adresa aplicației, de obicei:
+Next va afișa adresa aplicației, de obicei:
 
 ```text
-http://localhost:5173
+http://localhost:3000
 ```
 
 Deschide adresa afișată în terminal în browser.
@@ -379,16 +375,17 @@ book-recommender-backend/
 book-recommender-frontend/
 │
 ├── src/
+│   ├── app/            # rute (App Router) + app/api/[...path] (proxy)
 │   ├── components/
-│   ├── pages/
+│   ├── lib/            # backend.ts (server), session.tsx (context)
 │   ├── services/
 │   ├── types/
 │   ├── utils/
 │   └── ...
 │
-├── .env
+├── .env.local
 ├── package.json
-├── vite.config.ts
+├── next.config.ts
 └── ...
 ```
 
@@ -423,13 +420,13 @@ uvicorn app.main:app --reload
 Verifică:
 
 ```text
-book-recommender-frontend/.env
+book-recommender-frontend/.env.local
 ```
 
 să conțină:
 
 ```env
-VITE_API_URL=http://127.0.0.1:8000/api
+BACKEND_URL=http://127.0.0.1:8000
 ```
 
 Verifică și că backend-ul rulează la:
@@ -438,38 +435,32 @@ Verifică și că backend-ul rulează la:
 http://127.0.0.1:8000
 ```
 
-După modificarea `.env`, repornește Vite:
+După modificarea `.env.local`, repornește serverul Next:
 
 ```bash
 CTRL + C
 npm run dev
 ```
 
+Dacă backend-ul nu răspunde, rutele `/api/*` întorc `502` cu
+`{"detail": "Backend unavailable."}`, iar pagina chestionarului afișează
+„Chestionarul nu este disponibil”.
+
 ---
 
 ## Eroare CORS
 
-Backend-ul trebuie să permită origin-ul frontend-ului:
+În mod normal nu ar trebui să apară: browserul apelează doar rutele `/api/*`
+ale aplicației Next (aceeași origine), iar cererea către FastAPI se face pe
+server.
 
-```text
-http://localhost:5173
+CORS devine relevant doar dacă apelezi API-ul direct din browser. În acest caz
+setează variabila de mediu `CORS_ORIGINS` pe backend (implicit
+`http://localhost:3000`):
+
+```env
+CORS_ORIGINS=http://localhost:3000,https://exemplu.ro
 ```
-
-În `app/main.py`:
-
-```python
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-```
-
-Dacă Vite rulează pe un alt port, origin-ul trebuie actualizat corespunzător.
 
 ---
 
@@ -499,7 +490,7 @@ deactivate
 
 Pentru orice modificare în cod:
 
-* frontend-ul Vite reîncarcă automat aplicația;
+* frontend-ul Next reîncarcă automat aplicația;
 * FastAPI cu `--reload` repornește automat serverul după modificările backend.
 
 Pentru instalarea unei noi dependințe Python, actualizați `requirements.txt`.

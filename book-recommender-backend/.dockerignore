@@ -1,0 +1,27 @@
+# Virtualenvs
+env/
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets — provided at runtime, never baked into the image
+.env
+.env.*
+!.env.example
+
+# Collected participant data. Must never end up inside an image:
+# it is user data, and the image is pushed to a registry.
+app/data/participations.csv
+app/data/newsletter.csv
+
+# Offline tooling: needs torch/pandas/sentence-transformers, which the
+# served API does not. Excluded to keep the runtime image small.
+app/scripts/
+app/tests/
+app/data/books/Carti.xlsx
+.embedding_cache/

@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+*.local
+
+# Secrets / local config. VITE_API_URL is passed as a build arg instead,
+# so a stray .env cannot silently override the production build.
+.env
+.env.*
+!.env.example
+
+.git
+.github
+*.log
+.vscode
+.idea
+.DS_Store
