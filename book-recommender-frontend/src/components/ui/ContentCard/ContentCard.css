@@ -4,6 +4,12 @@
 
     max-width:760px;
 
+    /* Centres the card inside .page-layout__container, which is wider (75rem)
+       than the card. Do not rely on the wrapper's alignment properties for
+       this: block-level justify-items is very recent and engines without it
+       render the card flush left. */
+    margin-inline:auto;
+
     background:var(--surface);
 
     border:1px solid var(--border);

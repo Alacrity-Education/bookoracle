@@ -15,7 +15,6 @@
 .page-layout__container {
     width: 100%;
     max-width: 75rem;
-    justify-items: center;
 }
 
 @media (max-width: 48rem) {
