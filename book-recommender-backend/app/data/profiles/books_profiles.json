@@ -1,0 +1,5475 @@
+[
+    {
+        "id": "moromeții-marin-preda",
+        "title": "Moromeții",
+        "author": "Marin Preda",
+        "profiles": {
+            "explorer": -0.036818,
+            "analyst": 0.147772,
+            "empath": 0.657151,
+            "adventurer": -0.094946,
+            "realist": 0.805407,
+            "visionary": -0.358508
+        }
+    },
+    {
+        "id": "cel-mai-iubit-dintre-pământeni-marin-preda",
+        "title": "Cel mai iubit dintre pământeni",
+        "author": "Marin Preda",
+        "profiles": {
+            "explorer": -0.065245,
+            "analyst": 0.057892,
+            "empath": 0.527429,
+            "adventurer": -0.092905,
+            "realist": 0.737896,
+            "visionary": -0.394822
+        }
+    },
+    {
+        "id": "ion-liviu-rebreanu",
+        "title": "Ion",
+        "author": "Liviu Rebreanu",
+        "profiles": {
+            "explorer": -0.241117,
+            "analyst": -0.387228,
+            "empath": 0.202455,
+            "adventurer": 0.016053,
+            "realist": 0.648619,
+            "visionary": -0.75719
+        }
+    },
+    {
+        "id": "pădurea-spânzuraților-liviu-rebreanu",
+        "title": "Pădurea spânzuraților",
+        "author": "Liviu Rebreanu",
+        "profiles": {
+            "explorer": -0.123113,
+            "analyst": 0.234652,
+            "empath": 0.614121,
+            "adventurer": -0.04021,
+            "realist": 0.900685,
+            "visionary": -0.408572
+        }
+    },
+    {
+        "id": "adam-și-eva-liviu-rebreanu",
+        "title": "Adam și Eva",
+        "author": "Liviu Rebreanu",
+        "profiles": {
+            "explorer": -0.075512,
+            "analyst": -0.013355,
+            "empath": 0.3044,
+            "adventurer": 0.032977,
+            "realist": 0.492849,
+            "visionary": -0.299939
+        }
+    },
+    {
+        "id": "enigma-otiliei-george-călinescu",
+        "title": "Enigma Otiliei",
+        "author": "George Călinescu",
+        "profiles": {
+            "explorer": -0.23496,
+            "analyst": 0.226499,
+            "empath": 0.693954,
+            "adventurer": -0.092866,
+            "realist": 0.744571,
+            "visionary": -0.28246
+        }
+    },
+    {
+        "id": "cartea-nunții-george-călinescu",
+        "title": "Cartea nunții",
+        "author": "George Călinescu",
+        "profiles": {
+            "explorer": -0.23422,
+            "analyst": -0.164564,
+            "empath": 0.52435,
+            "adventurer": -0.124472,
+            "realist": 0.718893,
+            "visionary": -0.565898
+        }
+    },
+    {
+        "id": "baltagul-mihail-sadoveanu",
+        "title": "Baltagul",
+        "author": "Mihail Sadoveanu",
+        "profiles": {
+            "explorer": -0.301408,
+            "analyst": -0.258185,
+            "empath": 0.270315,
+            "adventurer": -0.279361,
+            "realist": 0.598699,
+            "visionary": -0.660236
+        }
+    },
+    {
+        "id": "frații-jderi-mihail-sadoveanu",
+        "title": "Frații Jderi",
+        "author": "Mihail Sadoveanu",
+        "profiles": {
+            "explorer": -0.340073,
+            "analyst": -0.274726,
+            "empath": 0.531576,
+            "adventurer": -0.012438,
+            "realist": 0.77279,
+            "visionary": -0.68651
+        }
+    },
+    {
+        "id": "ultima-noapte-de-dragoste-întâia-noapte-de-război-camil-petrescu",
+        "title": "Ultima noapte de dragoste, întâia noapte de război",
+        "author": "Camil Petrescu",
+        "profiles": {
+            "explorer": -0.21875,
+            "analyst": -0.078175,
+            "empath": 0.528968,
+            "adventurer": -0.009518,
+            "realist": 0.820142,
+            "visionary": -0.580124
+        }
+    },
+    {
+        "id": "patul-lui-procust-camil-petrescu",
+        "title": "Patul lui Procust",
+        "author": "Camil Petrescu",
+        "profiles": {
+            "explorer": -0.289455,
+            "analyst": 0.135153,
+            "empath": 0.454646,
+            "adventurer": -0.347198,
+            "realist": 0.705113,
+            "visionary": -0.501358
+        }
+    },
+    {
+        "id": "maitreyi-mircea-eliade",
+        "title": "Maitreyi",
+        "author": "Mircea Eliade",
+        "profiles": {
+            "explorer": 0.434796,
+            "analyst": 0.577952,
+            "empath": 0.558488,
+            "adventurer": 0.121357,
+            "realist": 0.629992,
+            "visionary": 0.223191
+        }
+    },
+    {
+        "id": "noaptea-de-sânziene-mircea-eliade",
+        "title": "Noaptea de Sânziene",
+        "author": "Mircea Eliade",
+        "profiles": {
+            "explorer": 0.403655,
+            "analyst": 0.556559,
+            "empath": 0.409858,
+            "adventurer": 0.050394,
+            "realist": 0.599915,
+            "visionary": 0.167637
+        }
+    },
+    {
+        "id": "romanul-adolescentului-miop-mircea-eliade",
+        "title": "Romanul adolescentului miop",
+        "author": "Mircea Eliade",
+        "profiles": {
+            "explorer": -0.600522,
+            "analyst": -0.025384,
+            "empath": 0.441359,
+            "adventurer": -0.3534,
+            "realist": 0.697341,
+            "visionary": -0.688148
+        }
+    },
+    {
+        "id": "accidentul-mihail-sebastian",
+        "title": "Accidentul",
+        "author": "Mihail Sebastian",
+        "profiles": {
+            "explorer": -0.743168,
+            "analyst": -0.493407,
+            "empath": 0.210244,
+            "adventurer": -0.426684,
+            "realist": 0.302305,
+            "visionary": -0.778597
+        }
+    },
+    {
+        "id": "de-două-mii-de-ani-mihail-sebastian",
+        "title": "De două mii de ani",
+        "author": "Mihail Sebastian",
+        "profiles": {
+            "explorer": 0.014284,
+            "analyst": 0.389362,
+            "empath": 0.389081,
+            "adventurer": 0.167214,
+            "realist": 0.565078,
+            "visionary": -0.036154
+        }
+    },
+    {
+        "id": "invitație-la-vals-mihail-drumeș",
+        "title": "Invitație la vals",
+        "author": "Mihail Drumeș",
+        "profiles": {
+            "explorer": -0.235575,
+            "analyst": -0.131503,
+            "empath": 0.545361,
+            "adventurer": -0.20189,
+            "realist": 0.737176,
+            "visionary": -0.578606
+        }
+    },
+    {
+        "id": "elevul-dima-dintr-a-șaptea-mihail-drumeș",
+        "title": "Elevul Dima dintr-a șaptea",
+        "author": "Mihail Drumeș",
+        "profiles": {
+            "explorer": -0.130165,
+            "analyst": -0.043913,
+            "empath": 0.54145,
+            "adventurer": 0.068262,
+            "realist": 0.85258,
+            "visionary": -0.52522
+        }
+    },
+    {
+        "id": "cireșarii-constantin-chiriță",
+        "title": "Cireșarii",
+        "author": "Constantin Chiriță",
+        "profiles": {
+            "explorer": -0.161273,
+            "analyst": -0.577073,
+            "empath": -0.4429,
+            "adventurer": 0.295342,
+            "realist": -0.066705,
+            "visionary": -0.444847
+        }
+    },
+    {
+        "id": "toate-pânzele-sus-radu-tudoran",
+        "title": "Toate pânzele sus!",
+        "author": "Radu Tudoran",
+        "profiles": {
+            "explorer": -0.424404,
+            "analyst": -0.404478,
+            "empath": -0.427388,
+            "adventurer": 0.142176,
+            "realist": -0.015079,
+            "visionary": -0.49995
+        }
+    },
+    {
+        "id": "la-medeleni-ionel-teodoreanu",
+        "title": "La Medeleni",
+        "author": "Ionel Teodoreanu",
+        "profiles": {
+            "explorer": -0.344392,
+            "analyst": -0.124295,
+            "empath": 0.494646,
+            "adventurer": -0.347252,
+            "realist": 0.725429,
+            "visionary": -0.648343
+        }
+    },
+    {
+        "id": "adela-garabet-ibrăileanu",
+        "title": "Adela",
+        "author": "Garabet Ibrăileanu",
+        "profiles": {
+            "explorer": -0.174268,
+            "analyst": 0.352235,
+            "empath": 0.691035,
+            "adventurer": -0.483865,
+            "realist": 0.686503,
+            "visionary": -0.248027
+        }
+    },
+    {
+        "id": "mara-ioan-slavici",
+        "title": "Mara",
+        "author": "Ioan Slavici",
+        "profiles": {
+            "explorer": -0.288644,
+            "analyst": -0.058377,
+            "empath": 0.530849,
+            "adventurer": -0.260825,
+            "realist": 0.798637,
+            "visionary": -0.62004
+        }
+    },
+    {
+        "id": "ciocoii-vechi-și-noi-nicolae-filimon",
+        "title": "Ciocoii vechi și noi",
+        "author": "Nicolae Filimon",
+        "profiles": {
+            "explorer": -0.074721,
+            "analyst": 0.136868,
+            "empath": 0.40739,
+            "adventurer": 0.137177,
+            "realist": 0.781893,
+            "visionary": -0.418391
+        }
+    },
+    {
+        "id": "craii-de-curtea-veche-mateiu-i-caragiale",
+        "title": "Craii de Curtea-Veche",
+        "author": "Mateiu I. Caragiale",
+        "profiles": {
+            "explorer": -0.473757,
+            "analyst": 0.194385,
+            "empath": 0.467598,
+            "adventurer": -0.485978,
+            "realist": 0.506567,
+            "visionary": -0.379696
+        }
+    },
+    {
+        "id": "crimă-și-pedeapsă-fyodor-dostoevsky",
+        "title": "Crimă și pedeapsă",
+        "author": "Fyodor Dostoevsky",
+        "profiles": {
+            "explorer": -0.35851,
+            "analyst": -0.259817,
+            "empath": 0.513937,
+            "adventurer": -0.192449,
+            "realist": 0.724626,
+            "visionary": -0.705895
+        }
+    },
+    {
+        "id": "frații-karamazov-fyodor-dostoevsky",
+        "title": "Frații Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "profiles": {
+            "explorer": -0.055211,
+            "analyst": 0.073225,
+            "empath": 0.724465,
+            "adventurer": -0.126031,
+            "realist": 0.816343,
+            "visionary": -0.391682
+        }
+    },
+    {
+        "id": "idiotul-fyodor-dostoevsky",
+        "title": "Idiotul",
+        "author": "Fyodor Dostoevsky",
+        "profiles": {
+            "explorer": -0.705551,
+            "analyst": -0.311759,
+            "empath": 0.326444,
+            "adventurer": -0.370908,
+            "realist": 0.414609,
+            "visionary": -0.696176
+        }
+    },
+    {
+        "id": "anna-karenina-lev-tolstoi",
+        "title": "Anna Karenina",
+        "author": "Lev Tolstoi",
+        "profiles": {
+            "explorer": -0.393764,
+            "analyst": -0.088411,
+            "empath": 0.545561,
+            "adventurer": -0.285465,
+            "realist": 0.738662,
+            "visionary": -0.629286
+        }
+    },
+    {
+        "id": "război-și-pace-lev-tolstoi",
+        "title": "Război și pace",
+        "author": "Lev Tolstoi",
+        "profiles": {
+            "explorer": -0.227331,
+            "analyst": -0.053048,
+            "empath": 0.615258,
+            "adventurer": -0.239463,
+            "realist": 0.818376,
+            "visionary": -0.589518
+        }
+    },
+    {
+        "id": "învierea-lev-tolstoi",
+        "title": "Învierea",
+        "author": "Lev Tolstoi",
+        "profiles": {
+            "explorer": -0.093282,
+            "analyst": 0.081377,
+            "empath": 0.629694,
+            "adventurer": -0.198366,
+            "realist": 0.76085,
+            "visionary": -0.396988
+        }
+    },
+    {
+        "id": "don-quijote-miguel-de-cervantes",
+        "title": "Don Quijote",
+        "author": "Miguel de Cervantes",
+        "profiles": {
+            "explorer": -0.356974,
+            "analyst": -0.291883,
+            "empath": -0.39115,
+            "adventurer": 0.108567,
+            "realist": 0.027012,
+            "visionary": -0.466583
+        }
+    },
+    {
+        "id": "mizerabilii-victor-hugo",
+        "title": "Mizerabilii",
+        "author": "Victor Hugo",
+        "profiles": {
+            "explorer": -0.349765,
+            "analyst": -0.352915,
+            "empath": 0.529837,
+            "adventurer": -0.146343,
+            "realist": 0.719367,
+            "visionary": -0.718509
+        }
+    },
+    {
+        "id": "cocoșatul-de-la-notre-dame-victor-hugo",
+        "title": "Cocoșatul de la Notre-Dame",
+        "author": "Victor Hugo",
+        "profiles": {
+            "explorer": 0.049775,
+            "analyst": -0.070461,
+            "empath": 0.657869,
+            "adventurer": 0.09101,
+            "realist": 0.713958,
+            "visionary": -0.3061
+        }
+    },
+    {
+        "id": "omul-care-râde-victor-hugo",
+        "title": "Omul care râde",
+        "author": "Victor Hugo",
+        "profiles": {
+            "explorer": -0.101424,
+            "analyst": 0.58229,
+            "empath": 0.67526,
+            "adventurer": -0.302998,
+            "realist": 0.74076,
+            "visionary": -0.132039
+        }
+    },
+    {
+        "id": "mândrie-și-prejudecată-jane-austen",
+        "title": "Mândrie și prejudecată",
+        "author": "Jane Austen",
+        "profiles": {
+            "explorer": -0.371289,
+            "analyst": -0.124977,
+            "empath": 0.551934,
+            "adventurer": -0.000861,
+            "realist": 0.810036,
+            "visionary": -0.641094
+        }
+    },
+    {
+        "id": "rațiune-și-simțire-jane-austen",
+        "title": "Rațiune și simțire",
+        "author": "Jane Austen",
+        "profiles": {
+            "explorer": -0.491351,
+            "analyst": -0.4578,
+            "empath": 0.33528,
+            "adventurer": -0.16764,
+            "realist": 0.61006,
+            "visionary": -0.801953
+        }
+    },
+    {
+        "id": "emma-jane-austen",
+        "title": "Emma",
+        "author": "Jane Austen",
+        "profiles": {
+            "explorer": -0.702879,
+            "analyst": -0.544423,
+            "empath": -0.004051,
+            "adventurer": -0.26017,
+            "realist": 0.438357,
+            "visionary": -0.955288
+        }
+    },
+    {
+        "id": "jane-eyre-charlotte-brontë",
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "profiles": {
+            "explorer": -0.344286,
+            "analyst": -0.215694,
+            "empath": 0.66917,
+            "adventurer": -0.094848,
+            "realist": 0.659875,
+            "visionary": -0.501505
+        }
+    },
+    {
+        "id": "la-răscruce-de-vânturi-emily-brontë",
+        "title": "La răscruce de vânturi",
+        "author": "Emily Brontë",
+        "profiles": {
+            "explorer": -0.310665,
+            "analyst": -0.581021,
+            "empath": 0.218267,
+            "adventurer": 0.294492,
+            "realist": 0.478329,
+            "visionary": -0.627575
+        }
+    },
+    {
+        "id": "marile-speranțe-charles-dickens",
+        "title": "Marile speranțe",
+        "author": "Charles Dickens",
+        "profiles": {
+            "explorer": -0.221409,
+            "analyst": 0.075254,
+            "empath": 0.502056,
+            "adventurer": 0.114689,
+            "realist": 0.767769,
+            "visionary": -0.424757
+        }
+    },
+    {
+        "id": "oliver-twist-charles-dickens",
+        "title": "Oliver Twist",
+        "author": "Charles Dickens",
+        "profiles": {
+            "explorer": -0.457133,
+            "analyst": -0.622534,
+            "empath": -0.152935,
+            "adventurer": 0.03875,
+            "realist": 0.328963,
+            "visionary": -0.809847
+        }
+    },
+    {
+        "id": "poveste-despre-două-orașe-charles-dickens",
+        "title": "Poveste despre două orașe",
+        "author": "Charles Dickens",
+        "profiles": {
+            "explorer": 0.008887,
+            "analyst": -0.104694,
+            "empath": 0.216662,
+            "adventurer": 0.234809,
+            "realist": 0.596097,
+            "visionary": -0.397839
+        }
+    },
+    {
+        "id": "david-copperfield-charles-dickens",
+        "title": "David Copperfield",
+        "author": "Charles Dickens",
+        "profiles": {
+            "explorer": -0.572295,
+            "analyst": -0.418479,
+            "empath": 0.213694,
+            "adventurer": -0.036754,
+            "realist": 0.529093,
+            "visionary": -0.77236
+        }
+    },
+    {
+        "id": "moby-dick-herman-melville",
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "profiles": {
+            "explorer": -0.439612,
+            "analyst": -0.664287,
+            "empath": -0.136372,
+            "adventurer": 0.307413,
+            "realist": 0.104135,
+            "visionary": -0.58404
+        }
+    },
+    {
+        "id": "robinson-crusoe-daniel-defoe",
+        "title": "Robinson Crusoe",
+        "author": "Daniel Defoe",
+        "profiles": {
+            "explorer": -0.495984,
+            "analyst": -0.708656,
+            "empath": -0.520611,
+            "adventurer": 0.028157,
+            "realist": -0.178186,
+            "visionary": -0.614633
+        }
+    },
+    {
+        "id": "insula-comorii-robert-louis-stevenson",
+        "title": "Insula comorii",
+        "author": "Robert Louis Stevenson",
+        "profiles": {
+            "explorer": -0.2641,
+            "analyst": -0.514691,
+            "empath": -0.055674,
+            "adventurer": 0.387896,
+            "realist": 0.288527,
+            "visionary": -0.551489
+        }
+    },
+    {
+        "id": "doamna-bovary-gustave-flaubert",
+        "title": "Doamna Bovary",
+        "author": "Gustave Flaubert",
+        "profiles": {
+            "explorer": -0.397035,
+            "analyst": 0.055679,
+            "empath": 0.538308,
+            "adventurer": -0.352409,
+            "realist": 0.648451,
+            "visionary": -0.513309
+        }
+    },
+    {
+        "id": "hobbitul-j-r-r-tolkien",
+        "title": "Hobbitul",
+        "author": "J. R. R. Tolkien",
+        "profiles": {
+            "explorer": -0.437053,
+            "analyst": -0.758088,
+            "empath": -0.555033,
+            "adventurer": 0.071549,
+            "realist": -0.254063,
+            "visionary": -0.531071
+        }
+    },
+    {
+        "id": "silmarillion-j-r-r-tolkien",
+        "title": "Silmarillion",
+        "author": "J. R. R. Tolkien",
+        "profiles": {
+            "explorer": -0.191275,
+            "analyst": -0.711277,
+            "empath": -0.526506,
+            "adventurer": 0.067784,
+            "realist": -0.1704,
+            "visionary": -0.476473
+        }
+    },
+    {
+        "id": "dune-frank-herbert",
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "profiles": {
+            "explorer": -0.251782,
+            "analyst": -0.630224,
+            "empath": 0.089853,
+            "adventurer": 0.323745,
+            "realist": 0.397251,
+            "visionary": -0.61443
+        }
+    },
+    {
+        "id": "fundația-isaac-asimov",
+        "title": "Fundația",
+        "author": "Isaac Asimov",
+        "profiles": {
+            "explorer": -0.399683,
+            "analyst": -0.879801,
+            "empath": -0.496146,
+            "adventurer": 0.164996,
+            "realist": -0.188641,
+            "visionary": -0.604787
+        }
+    },
+    {
+        "id": "eu-robotul-isaac-asimov",
+        "title": "Eu, robotul",
+        "author": "Isaac Asimov",
+        "profiles": {
+            "explorer": 0.023671,
+            "analyst": 0.056638,
+            "empath": 0.345559,
+            "adventurer": 0.486402,
+            "realist": 0.431055,
+            "visionary": -0.028315
+        }
+    },
+    {
+        "id": "peșterile-de-oțel-isaac-asimov",
+        "title": "Peșterile de oțel",
+        "author": "Isaac Asimov",
+        "profiles": {
+            "explorer": -0.402777,
+            "analyst": -0.477881,
+            "empath": -0.372501,
+            "adventurer": 0.117037,
+            "realist": 0.108788,
+            "visionary": -0.611906
+        }
+    },
+    {
+        "id": "2001-odiseea-spațială-arthur-c-clarke",
+        "title": "2001: Odiseea spațială",
+        "author": "Arthur C. Clarke",
+        "profiles": {
+            "explorer": -0.071932,
+            "analyst": 0.015054,
+            "empath": -0.36779,
+            "adventurer": 0.243604,
+            "realist": -0.197598,
+            "visionary": 0.072229
+        }
+    },
+    {
+        "id": "rendezvous-cu-rama-arthur-c-clarke",
+        "title": "Rendezvous cu Rama",
+        "author": "Arthur C. Clarke",
+        "profiles": {
+            "explorer": -0.249371,
+            "analyst": 0.027588,
+            "empath": -0.378801,
+            "adventurer": -0.215123,
+            "realist": -0.105615,
+            "visionary": -0.155732
+        }
+    },
+    {
+        "id": "mâna-stângă-a-întunericului-ursula-k-le-guin",
+        "title": "Mâna stângă a întunericului",
+        "author": "Ursula K. Le Guin",
+        "profiles": {
+            "explorer": -0.484266,
+            "analyst": -0.414918,
+            "empath": -0.545459,
+            "adventurer": -0.246744,
+            "realist": -0.262458,
+            "visionary": -0.381259
+        }
+    },
+    {
+        "id": "deposedații-ursula-k-le-guin",
+        "title": "Deposedații",
+        "author": "Ursula K. Le Guin",
+        "profiles": {
+            "explorer": -0.1569,
+            "analyst": -0.459535,
+            "empath": -0.185914,
+            "adventurer": 0.40012,
+            "realist": 0.107752,
+            "visionary": -0.321709
+        }
+    },
+    {
+        "id": "un-vrăjitor-din-earthsea-ursula-k-le-guin",
+        "title": "Un vrăjitor din Earthsea",
+        "author": "Ursula K. Le Guin",
+        "profiles": {
+            "explorer": -0.069918,
+            "analyst": -0.152546,
+            "empath": -0.245715,
+            "adventurer": 0.300089,
+            "realist": -0.045807,
+            "visionary": -0.017611
+        }
+    },
+    {
+        "id": "omul-din-castelul-înalt-philip-k-dick",
+        "title": "Omul din castelul înalt",
+        "author": "Philip K. Dick",
+        "profiles": {
+            "explorer": -0.114475,
+            "analyst": 0.14249,
+            "empath": -0.448642,
+            "adventurer": 0.106105,
+            "realist": -0.080214,
+            "visionary": -0.02647
+        }
+    },
+    {
+        "id": "visează-androizii-oi-electrice-philip-k-dick",
+        "title": "Visează androizii oi electrice?",
+        "author": "Philip K. Dick",
+        "profiles": {
+            "explorer": -0.260888,
+            "analyst": -0.229638,
+            "empath": -0.340981,
+            "adventurer": 0.391243,
+            "realist": -0.097185,
+            "visionary": -0.172954
+        }
+    },
+    {
+        "id": "fahrenheit-451-ray-bradbury",
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "profiles": {
+            "explorer": -0.330329,
+            "analyst": -0.357984,
+            "empath": 0.062364,
+            "adventurer": 0.266499,
+            "realist": 0.342931,
+            "visionary": -0.461182
+        }
+    },
+    {
+        "id": "cronicile-marțiene-ray-bradbury",
+        "title": "Cronicile marțiene",
+        "author": "Ray Bradbury",
+        "profiles": {
+            "explorer": -0.726603,
+            "analyst": -0.558212,
+            "empath": -0.524935,
+            "adventurer": -0.48706,
+            "realist": -0.179475,
+            "visionary": -0.706534
+        }
+    },
+    {
+        "id": "dracula-bram-stoker",
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "profiles": {
+            "explorer": -0.59211,
+            "analyst": -0.764438,
+            "empath": 0.051546,
+            "adventurer": 0.149448,
+            "realist": 0.11935,
+            "visionary": -0.639141
+        }
+    },
+    {
+        "id": "frankenstein-mary-shelley",
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "profiles": {
+            "explorer": -0.443193,
+            "analyst": -0.204193,
+            "empath": -0.052725,
+            "adventurer": -0.029771,
+            "realist": 0.093306,
+            "visionary": -0.340995
+        }
+    },
+    {
+        "id": "shining-stephen-king",
+        "title": "Shining",
+        "author": "Stephen King",
+        "profiles": {
+            "explorer": -0.453657,
+            "analyst": -0.749274,
+            "empath": -0.158585,
+            "adventurer": 0.270984,
+            "realist": 0.09929,
+            "visionary": -0.61638
+        }
+    },
+    {
+        "id": "it-stephen-king",
+        "title": "It",
+        "author": "Stephen King",
+        "profiles": {
+            "explorer": -0.409005,
+            "analyst": -0.421298,
+            "empath": 0.094968,
+            "adventurer": 0.165971,
+            "realist": 0.418091,
+            "visionary": -0.613579
+        }
+    },
+    {
+        "id": "misery-stephen-king",
+        "title": "Misery",
+        "author": "Stephen King",
+        "profiles": {
+            "explorer": -0.450276,
+            "analyst": -0.414559,
+            "empath": 0.177963,
+            "adventurer": 0.02055,
+            "realist": 0.304256,
+            "visionary": -0.526233
+        }
+    },
+    {
+        "id": "cimitirul-animalelor-stephen-king",
+        "title": "Cimitirul animalelor",
+        "author": "Stephen King",
+        "profiles": {
+            "explorer": -0.523741,
+            "analyst": -0.533954,
+            "empath": 0.214494,
+            "adventurer": -0.116871,
+            "realist": 0.392839,
+            "visionary": -0.672023
+        }
+    },
+    {
+        "id": "crima-din-orient-express-agatha-christie",
+        "title": "Crima din Orient Express",
+        "author": "Agatha Christie",
+        "profiles": {
+            "explorer": -0.63311,
+            "analyst": -0.527743,
+            "empath": -0.053729,
+            "adventurer": -0.300086,
+            "realist": 0.197508,
+            "visionary": -0.7354
+        }
+    },
+    {
+        "id": "moarte-pe-nil-agatha-christie",
+        "title": "Moarte pe Nil",
+        "author": "Agatha Christie",
+        "profiles": {
+            "explorer": -0.499028,
+            "analyst": -0.712756,
+            "empath": 0.036277,
+            "adventurer": -0.02098,
+            "realist": 0.26823,
+            "visionary": -0.754895
+        }
+    },
+    {
+        "id": "asasinarea-lui-roger-ackroyd-agatha-christie",
+        "title": "Asasinarea lui Roger Ackroyd",
+        "author": "Agatha Christie",
+        "profiles": {
+            "explorer": -0.403842,
+            "analyst": -0.607836,
+            "empath": -0.096785,
+            "adventurer": -0.076487,
+            "realist": 0.352128,
+            "visionary": -0.823165
+        }
+    },
+    {
+        "id": "o-crimă-anunțată-agatha-christie",
+        "title": "O crimă anunțată",
+        "author": "Agatha Christie",
+        "profiles": {
+            "explorer": -0.637858,
+            "analyst": -0.697637,
+            "empath": -0.024697,
+            "adventurer": -0.283528,
+            "realist": 0.302224,
+            "visionary": -0.929206
+        }
+    },
+    {
+        "id": "un-studiu-în-roșu-arthur-conan-doyle",
+        "title": "Un studiu în roșu",
+        "author": "Arthur Conan Doyle",
+        "profiles": {
+            "explorer": -0.736791,
+            "analyst": -0.488962,
+            "empath": -0.148918,
+            "adventurer": -0.262528,
+            "realist": 0.190188,
+            "visionary": -0.772121
+        }
+    },
+    {
+        "id": "câinele-din-baskerville-arthur-conan-doyle",
+        "title": "Câinele din Baskerville",
+        "author": "Arthur Conan Doyle",
+        "profiles": {
+            "explorer": -0.534866,
+            "analyst": -0.609928,
+            "empath": -0.035757,
+            "adventurer": -0.069314,
+            "realist": 0.220177,
+            "visionary": -0.696883
+        }
+    },
+    {
+        "id": "numele-trandafirului-umberto-eco",
+        "title": "Numele trandafirului",
+        "author": "Umberto Eco",
+        "profiles": {
+            "explorer": 0.04179,
+            "analyst": 0.308242,
+            "empath": 0.578335,
+            "adventurer": 0.149402,
+            "realist": 0.604478,
+            "visionary": -0.041061
+        }
+    },
+    {
+        "id": "pendulul-lui-foucault-umberto-eco",
+        "title": "Pendulul lui Foucault",
+        "author": "Umberto Eco",
+        "profiles": {
+            "explorer": -0.129167,
+            "analyst": -0.102785,
+            "empath": -0.349581,
+            "adventurer": 0.138536,
+            "realist": -0.002053,
+            "visionary": -0.123258
+        }
+    },
+    {
+        "id": "codul-lui-da-vinci-dan-brown",
+        "title": "Codul lui Da Vinci",
+        "author": "Dan Brown",
+        "profiles": {
+            "explorer": -0.011828,
+            "analyst": -0.487781,
+            "empath": 0.003799,
+            "adventurer": 0.448932,
+            "realist": 0.379282,
+            "visionary": -0.458385
+        }
+    },
+    {
+        "id": "îngeri-și-demoni-dan-brown",
+        "title": "Îngeri și demoni",
+        "author": "Dan Brown",
+        "profiles": {
+            "explorer": -0.329911,
+            "analyst": -0.398609,
+            "empath": 0.004351,
+            "adventurer": 0.296803,
+            "realist": 0.358137,
+            "visionary": -0.498944
+        }
+    },
+    {
+        "id": "omul-de-zăpadă-jo-nesbø",
+        "title": "Omul de zăpadă",
+        "author": "Jo Nesbø",
+        "profiles": {
+            "explorer": -0.371328,
+            "analyst": -0.051833,
+            "empath": 0.432589,
+            "adventurer": -0.333705,
+            "realist": 0.663789,
+            "visionary": -0.568044
+        }
+    },
+    {
+        "id": "fata-cu-dragon-tatuat-stieg-larsson",
+        "title": "Fata cu dragon tatuat",
+        "author": "Stieg Larsson",
+        "profiles": {
+            "explorer": -0.455068,
+            "analyst": -0.781931,
+            "empath": -0.107698,
+            "adventurer": 0.099431,
+            "realist": 0.173756,
+            "visionary": -0.709834
+        }
+    },
+    {
+        "id": "pădurea-norvegiană-haruki-murakami",
+        "title": "Pădurea norvegiană",
+        "author": "Haruki Murakami",
+        "profiles": {
+            "explorer": -0.107964,
+            "analyst": 0.204548,
+            "empath": 0.719015,
+            "adventurer": -0.304771,
+            "realist": 0.742447,
+            "visionary": -0.308999
+        }
+    },
+    {
+        "id": "kafka-pe-malul-mării-haruki-murakami",
+        "title": "Kafka pe malul mării",
+        "author": "Haruki Murakami",
+        "profiles": {
+            "explorer": -0.282209,
+            "analyst": 0.20331,
+            "empath": 0.103353,
+            "adventurer": -0.324936,
+            "realist": 0.355822,
+            "visionary": -0.298202
+        }
+    },
+    {
+        "id": "un-veac-de-singurătate-gabriel-garcía-márquez",
+        "title": "Un veac de singurătate",
+        "author": "Gabriel García Márquez",
+        "profiles": {
+            "explorer": -0.407181,
+            "analyst": -0.412593,
+            "empath": 0.28322,
+            "adventurer": -0.193069,
+            "realist": 0.457417,
+            "visionary": -0.650728
+        }
+    },
+    {
+        "id": "dragostea-în-vremea-holerei-gabriel-garcía-márquez",
+        "title": "Dragostea în vremea holerei",
+        "author": "Gabriel García Márquez",
+        "profiles": {
+            "explorer": -0.575994,
+            "analyst": -0.068403,
+            "empath": 0.580358,
+            "adventurer": -0.156884,
+            "realist": 0.531905,
+            "visionary": -0.424739
+        }
+    },
+    {
+        "id": "rămășițele-zilei-kazuo-ishiguro",
+        "title": "Rămășițele zilei",
+        "author": "Kazuo Ishiguro",
+        "profiles": {
+            "explorer": -0.483772,
+            "analyst": -0.197371,
+            "empath": 0.18971,
+            "adventurer": -0.607522,
+            "realist": 0.399443,
+            "visionary": -0.657729
+        }
+    },
+    {
+        "id": "alchimistul-paulo-coelho",
+        "title": "Alchimistul",
+        "author": "Paulo Coelho",
+        "profiles": {
+            "explorer": -0.435695,
+            "analyst": 0.264621,
+            "empath": 0.124392,
+            "adventurer": -0.347403,
+            "realist": 0.397849,
+            "visionary": -0.31774
+        }
+    },
+    {
+        "id": "bătrânul-și-marea-ernest-hemingway",
+        "title": "Bătrânul și marea",
+        "author": "Ernest Hemingway",
+        "profiles": {
+            "explorer": -0.508445,
+            "analyst": -0.072814,
+            "empath": 0.334556,
+            "adventurer": -0.434615,
+            "realist": 0.499279,
+            "visionary": -0.586239
+        }
+    },
+    {
+        "id": "străinul-albert-camus",
+        "title": "Străinul",
+        "author": "Albert Camus",
+        "profiles": {
+            "explorer": -0.643701,
+            "analyst": -0.051525,
+            "empath": 0.084012,
+            "adventurer": -0.283308,
+            "realist": 0.248052,
+            "visionary": -0.440778
+        }
+    },
+    {
+        "id": "1984-george-orwell",
+        "title": "1984",
+        "author": "George Orwell",
+        "profiles": {
+            "explorer": -0.148032,
+            "analyst": -0.502454,
+            "empath": 0.232058,
+            "adventurer": 0.409462,
+            "realist": 0.502634,
+            "visionary": -0.547274
+        }
+    },
+    {
+        "id": "elantris-brandon-sanderson",
+        "title": "Elantris",
+        "author": "Brandon Sanderson",
+        "profiles": {
+            "explorer": -0.609072,
+            "analyst": -0.658641,
+            "empath": -0.368063,
+            "adventurer": -0.057814,
+            "realist": -0.173541,
+            "visionary": -0.548031
+        }
+    },
+    {
+        "id": "născuți-din-ceață-brandon-sanderson",
+        "title": "Născuți din ceață",
+        "author": "Brandon Sanderson",
+        "profiles": {
+            "explorer": -0.162008,
+            "analyst": -0.46011,
+            "empath": -0.341179,
+            "adventurer": 0.454931,
+            "realist": -0.264913,
+            "visionary": -0.065711
+        }
+    },
+    {
+        "id": "calea-regilor-brandon-sanderson",
+        "title": "Calea Regilor",
+        "author": "Brandon Sanderson",
+        "profiles": {
+            "explorer": -0.515675,
+            "analyst": -0.829863,
+            "empath": -0.342291,
+            "adventurer": 0.175519,
+            "realist": -0.138809,
+            "visionary": -0.581786
+        }
+    },
+    {
+        "id": "ucenicul-asasinului-robin-hobb",
+        "title": "Ucenicul asasinului",
+        "author": "Robin Hobb",
+        "profiles": {
+            "explorer": -0.70188,
+            "analyst": -0.804475,
+            "empath": -0.17088,
+            "adventurer": 0.000455,
+            "realist": 0.11622,
+            "visionary": -0.797734
+        }
+    },
+    {
+        "id": "ultima-dorință-andrzej-sapkowski",
+        "title": "Ultima dorință",
+        "author": "Andrzej Sapkowski",
+        "profiles": {
+            "explorer": -0.213941,
+            "analyst": -0.789868,
+            "empath": -0.229062,
+            "adventurer": 0.251392,
+            "realist": -0.170285,
+            "visionary": -0.34567
+        }
+    },
+    {
+        "id": "gărzi-gărzi-terry-pratchett",
+        "title": "Gărzi! Gărzi!",
+        "author": "Terry Pratchett",
+        "profiles": {
+            "explorer": -0.276845,
+            "analyst": -0.447033,
+            "empath": -0.33207,
+            "adventurer": 0.369365,
+            "realist": -0.06052,
+            "visionary": -0.298851
+        }
+    },
+    {
+        "id": "mort-terry-pratchett",
+        "title": "Mort",
+        "author": "Terry Pratchett",
+        "profiles": {
+            "explorer": -0.265933,
+            "analyst": -0.387404,
+            "empath": 0.077087,
+            "adventurer": 0.466133,
+            "realist": 0.123311,
+            "visionary": -0.216172
+        }
+    },
+    {
+        "id": "zei-mici-terry-pratchett",
+        "title": "Zei mici",
+        "author": "Terry Pratchett",
+        "profiles": {
+            "explorer": -0.622986,
+            "analyst": -0.585252,
+            "empath": -0.641531,
+            "adventurer": -0.560124,
+            "realist": -0.340151,
+            "visionary": -0.603254
+        }
+    },
+    {
+        "id": "coraline-neil-gaiman",
+        "title": "Coraline",
+        "author": "Neil Gaiman",
+        "profiles": {
+            "explorer": -0.002089,
+            "analyst": 0.061099,
+            "empath": 0.202942,
+            "adventurer": 0.330456,
+            "realist": 0.232231,
+            "visionary": 0.070165
+        }
+    },
+    {
+        "id": "zei-americani-neil-gaiman",
+        "title": "Zei americani",
+        "author": "Neil Gaiman",
+        "profiles": {
+            "explorer": -0.113073,
+            "analyst": -0.508456,
+            "empath": -0.104626,
+            "adventurer": 0.401222,
+            "realist": 0.119899,
+            "visionary": -0.308736
+        }
+    },
+    {
+        "id": "stardust-neil-gaiman",
+        "title": "Stardust",
+        "author": "Neil Gaiman",
+        "profiles": {
+            "explorer": -0.51634,
+            "analyst": -0.610569,
+            "empath": -0.569098,
+            "adventurer": 0.091972,
+            "realist": -0.392885,
+            "visionary": -0.354503
+        }
+    },
+    {
+        "id": "coma-robin-cook",
+        "title": "Coma",
+        "author": "Robin Cook",
+        "profiles": {
+            "explorer": -0.276026,
+            "analyst": -0.430958,
+            "empath": -0.193783,
+            "adventurer": 0.187709,
+            "realist": 0.250312,
+            "visionary": -0.542007
+        }
+    },
+    {
+        "id": "epidemia-robin-cook",
+        "title": "Epidemia",
+        "author": "Robin Cook",
+        "profiles": {
+            "explorer": -0.404946,
+            "analyst": -0.753769,
+            "empath": -0.327281,
+            "adventurer": 0.163072,
+            "realist": 0.116074,
+            "visionary": -0.719095
+        }
+    },
+    {
+        "id": "jurassic-park-michael-crichton",
+        "title": "Jurassic Park",
+        "author": "Michael Crichton",
+        "profiles": {
+            "explorer": -0.35435,
+            "analyst": -0.628201,
+            "empath": -0.305837,
+            "adventurer": 0.378599,
+            "realist": -0.18478,
+            "visionary": -0.328329
+        }
+    },
+    {
+        "id": "firma-john-grisham",
+        "title": "Firma",
+        "author": "John Grisham",
+        "profiles": {
+            "explorer": -0.510444,
+            "analyst": -0.676448,
+            "empath": 0.129916,
+            "adventurer": 0.106251,
+            "realist": 0.284219,
+            "visionary": -0.687321
+        }
+    },
+    {
+        "id": "clientul-john-grisham",
+        "title": "Clientul",
+        "author": "John Grisham",
+        "profiles": {
+            "explorer": -0.537551,
+            "analyst": -0.558055,
+            "empath": 0.431263,
+            "adventurer": 0.018091,
+            "realist": 0.51687,
+            "visionary": -0.706085
+        }
+    },
+    {
+        "id": "timp-de-ucis-john-grisham",
+        "title": "Timp de ucis",
+        "author": "John Grisham",
+        "profiles": {
+            "explorer": -0.596196,
+            "analyst": -0.597585,
+            "empath": 0.363688,
+            "adventurer": -0.127935,
+            "realist": 0.497095,
+            "visionary": -0.80904
+        }
+    },
+    {
+        "id": "testamentul-john-grisham",
+        "title": "Testamentul",
+        "author": "John Grisham",
+        "profiles": {
+            "explorer": -0.682594,
+            "analyst": -0.685025,
+            "empath": 0.092112,
+            "adventurer": 0.043861,
+            "realist": 0.331523,
+            "visionary": -0.800491
+        }
+    },
+    {
+        "id": "spune-mi-că-nu-i-adevărat-tell-no-one-harlan-coben",
+        "title": "Spune-mi că nu-i adevărat (Tell No One)",
+        "author": "Harlan Coben",
+        "profiles": {
+            "explorer": -0.219255,
+            "analyst": -0.590914,
+            "empath": -0.546313,
+            "adventurer": 0.271211,
+            "realist": -0.172711,
+            "visionary": -0.411353
+        }
+    },
+    {
+        "id": "străinul-harlan-coben",
+        "title": "Străinul",
+        "author": "Harlan Coben",
+        "profiles": {
+            "explorer": -0.637516,
+            "analyst": -0.517821,
+            "empath": -0.230897,
+            "adventurer": 0.056713,
+            "realist": 0.082225,
+            "visionary": -0.613216
+        }
+    },
+    {
+        "id": "m-ai-păcălit-o-dată-fool-me-once-harlan-coben",
+        "title": "M-ai păcălit o dată (Fool Me Once)",
+        "author": "Harlan Coben",
+        "profiles": {
+            "explorer": -0.243643,
+            "analyst": -0.053709,
+            "empath": 0.056933,
+            "adventurer": -0.153253,
+            "realist": 0.403711,
+            "visionary": -0.418493
+        }
+    },
+    {
+        "id": "fata-dispărută-gone-girl-gillian-flynn",
+        "title": "Fata dispărută (Gone Girl)",
+        "author": "Gillian Flynn",
+        "profiles": {
+            "explorer": -0.586129,
+            "analyst": -0.732164,
+            "empath": -0.263246,
+            "adventurer": 0.114445,
+            "realist": -0.093048,
+            "visionary": -0.569397
+        }
+    },
+    {
+        "id": "obiecte-ascuțite-sharp-objects-gillian-flynn",
+        "title": "Obiecte ascuțite (Sharp Objects)",
+        "author": "Gillian Flynn",
+        "profiles": {
+            "explorer": -0.759035,
+            "analyst": -0.727151,
+            "empath": -0.014145,
+            "adventurer": -0.19059,
+            "realist": 0.296374,
+            "visionary": -0.938872
+        }
+    },
+    {
+        "id": "locuri-întunecate-dark-places-gillian-flynn",
+        "title": "Locuri întunecate (Dark Places)",
+        "author": "Gillian Flynn",
+        "profiles": {
+            "explorer": -0.744875,
+            "analyst": -0.31853,
+            "empath": 0.181004,
+            "adventurer": -0.468427,
+            "realist": 0.34242,
+            "visionary": -0.69684
+        }
+    },
+    {
+        "id": "avocatul-din-limuzină-the-lincoln-lawyer-michael-connelly",
+        "title": "Avocatul din limuzină (The Lincoln Lawyer)",
+        "author": "Michael Connelly",
+        "profiles": {
+            "explorer": -0.375795,
+            "analyst": -0.279827,
+            "empath": 0.281745,
+            "adventurer": 0.059708,
+            "realist": 0.263914,
+            "visionary": -0.369537
+        }
+    },
+    {
+        "id": "poetul-michael-connelly",
+        "title": "Poetul",
+        "author": "Michael Connelly",
+        "profiles": {
+            "explorer": -0.081727,
+            "analyst": 0.012912,
+            "empath": 0.721044,
+            "adventurer": -0.010107,
+            "realist": 0.789339,
+            "visionary": -0.353581
+        }
+    },
+    {
+        "id": "ecoul-negru-michael-connelly",
+        "title": "Ecoul negru",
+        "author": "Michael Connelly",
+        "profiles": {
+            "explorer": -0.387995,
+            "analyst": -0.376964,
+            "empath": 0.587691,
+            "adventurer": 0.178281,
+            "realist": 0.625962,
+            "visionary": -0.552523
+        }
+    },
+    {
+        "id": "capcana-killing-floor-lee-child",
+        "title": "Capcana (Killing Floor)",
+        "author": "Lee Child",
+        "profiles": {
+            "explorer": -0.509683,
+            "analyst": -0.836788,
+            "empath": -0.233354,
+            "adventurer": 0.117988,
+            "realist": 0.100841,
+            "visionary": -0.760963
+        }
+    },
+    {
+        "id": "mystic-river-dennis-lehane",
+        "title": "Mystic River",
+        "author": "Dennis Lehane",
+        "profiles": {
+            "explorer": -0.448171,
+            "analyst": -0.570208,
+            "empath": 0.289178,
+            "adventurer": 0.297217,
+            "realist": 0.417953,
+            "visionary": -0.592658
+        }
+    },
+    {
+        "id": "shutter-island-dennis-lehane",
+        "title": "Shutter Island",
+        "author": "Dennis Lehane",
+        "profiles": {
+            "explorer": -0.694874,
+            "analyst": -0.246651,
+            "empath": 0.003934,
+            "adventurer": -0.272585,
+            "realist": 0.047772,
+            "visionary": -0.409459
+        }
+    },
+    {
+        "id": "colecționarul-de-oase-jeffrey-deaver",
+        "title": "Colecționarul de oase",
+        "author": "Jeffrey Deaver",
+        "profiles": {
+            "explorer": -0.124151,
+            "analyst": -0.07153,
+            "empath": 0.447857,
+            "adventurer": 0.242328,
+            "realist": 0.631795,
+            "visionary": -0.330568
+        }
+    },
+    {
+        "id": "pacientul-tăcut-alex-michaelides",
+        "title": "Pacientul tăcut",
+        "author": "Alex Michaelides",
+        "profiles": {
+            "explorer": -0.84139,
+            "analyst": -0.283501,
+            "empath": 0.115092,
+            "adventurer": -0.648342,
+            "realist": 0.24047,
+            "visionary": -0.714404
+        }
+    },
+    {
+        "id": "femeia-de-la-fereastră-a-j-finn",
+        "title": "Femeia de la fereastră",
+        "author": "A. J. Finn",
+        "profiles": {
+            "explorer": -0.781592,
+            "analyst": -0.752365,
+            "empath": -0.047712,
+            "adventurer": -0.248486,
+            "realist": 0.247616,
+            "visionary": -0.911249
+        }
+    },
+    {
+        "id": "fata-din-tren-paula-hawkins",
+        "title": "Fata din tren",
+        "author": "Paula Hawkins",
+        "profiles": {
+            "explorer": -0.727672,
+            "analyst": -0.507579,
+            "empath": -0.171539,
+            "adventurer": -0.040873,
+            "realist": 0.034409,
+            "visionary": -0.589479
+        }
+    },
+    {
+        "id": "în-pădure-in-the-woods-tana-french",
+        "title": "În pădure (In the Woods)",
+        "author": "Tana French",
+        "profiles": {
+            "explorer": -0.59668,
+            "analyst": -0.674965,
+            "empath": 0.046965,
+            "adventurer": 0.068232,
+            "realist": 0.29109,
+            "visionary": -0.743413
+        }
+    },
+    {
+        "id": "hipnotizatorul-lars-kepler",
+        "title": "Hipnotizatorul",
+        "author": "Lars Kepler",
+        "profiles": {
+            "explorer": -0.376714,
+            "analyst": -0.618198,
+            "empath": 0.078315,
+            "adventurer": 0.097712,
+            "realist": 0.392311,
+            "visionary": -0.687568
+        }
+    },
+    {
+        "id": "sugestia-donato-carrisi",
+        "title": "Sugestia",
+        "author": "Donato Carrisi",
+        "profiles": {
+            "explorer": -0.223374,
+            "analyst": -0.368103,
+            "empath": -0.102866,
+            "adventurer": 0.203442,
+            "realist": 0.168801,
+            "visionary": -0.412143
+        }
+    },
+    {
+        "id": "șoptitorul-donato-carrisi",
+        "title": "Șoptitorul",
+        "author": "Donato Carrisi",
+        "profiles": {
+            "explorer": -0.35266,
+            "analyst": -0.390483,
+            "empath": 0.290292,
+            "adventurer": 0.38587,
+            "realist": 0.433604,
+            "visionary": -0.459929
+        }
+    },
+    {
+        "id": "femeia-din-cușca-10-ruth-ware",
+        "title": "Femeia din cușca 10",
+        "author": "Ruth Ware",
+        "profiles": {
+            "explorer": -0.581405,
+            "analyst": -0.594781,
+            "empath": -0.024766,
+            "adventurer": 0.116867,
+            "realist": 0.157462,
+            "visionary": -0.604063
+        }
+    },
+    {
+        "id": "în-spatele-ușilor-închise-b-a-paris",
+        "title": "În spatele ușilor închise",
+        "author": "B. A. Paris",
+        "profiles": {
+            "explorer": -0.402174,
+            "analyst": -0.155704,
+            "empath": 0.540294,
+            "adventurer": -0.026195,
+            "realist": 0.485489,
+            "visionary": -0.352699
+        }
+    },
+    {
+        "id": "istoria-secretă-donna-tartt",
+        "title": "Istoria secretă",
+        "author": "Donna Tartt",
+        "profiles": {
+            "explorer": -0.43288,
+            "analyst": -0.560959,
+            "empath": -0.34885,
+            "adventurer": 0.008649,
+            "realist": 0.051949,
+            "visionary": -0.632722
+        }
+    },
+    {
+        "id": "sticletele-donna-tartt",
+        "title": "Sticletele",
+        "author": "Donna Tartt",
+        "profiles": {
+            "explorer": -0.466611,
+            "analyst": -0.446321,
+            "empath": 0.266277,
+            "adventurer": 0.059047,
+            "realist": 0.549279,
+            "visionary": -0.69459
+        }
+    },
+    {
+        "id": "prietenul-cel-mic-donna-tartt",
+        "title": "Prietenul cel mic",
+        "author": "Donna Tartt",
+        "profiles": {
+            "explorer": -0.73519,
+            "analyst": -0.660147,
+            "empath": 0.005161,
+            "adventurer": -0.337271,
+            "realist": 0.299181,
+            "visionary": -0.919007
+        }
+    },
+    {
+        "id": "un-bărbat-pe-nume-ove-fredrik-backman",
+        "title": "Un bărbat pe nume Ove",
+        "author": "Fredrik Backman",
+        "profiles": {
+            "explorer": -0.406448,
+            "analyst": -0.25353,
+            "empath": 0.464064,
+            "adventurer": -0.138199,
+            "realist": 0.683784,
+            "visionary": -0.698027
+        }
+    },
+    {
+        "id": "bunica-mi-a-zis-să-ți-spun-că-îi-pare-rău-fredrik-backman",
+        "title": "Bunica mi-a zis să-ți spun că îi pare rău",
+        "author": "Fredrik Backman",
+        "profiles": {
+            "explorer": -0.138363,
+            "analyst": 0.058972,
+            "empath": 0.57182,
+            "adventurer": -0.381632,
+            "realist": 0.689043,
+            "visionary": -0.435614
+        }
+    },
+    {
+        "id": "britt-marie-a-fost-aici-fredrik-backman",
+        "title": "Britt-Marie a fost aici",
+        "author": "Fredrik Backman",
+        "profiles": {
+            "explorer": -0.381966,
+            "analyst": -0.352048,
+            "empath": 0.339758,
+            "adventurer": -0.131583,
+            "realist": 0.600787,
+            "visionary": -0.733141
+        }
+    },
+    {
+        "id": "anxious-people-oameni-anxioși-fredrik-backman",
+        "title": "Anxious People (Oameni anxioși)",
+        "author": "Fredrik Backman",
+        "profiles": {
+            "explorer": -0.27481,
+            "analyst": -0.087062,
+            "empath": 0.517712,
+            "adventurer": 0.067835,
+            "realist": 0.767776,
+            "visionary": -0.540757
+        }
+    },
+    {
+        "id": "vânătorii-de-zmeie-khaled-hosseini",
+        "title": "Vânătorii de zmeie",
+        "author": "Khaled Hosseini",
+        "profiles": {
+            "explorer": -0.499388,
+            "analyst": -0.406172,
+            "empath": -0.274991,
+            "adventurer": 0.05817,
+            "realist": 0.125285,
+            "visionary": -0.591396
+        }
+    },
+    {
+        "id": "splendida-cetate-a-celor-o-mie-de-sori-khaled-hosseini",
+        "title": "Splendida cetate a celor o mie de sori",
+        "author": "Khaled Hosseini",
+        "profiles": {
+            "explorer": 0.214043,
+            "analyst": 0.320249,
+            "empath": 0.700621,
+            "adventurer": 0.27781,
+            "realist": 0.838296,
+            "visionary": -0.09547
+        }
+    },
+    {
+        "id": "și-munții-au-ecou-khaled-hosseini",
+        "title": "Și munții au ecou",
+        "author": "Khaled Hosseini",
+        "profiles": {
+            "explorer": -0.003531,
+            "analyst": 0.336091,
+            "empath": 0.36555,
+            "adventurer": -0.109787,
+            "realist": 0.770631,
+            "visionary": -0.316695
+        }
+    },
+    {
+        "id": "bastarda-istanbulului-elif-shafak",
+        "title": "Bastarda Istanbulului",
+        "author": "Elif Shafak",
+        "profiles": {
+            "explorer": -0.29641,
+            "analyst": -0.362866,
+            "empath": 0.086287,
+            "adventurer": 0.199235,
+            "realist": 0.4466,
+            "visionary": -0.567905
+        }
+    },
+    {
+        "id": "cele-patruzeci-de-legi-ale-iubirii-elif-shafak",
+        "title": "Cele patruzeci de legi ale iubirii",
+        "author": "Elif Shafak",
+        "profiles": {
+            "explorer": 0.119678,
+            "analyst": 0.456794,
+            "empath": 0.816809,
+            "adventurer": 0.097257,
+            "realist": 0.786717,
+            "visionary": 0.028797
+        }
+    },
+    {
+        "id": "insula-copacilor-dispăruți-elif-shafak",
+        "title": "Insula copacilor dispăruți",
+        "author": "Elif Shafak",
+        "profiles": {
+            "explorer": -0.302191,
+            "analyst": 0.014888,
+            "empath": 0.695189,
+            "adventurer": -0.216035,
+            "realist": 0.76635,
+            "visionary": -0.463578
+        }
+    },
+    {
+        "id": "casa-spiritelor-isabel-allende",
+        "title": "Casa spiritelor",
+        "author": "Isabel Allende",
+        "profiles": {
+            "explorer": -0.16844,
+            "analyst": 0.081863,
+            "empath": 0.554039,
+            "adventurer": -0.225242,
+            "realist": 0.69133,
+            "visionary": -0.375859
+        }
+    },
+    {
+        "id": "eva-luna-isabel-allende",
+        "title": "Eva Luna",
+        "author": "Isabel Allende",
+        "profiles": {
+            "explorer": -0.554952,
+            "analyst": -0.578016,
+            "empath": -0.05126,
+            "adventurer": 0.145598,
+            "realist": 0.063731,
+            "visionary": -0.520222
+        }
+    },
+    {
+        "id": "paula-isabel-allende",
+        "title": "Paula",
+        "author": "Isabel Allende",
+        "profiles": {
+            "explorer": -0.190929,
+            "analyst": 0.106486,
+            "empath": 0.656896,
+            "adventurer": -0.235093,
+            "realist": 0.788342,
+            "visionary": -0.43795
+        }
+    },
+    {
+        "id": "șoareci-și-oameni-john-steinbeck",
+        "title": "Șoareci și oameni",
+        "author": "John Steinbeck",
+        "profiles": {
+            "explorer": -0.117486,
+            "analyst": 0.154001,
+            "empath": 0.528852,
+            "adventurer": -0.319168,
+            "realist": 0.786542,
+            "visionary": -0.45675
+        }
+    },
+    {
+        "id": "fructele-mâniei-john-steinbeck",
+        "title": "Fructele mâniei",
+        "author": "John Steinbeck",
+        "profiles": {
+            "explorer": -0.264838,
+            "analyst": -0.327432,
+            "empath": 0.40617,
+            "adventurer": 0.219307,
+            "realist": 0.71638,
+            "visionary": -0.628305
+        }
+    },
+    {
+        "id": "la-răsărit-de-eden-john-steinbeck",
+        "title": "La răsărit de Eden",
+        "author": "John Steinbeck",
+        "profiles": {
+            "explorer": -0.353075,
+            "analyst": -0.413595,
+            "empath": -0.061429,
+            "adventurer": 0.023594,
+            "realist": 0.414355,
+            "visionary": -0.667172
+        }
+    },
+    {
+        "id": "povestea-slujitoarei-margaret-atwood",
+        "title": "Povestea slujitoarei",
+        "author": "Margaret Atwood",
+        "profiles": {
+            "explorer": -0.025307,
+            "analyst": -0.26587,
+            "empath": 0.034654,
+            "adventurer": 0.367531,
+            "realist": 0.339476,
+            "visionary": -0.30504
+        }
+    },
+    {
+        "id": "alias-grace-margaret-atwood",
+        "title": "Alias Grace",
+        "author": "Margaret Atwood",
+        "profiles": {
+            "explorer": -0.501985,
+            "analyst": 0.053312,
+            "empath": 0.234731,
+            "adventurer": -0.517595,
+            "realist": 0.387574,
+            "visionary": -0.443796
+        }
+    },
+    {
+        "id": "drumul-cormac-mccarthy",
+        "title": "Drumul",
+        "author": "Cormac McCarthy",
+        "profiles": {
+            "explorer": -0.460949,
+            "analyst": -0.327105,
+            "empath": 0.615551,
+            "adventurer": -0.100199,
+            "realist": 0.691598,
+            "visionary": -0.64466
+        }
+    },
+    {
+        "id": "nu-există-țară-pentru-bătrâni-cormac-mccarthy",
+        "title": "Nu există țară pentru bătrâni",
+        "author": "Cormac McCarthy",
+        "profiles": {
+            "explorer": -0.646931,
+            "analyst": -0.627974,
+            "empath": -0.19192,
+            "adventurer": 0.021522,
+            "realist": 0.104623,
+            "visionary": -0.711449
+        }
+    },
+    {
+        "id": "meridianul-sângelui-cormac-mccarthy",
+        "title": "Meridianul sângelui",
+        "author": "Cormac McCarthy",
+        "profiles": {
+            "explorer": -0.618211,
+            "analyst": -0.788156,
+            "empath": -0.359553,
+            "adventurer": 0.031826,
+            "realist": -0.120008,
+            "visionary": -0.650305
+        }
+    },
+    {
+        "id": "viața-lui-pi-yann-martel",
+        "title": "Viața lui Pi",
+        "author": "Yann Martel",
+        "profiles": {
+            "explorer": -0.436746,
+            "analyst": -0.199466,
+            "empath": -0.217899,
+            "adventurer": 0.127171,
+            "realist": 0.006689,
+            "visionary": -0.324148
+        }
+    },
+    {
+        "id": "viața-după-viață-kate-atkinson",
+        "title": "Viața după viață",
+        "author": "Kate Atkinson",
+        "profiles": {
+            "explorer": -0.287096,
+            "analyst": -0.250901,
+            "empath": 0.007011,
+            "adventurer": 0.160915,
+            "realist": 0.3478,
+            "visionary": -0.481837
+        }
+    },
+    {
+        "id": "umbra-vântului-carlos-ruiz-zafón",
+        "title": "Umbra vântului",
+        "author": "Carlos Ruiz Zafón",
+        "profiles": {
+            "explorer": -0.332693,
+            "analyst": -0.250447,
+            "empath": -0.003479,
+            "adventurer": 0.194701,
+            "realist": 0.20895,
+            "visionary": -0.361534
+        }
+    },
+    {
+        "id": "jocul-îngerului-carlos-ruiz-zafón",
+        "title": "Jocul îngerului",
+        "author": "Carlos Ruiz Zafón",
+        "profiles": {
+            "explorer": -0.375373,
+            "analyst": -0.388036,
+            "empath": 0.02512,
+            "adventurer": 0.343813,
+            "realist": -0.113705,
+            "visionary": -0.082335
+        }
+    },
+    {
+        "id": "casa-de-hârtie-carlos-maría-domínguez",
+        "title": "Casa de hârtie",
+        "author": "Carlos María Domínguez",
+        "profiles": {
+            "explorer": -0.395662,
+            "analyst": -0.317551,
+            "empath": 0.25999,
+            "adventurer": 0.184272,
+            "realist": 0.489545,
+            "visionary": -0.545248
+        }
+    },
+    {
+        "id": "corecții-jonathan-franzen",
+        "title": "Corecții",
+        "author": "Jonathan Franzen",
+        "profiles": {
+            "explorer": -0.10914,
+            "analyst": -0.059179,
+            "empath": 0.632953,
+            "adventurer": 0.036482,
+            "realist": 0.790158,
+            "visionary": -0.441788
+        }
+    },
+    {
+        "id": "libertate-jonathan-franzen",
+        "title": "Libertate",
+        "author": "Jonathan Franzen",
+        "profiles": {
+            "explorer": -0.195501,
+            "analyst": -0.176549,
+            "empath": 0.612013,
+            "adventurer": 0.002951,
+            "realist": 0.708183,
+            "visionary": -0.483886
+        }
+    },
+    {
+        "id": "middlesex-jeffrey-eugenides",
+        "title": "Middlesex",
+        "author": "Jeffrey Eugenides",
+        "profiles": {
+            "explorer": -0.444639,
+            "analyst": -0.377618,
+            "empath": 0.11056,
+            "adventurer": 0.035737,
+            "realist": 0.517888,
+            "visionary": -0.712782
+        }
+    },
+    {
+        "id": "sinuciderea-fecioarelor-jeffrey-eugenides",
+        "title": "Sinuciderea fecioarelor",
+        "author": "Jeffrey Eugenides",
+        "profiles": {
+            "explorer": -0.298609,
+            "analyst": -0.549921,
+            "empath": 0.272358,
+            "adventurer": 0.119616,
+            "realist": 0.46887,
+            "visionary": -0.635002
+        }
+    },
+    {
+        "id": "orașul-hoților-david-benioff",
+        "title": "Orașul hoților",
+        "author": "David Benioff",
+        "profiles": {
+            "explorer": -0.384912,
+            "analyst": -0.497848,
+            "empath": -0.133534,
+            "adventurer": 0.242922,
+            "realist": 0.288861,
+            "visionary": -0.647887
+        }
+    },
+    {
+        "id": "atlasul-norilor-david-mitchell",
+        "title": "Atlasul norilor",
+        "author": "David Mitchell",
+        "profiles": {
+            "explorer": 0.259586,
+            "analyst": 0.1911,
+            "empath": -0.054326,
+            "adventurer": 0.557083,
+            "realist": -0.042641,
+            "visionary": 0.342483
+        }
+    },
+    {
+        "id": "ispășire-ian-mcewan",
+        "title": "Ispășire",
+        "author": "Ian McEwan",
+        "profiles": {
+            "explorer": -0.387913,
+            "analyst": -0.152889,
+            "empath": 0.639354,
+            "adventurer": -0.256703,
+            "realist": 0.74042,
+            "visionary": -0.630281
+        }
+    },
+    {
+        "id": "amsterdam-ian-mcewan",
+        "title": "Amsterdam",
+        "author": "Ian McEwan",
+        "profiles": {
+            "explorer": -0.329451,
+            "analyst": -0.549168,
+            "empath": 0.206627,
+            "adventurer": 0.196235,
+            "realist": 0.476803,
+            "visionary": -0.668017
+        }
+    },
+    {
+        "id": "extrem-de-tare-și-incredibil-de-aproape-jonathan-safran-foer",
+        "title": "Extrem de tare și incredibil de aproape",
+        "author": "Jonathan Safran Foer",
+        "profiles": {
+            "explorer": -0.282435,
+            "analyst": -0.39896,
+            "empath": 0.106947,
+            "adventurer": 0.398862,
+            "realist": 0.066076,
+            "visionary": -0.151996
+        }
+    },
+    {
+        "id": "totul-este-iluminat-jonathan-safran-foer",
+        "title": "Totul este iluminat",
+        "author": "Jonathan Safran Foer",
+        "profiles": {
+            "explorer": -0.717567,
+            "analyst": -0.544593,
+            "empath": 0.173727,
+            "adventurer": -0.161636,
+            "realist": 0.269367,
+            "visionary": -0.683618
+        }
+    },
+    {
+        "id": "eleganța-ariciului-muriel-barbery",
+        "title": "Eleganța ariciului",
+        "author": "Muriel Barbery",
+        "profiles": {
+            "explorer": -0.178878,
+            "analyst": 0.458426,
+            "empath": 0.709062,
+            "adventurer": -0.366023,
+            "realist": 0.70689,
+            "visionary": -0.169781
+        }
+    },
+    {
+        "id": "biblioteca-de-la-miezul-nopții-matt-haig",
+        "title": "Biblioteca de la miezul nopții",
+        "author": "Matt Haig",
+        "profiles": {
+            "explorer": 0.256695,
+            "analyst": 0.586931,
+            "empath": 0.184686,
+            "adventurer": 0.160469,
+            "realist": 0.252862,
+            "visionary": 0.341979
+        }
+    },
+    {
+        "id": "cântecul-lui-ahile-madeline-miller",
+        "title": "Cântecul lui Ahile",
+        "author": "Madeline Miller",
+        "profiles": {
+            "explorer": 0.109249,
+            "analyst": -0.291754,
+            "empath": 0.369969,
+            "adventurer": 0.475298,
+            "realist": 0.53149,
+            "visionary": -0.258904
+        }
+    },
+    {
+        "id": "circe-madeline-miller",
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "profiles": {
+            "explorer": 0.048892,
+            "analyst": -0.362125,
+            "empath": 0.346203,
+            "adventurer": 0.243789,
+            "realist": 0.245435,
+            "visionary": -0.106964
+        }
+    },
+    {
+        "id": "babel-r-f-kuang",
+        "title": "Babel",
+        "author": "R. F. Kuang",
+        "profiles": {
+            "explorer": -0.452644,
+            "analyst": -0.302048,
+            "empath": 0.012414,
+            "adventurer": 0.128455,
+            "realist": -0.033574,
+            "visionary": -0.169321
+        }
+    },
+    {
+        "id": "piranesi-susanna-clarke",
+        "title": "Piranesi",
+        "author": "Susanna Clarke",
+        "profiles": {
+            "explorer": -0.315466,
+            "analyst": 0.047561,
+            "empath": -0.04599,
+            "adventurer": -0.066946,
+            "realist": 0.131899,
+            "visionary": -0.206158
+        }
+    },
+    {
+        "id": "jonathan-strange-și-domnul-norrell-susanna-clarke",
+        "title": "Jonathan Strange și domnul Norrell",
+        "author": "Susanna Clarke",
+        "profiles": {
+            "explorer": -0.089795,
+            "analyst": -0.157679,
+            "empath": -0.252018,
+            "adventurer": 0.236169,
+            "realist": -0.161087,
+            "visionary": 0.020318
+        }
+    },
+    {
+        "id": "lecții-de-chimie-bonnie-garmus",
+        "title": "Lecții de chimie",
+        "author": "Bonnie Garmus",
+        "profiles": {
+            "explorer": -0.668242,
+            "analyst": -0.32264,
+            "empath": 0.048679,
+            "adventurer": -0.146903,
+            "realist": 0.223333,
+            "visionary": -0.587864
+        }
+    },
+    {
+        "id": "toată-lumina-pe-care-nu-o-putem-vedea-anthony-doerr",
+        "title": "Toată lumina pe care nu o putem vedea",
+        "author": "Anthony Doerr",
+        "profiles": {
+            "explorer": -0.180778,
+            "analyst": 0.462116,
+            "empath": 0.606601,
+            "adventurer": -0.162814,
+            "realist": 0.462689,
+            "visionary": 0.016491
+        }
+    },
+    {
+        "id": "poartă-ți-plugul-peste-oasele-morților-olga-tokarczuk",
+        "title": "Poartă-ți plugul peste oasele morților",
+        "author": "Olga Tokarczuk",
+        "profiles": {
+            "explorer": -0.045374,
+            "analyst": 0.163376,
+            "empath": 0.418018,
+            "adventurer": 0.271415,
+            "realist": 0.581595,
+            "visionary": -0.14575
+        }
+    },
+    {
+        "id": "călătorii-olga-tokarczuk",
+        "title": "Călătorii",
+        "author": "Olga Tokarczuk",
+        "profiles": {
+            "explorer": -0.307926,
+            "analyst": 0.334931,
+            "empath": -0.045427,
+            "adventurer": -0.277413,
+            "realist": 0.233602,
+            "visionary": -0.18216
+        }
+    },
+    {
+        "id": "străveacul-și-alte-vremi-olga-tokarczuk",
+        "title": "Străveacul și alte vremi",
+        "author": "Olga Tokarczuk",
+        "profiles": {
+            "explorer": -0.002122,
+            "analyst": 0.402877,
+            "empath": 0.104183,
+            "adventurer": -0.408325,
+            "realist": 0.288725,
+            "visionary": -0.041533
+        }
+    },
+    {
+        "id": "vegetariana-han-kang",
+        "title": "Vegetariana",
+        "author": "Han Kang",
+        "profiles": {
+            "explorer": -0.402224,
+            "analyst": -0.153278,
+            "empath": 0.513541,
+            "adventurer": 0.194802,
+            "realist": 0.391001,
+            "visionary": -0.245261
+        }
+    },
+    {
+        "id": "lecții-de-greacă-han-kang",
+        "title": "Lecții de greacă",
+        "author": "Han Kang",
+        "profiles": {
+            "explorer": -0.608962,
+            "analyst": -0.14064,
+            "empath": 0.415143,
+            "adventurer": -0.614189,
+            "realist": 0.545691,
+            "visionary": -0.686581
+        }
+    },
+    {
+        "id": "în-bucătărie-banana-yoshimoto",
+        "title": "În bucătărie",
+        "author": "Banana Yoshimoto",
+        "profiles": {
+            "explorer": -0.271869,
+            "analyst": 0.055728,
+            "empath": 0.655387,
+            "adventurer": -0.267978,
+            "realist": 0.731355,
+            "visionary": -0.457844
+        }
+    },
+    {
+        "id": "poliția-memoriei-yōko-ogawa",
+        "title": "Poliția memoriei",
+        "author": "Yōko Ogawa",
+        "profiles": {
+            "explorer": -0.276846,
+            "analyst": -0.011786,
+            "empath": 0.224597,
+            "adventurer": -0.287504,
+            "realist": 0.385627,
+            "visionary": -0.379413
+        }
+    },
+    {
+        "id": "menajera-și-profesorul-yōko-ogawa",
+        "title": "Menajera și profesorul",
+        "author": "Yōko Ogawa",
+        "profiles": {
+            "explorer": -0.252394,
+            "analyst": -0.058611,
+            "empath": 0.32893,
+            "adventurer": -0.423337,
+            "realist": 0.652129,
+            "visionary": -0.61715
+        }
+    },
+    {
+        "id": "picnic-la-marginea-drumului-arkadi-și-boris-strugațki",
+        "title": "Picnic la marginea drumului",
+        "author": "Arkadi și Boris Strugațki",
+        "profiles": {
+            "explorer": -0.542784,
+            "analyst": -0.277811,
+            "empath": -0.739715,
+            "adventurer": -0.516084,
+            "realist": -0.525127,
+            "visionary": -0.29322
+        }
+    },
+    {
+        "id": "solaris-stanisław-lem",
+        "title": "Solaris",
+        "author": "Stanisław Lem",
+        "profiles": {
+            "explorer": -0.518804,
+            "analyst": 0.164217,
+            "empath": 0.110368,
+            "adventurer": -0.544664,
+            "realist": 0.215111,
+            "visionary": -0.295342
+        }
+    },
+    {
+        "id": "ciberiada-stanisław-lem",
+        "title": "Ciberiada",
+        "author": "Stanisław Lem",
+        "profiles": {
+            "explorer": -0.084801,
+            "analyst": -0.112432,
+            "empath": -0.543871,
+            "adventurer": 0.201579,
+            "realist": -0.186956,
+            "visionary": -0.092858
+        }
+    },
+    {
+        "id": "maestrul-și-margarita-mihail-bulgakov",
+        "title": "Maestrul și Margarita",
+        "author": "Mihail Bulgakov",
+        "profiles": {
+            "explorer": -0.306825,
+            "analyst": -0.238822,
+            "empath": 0.348864,
+            "adventurer": 0.079593,
+            "realist": 0.37269,
+            "visionary": -0.29886
+        }
+    },
+    {
+        "id": "doctor-jivago-boris-pasternak",
+        "title": "Doctor Jivago",
+        "author": "Boris Pasternak",
+        "profiles": {
+            "explorer": -0.491721,
+            "analyst": -0.22739,
+            "empath": 0.423691,
+            "adventurer": -0.152628,
+            "realist": 0.642796,
+            "visionary": -0.687631
+        }
+    },
+    {
+        "id": "lolita-vladimir-nabokov",
+        "title": "Lolita",
+        "author": "Vladimir Nabokov",
+        "profiles": {
+            "explorer": -0.081476,
+            "analyst": -0.167768,
+            "empath": 0.704783,
+            "adventurer": 0.035038,
+            "realist": 0.731472,
+            "visionary": -0.421964
+        }
+    },
+    {
+        "id": "pnin-vladimir-nabokov",
+        "title": "Pnin",
+        "author": "Vladimir Nabokov",
+        "profiles": {
+            "explorer": -0.48315,
+            "analyst": -0.350808,
+            "empath": 0.413665,
+            "adventurer": -0.071445,
+            "realist": 0.645043,
+            "visionary": -0.736428
+        }
+    },
+    {
+        "id": "orbirea-josé-saramago",
+        "title": "Orbirea",
+        "author": "José Saramago",
+        "profiles": {
+            "explorer": -0.192877,
+            "analyst": 0.042224,
+            "empath": 0.497135,
+            "adventurer": -0.085283,
+            "realist": 0.679905,
+            "visionary": -0.417309
+        }
+    },
+    {
+        "id": "evanghelia-după-isus-cristos-josé-saramago",
+        "title": "Evanghelia după Isus Cristos",
+        "author": "José Saramago",
+        "profiles": {
+            "explorer": -0.072686,
+            "analyst": 0.09994,
+            "empath": 0.730434,
+            "adventurer": 0.210614,
+            "realist": 0.869296,
+            "visionary": -0.356848
+        }
+    },
+    {
+        "id": "numele-meu-este-roșu-orhan-pamuk",
+        "title": "Numele meu este Roșu",
+        "author": "Orhan Pamuk",
+        "profiles": {
+            "explorer": -0.246561,
+            "analyst": -0.153956,
+            "empath": 0.490162,
+            "adventurer": 0.233617,
+            "realist": 0.6835,
+            "visionary": -0.490626
+        }
+    },
+    {
+        "id": "muzeul-inocenței-orhan-pamuk",
+        "title": "Muzeul inocenței",
+        "author": "Orhan Pamuk",
+        "profiles": {
+            "explorer": -0.447106,
+            "analyst": 0.093245,
+            "empath": 0.569844,
+            "adventurer": -0.353855,
+            "realist": 0.721386,
+            "visionary": -0.554882
+        }
+    },
+    {
+        "id": "viața-lui-galilei-bertolt-brecht",
+        "title": "Viața lui Galilei",
+        "author": "Bertolt Brecht",
+        "profiles": {
+            "explorer": -0.39755,
+            "analyst": -0.298395,
+            "empath": 0.155451,
+            "adventurer": 0.024859,
+            "realist": 0.566417,
+            "visionary": -0.727468
+        }
+    },
+    {
+        "id": "steppenwolf-hermann-hesse",
+        "title": "Steppenwolf",
+        "author": "Hermann Hesse",
+        "profiles": {
+            "explorer": -0.501048,
+            "analyst": -0.108214,
+            "empath": 0.448473,
+            "adventurer": -0.01581,
+            "realist": 0.419092,
+            "visionary": -0.37467
+        }
+    },
+    {
+        "id": "jocul-cu-mărgele-de-sticlă-hermann-hesse",
+        "title": "Jocul cu mărgele de sticlă",
+        "author": "Hermann Hesse",
+        "profiles": {
+            "explorer": 0.016524,
+            "analyst": 0.434702,
+            "empath": 0.632404,
+            "adventurer": -0.119992,
+            "realist": 0.774601,
+            "visionary": -0.141746
+        }
+    },
+    {
+        "id": "parfumul-patrick-süskind",
+        "title": "Parfumul",
+        "author": "Patrick Süskind",
+        "profiles": {
+            "explorer": -0.327197,
+            "analyst": -0.376473,
+            "empath": 0.444203,
+            "adventurer": 0.03939,
+            "realist": 0.660724,
+            "visionary": -0.655311
+        }
+    },
+    {
+        "id": "suflete-moarte-nikolai-gogol",
+        "title": "Suflete moarte",
+        "author": "Nikolai Gogol",
+        "profiles": {
+            "explorer": 0.005572,
+            "analyst": 0.297754,
+            "empath": 0.509432,
+            "adventurer": -0.085402,
+            "realist": 0.860914,
+            "visionary": -0.385209
+        }
+    },
+    {
+        "id": "inima-unui-câine-mihail-bulgakov",
+        "title": "Inima unui câine",
+        "author": "Mihail Bulgakov",
+        "profiles": {
+            "explorer": -0.147194,
+            "analyst": 0.271725,
+            "empath": 0.315213,
+            "adventurer": 0.141968,
+            "realist": 0.635009,
+            "visionary": -0.280643
+        }
+    },
+    {
+        "id": "pachinko-min-jin-lee",
+        "title": "Pachinko",
+        "author": "Min Jin Lee",
+        "profiles": {
+            "explorer": -0.482476,
+            "analyst": -0.56112,
+            "empath": 0.018933,
+            "adventurer": 0.171406,
+            "realist": 0.397465,
+            "visionary": -0.75591
+        }
+    },
+    {
+        "id": "free-food-for-millionaires-min-jin-lee",
+        "title": "Free Food for Millionaires",
+        "author": "Min Jin Lee",
+        "profiles": {
+            "explorer": -0.472666,
+            "analyst": -0.413191,
+            "empath": -0.140814,
+            "adventurer": 0.019739,
+            "realist": 0.072093,
+            "visionary": -0.488482
+        }
+    },
+    {
+        "id": "exhalation-ted-chiang",
+        "title": "Exhalation",
+        "author": "Ted Chiang",
+        "profiles": {
+            "explorer": -0.084048,
+            "analyst": -0.014876,
+            "empath": -0.445854,
+            "adventurer": 0.18995,
+            "realist": -0.285949,
+            "visionary": 0.082589
+        }
+    },
+    {
+        "id": "stories-of-your-life-and-others-povestea-vieții-tale-și-alte-povestiri-ted-chiang",
+        "title": "Stories of Your Life and Others (Povestea vieții tale și alte povestiri)",
+        "author": "Ted Chiang",
+        "profiles": {
+            "explorer": 0.244319,
+            "analyst": 0.460884,
+            "empath": -0.211513,
+            "adventurer": 0.140469,
+            "realist": 0.10531,
+            "visionary": 0.197181
+        }
+    },
+    {
+        "id": "kindred-octavia-e-butler",
+        "title": "Kindred",
+        "author": "Octavia E. Butler",
+        "profiles": {
+            "explorer": -0.218229,
+            "analyst": -0.373285,
+            "empath": 0.370609,
+            "adventurer": 0.346874,
+            "realist": 0.612501,
+            "visionary": -0.546966
+        }
+    },
+    {
+        "id": "parabola-semănătorului-octavia-e-butler",
+        "title": "Parabola semănătorului",
+        "author": "Octavia E. Butler",
+        "profiles": {
+            "explorer": 0.245564,
+            "analyst": 0.245165,
+            "empath": 0.415988,
+            "adventurer": 0.218445,
+            "realist": 0.677855,
+            "visionary": -0.098818
+        }
+    },
+    {
+        "id": "the-fifth-season-n-k-jemisin",
+        "title": "The Fifth Season",
+        "author": "N. K. Jemisin",
+        "profiles": {
+            "explorer": -0.476596,
+            "analyst": -0.580971,
+            "empath": -0.220368,
+            "adventurer": 0.350157,
+            "realist": -0.108524,
+            "visionary": -0.353819
+        }
+    },
+    {
+        "id": "the-city-we-became-n-k-jemisin",
+        "title": "The City We Became",
+        "author": "N. K. Jemisin",
+        "profiles": {
+            "explorer": 0.068705,
+            "analyst": -0.199287,
+            "empath": 0.04403,
+            "adventurer": 0.440758,
+            "realist": 0.172814,
+            "visionary": -0.071864
+        }
+    },
+    {
+        "id": "un-lung-drum-spre-o-planetă-mică-și-furioasă-becky-chambers",
+        "title": "Un lung drum spre o planetă mică și furioasă",
+        "author": "Becky Chambers",
+        "profiles": {
+            "explorer": -0.413217,
+            "analyst": -0.2572,
+            "empath": -0.476748,
+            "adventurer": -0.206892,
+            "realist": -0.248897,
+            "visionary": -0.239886
+        }
+    },
+    {
+        "id": "psalm-pentru-cei-construiți-în-sălbăticie-becky-chambers",
+        "title": "Psalm pentru cei construiți în sălbăticie",
+        "author": "Becky Chambers",
+        "profiles": {
+            "explorer": -0.118189,
+            "analyst": 0.585457,
+            "empath": 0.060486,
+            "adventurer": -0.13666,
+            "realist": 0.077094,
+            "visionary": 0.246681
+        }
+    },
+    {
+        "id": "project-hail-mary-andy-weir",
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "profiles": {
+            "explorer": 0.027169,
+            "analyst": -0.249236,
+            "empath": -0.544958,
+            "adventurer": 0.424986,
+            "realist": -0.237005,
+            "visionary": -0.031843
+        }
+    },
+    {
+        "id": "marțianul-andy-weir",
+        "title": "Marțianul",
+        "author": "Andy Weir",
+        "profiles": {
+            "explorer": -0.491593,
+            "analyst": -0.6556,
+            "empath": -0.518725,
+            "adventurer": 0.038556,
+            "realist": -0.297733,
+            "visionary": -0.44682
+        }
+    },
+    {
+        "id": "problema-celor-trei-corpuri-liu-cixin",
+        "title": "Problema celor trei corpuri",
+        "author": "Liu Cixin",
+        "profiles": {
+            "explorer": 0.234102,
+            "analyst": 0.104304,
+            "empath": -0.107119,
+            "adventurer": 0.501417,
+            "realist": 0.274656,
+            "visionary": -0.009988
+        }
+    },
+    {
+        "id": "marea-liniștii-emily-st-john-mandel",
+        "title": "Marea liniștii",
+        "author": "Emily St. John Mandel",
+        "profiles": {
+            "explorer": -0.400175,
+            "analyst": 0.08007,
+            "empath": -0.098429,
+            "adventurer": -0.487064,
+            "realist": 0.078165,
+            "visionary": -0.30229
+        }
+    },
+    {
+        "id": "station-eleven-emily-st-john-mandel",
+        "title": "Station Eleven",
+        "author": "Emily St. John Mandel",
+        "profiles": {
+            "explorer": -0.682948,
+            "analyst": -0.423799,
+            "empath": -0.362187,
+            "adventurer": -0.175225,
+            "realist": -0.046942,
+            "visionary": -0.576354
+        }
+    },
+    {
+        "id": "casa-olandeză-ann-patchett",
+        "title": "Casa Olandeză",
+        "author": "Ann Patchett",
+        "profiles": {
+            "explorer": -0.34805,
+            "analyst": -0.095277,
+            "empath": 0.488318,
+            "adventurer": -0.376617,
+            "realist": 0.700026,
+            "visionary": -0.623405
+        }
+    },
+    {
+        "id": "bel-canto-ann-patchett",
+        "title": "Bel Canto",
+        "author": "Ann Patchett",
+        "profiles": {
+            "explorer": -0.656905,
+            "analyst": -0.466242,
+            "empath": 0.200275,
+            "adventurer": 0.018233,
+            "realist": 0.336437,
+            "visionary": -0.607879
+        }
+    },
+    {
+        "id": "mica-viață-hanya-yanagihara",
+        "title": "Mica viață",
+        "author": "Hanya Yanagihara",
+        "profiles": {
+            "explorer": -0.553332,
+            "analyst": -0.252479,
+            "empath": 0.320249,
+            "adventurer": -0.491015,
+            "realist": 0.543265,
+            "visionary": -0.76631
+        }
+    },
+    {
+        "id": "klara-și-soarele-kazuo-ishiguro",
+        "title": "Klara și Soarele",
+        "author": "Kazuo Ishiguro",
+        "profiles": {
+            "explorer": -0.030728,
+            "analyst": 0.324409,
+            "empath": 0.615562,
+            "adventurer": -0.384152,
+            "realist": 0.638591,
+            "visionary": -0.183162
+        }
+    },
+    {
+        "id": "foster-claire-keegan",
+        "title": "Foster",
+        "author": "Claire Keegan",
+        "profiles": {
+            "explorer": -0.469583,
+            "analyst": -0.356817,
+            "empath": 0.458591,
+            "adventurer": -0.275506,
+            "realist": 0.603976,
+            "visionary": -0.702376
+        }
+    },
+    {
+        "id": "lucruri-mărunte-ca-acestea-claire-keegan",
+        "title": "Lucruri mărunte ca acestea",
+        "author": "Claire Keegan",
+        "profiles": {
+            "explorer": -0.559537,
+            "analyst": -0.560454,
+            "empath": 0.046384,
+            "adventurer": -0.465771,
+            "realist": 0.340652,
+            "visionary": -0.876413
+        }
+    },
+    {
+        "id": "sorgul-roșu-mo-yan",
+        "title": "Sorgul roșu",
+        "author": "Mo Yan",
+        "profiles": {
+            "explorer": -0.555292,
+            "analyst": -0.623377,
+            "empath": 0.238613,
+            "adventurer": -0.053261,
+            "realist": 0.483795,
+            "visionary": -0.814872
+        }
+    },
+    {
+        "id": "a-trăi-yu-hua",
+        "title": "A trăi",
+        "author": "Yu Hua",
+        "profiles": {
+            "explorer": -0.459596,
+            "analyst": -0.021496,
+            "empath": 0.493446,
+            "adventurer": -0.291158,
+            "realist": 0.768142,
+            "visionary": -0.679962
+        }
+    },
+    {
+        "id": "frații-yu-hua",
+        "title": "Frații",
+        "author": "Yu Hua",
+        "profiles": {
+            "explorer": -0.017976,
+            "analyst": 0.064568,
+            "empath": 0.539907,
+            "adventurer": 0.21441,
+            "realist": 0.815211,
+            "visionary": -0.379764
+        }
+    },
+    {
+        "id": "pînă-nu-se-răcește-cafeaua-toshikazu-kawaguchi",
+        "title": "Pînă nu se răcește cafeaua",
+        "author": "Toshikazu Kawaguchi",
+        "profiles": {
+            "explorer": -0.650114,
+            "analyst": -0.093343,
+            "empath": 0.206645,
+            "adventurer": -0.3506,
+            "realist": 0.502966,
+            "visionary": -0.661299
+        }
+    },
+    {
+        "id": "femeia-de-la-magazinul-non-stop-sayaka-murata",
+        "title": "Femeia de la magazinul non-stop",
+        "author": "Sayaka Murata",
+        "profiles": {
+            "explorer": -0.349659,
+            "analyst": -0.210396,
+            "empath": 0.106704,
+            "adventurer": -0.040778,
+            "realist": 0.42987,
+            "visionary": -0.531494
+        }
+    },
+    {
+        "id": "dacă-pisicile-ar-dispărea-din-lume-genki-kawamura",
+        "title": "Dacă pisicile ar dispărea din lume",
+        "author": "Genki Kawamura",
+        "profiles": {
+            "explorer": -0.658519,
+            "analyst": -0.538193,
+            "empath": -0.143124,
+            "adventurer": -0.136432,
+            "realist": -0.016681,
+            "visionary": -0.538065
+        }
+    },
+    {
+        "id": "strange-weather-in-tokyo-hiromi-kawakami",
+        "title": "Strange Weather in Tokyo",
+        "author": "Hiromi Kawakami",
+        "profiles": {
+            "explorer": -0.080228,
+            "analyst": 0.505316,
+            "empath": -0.044265,
+            "adventurer": -0.325319,
+            "realist": -0.021501,
+            "visionary": 0.26485
+        }
+    },
+    {
+        "id": "kim-jiyoung-născută-în-1982-cho-nam-joo",
+        "title": "Kim Jiyoung, născută în 1982",
+        "author": "Cho Nam-joo",
+        "profiles": {
+            "explorer": -0.020651,
+            "analyst": 0.147355,
+            "empath": 0.485086,
+            "adventurer": 0.187354,
+            "realist": 0.690794,
+            "visionary": -0.235417
+        }
+    },
+    {
+        "id": "jumătate-de-soare-galben-chimamanda-ngozi-adichie",
+        "title": "Jumătate de soare galben",
+        "author": "Chimamanda Ngozi Adichie",
+        "profiles": {
+            "explorer": -0.020217,
+            "analyst": 0.297346,
+            "empath": 0.426637,
+            "adventurer": 0.073457,
+            "realist": 0.835294,
+            "visionary": -0.333513
+        }
+    },
+    {
+        "id": "americanah-chimamanda-ngozi-adichie",
+        "title": "Americanah",
+        "author": "Chimamanda Ngozi Adichie",
+        "profiles": {
+            "explorer": 0.099918,
+            "analyst": 0.038084,
+            "empath": 0.460854,
+            "adventurer": 0.24652,
+            "realist": 0.758376,
+            "visionary": -0.331764
+        }
+    },
+    {
+        "id": "totul-se-destramă-chinua-achebe",
+        "title": "Totul se destramă",
+        "author": "Chinua Achebe",
+        "profiles": {
+            "explorer": -0.058295,
+            "analyst": 0.010254,
+            "empath": 0.231375,
+            "adventurer": 0.307658,
+            "realist": 0.533431,
+            "visionary": -0.296488
+        }
+    },
+    {
+        "id": "zeul-lucrurilor-mărunte-arundhati-roy",
+        "title": "Zeul lucrurilor mărunte",
+        "author": "Arundhati Roy",
+        "profiles": {
+            "explorer": -0.489303,
+            "analyst": -0.477859,
+            "empath": 0.357864,
+            "adventurer": -0.34172,
+            "realist": 0.491721,
+            "visionary": -0.736011
+        }
+    },
+    {
+        "id": "un-băiat-potrivit-vikram-seth",
+        "title": "Un băiat potrivit",
+        "author": "Vikram Seth",
+        "profiles": {
+            "explorer": -0.26379,
+            "analyst": -0.417072,
+            "empath": 0.307024,
+            "adventurer": -0.053101,
+            "realist": 0.600291,
+            "visionary": -0.693905
+        }
+    },
+    {
+        "id": "tigru-alb-aravind-adiga",
+        "title": "Tigru alb",
+        "author": "Aravind Adiga",
+        "profiles": {
+            "explorer": -0.350609,
+            "analyst": -0.174157,
+            "empath": -0.121793,
+            "adventurer": 0.014279,
+            "realist": 0.279171,
+            "visionary": -0.5207
+        }
+    },
+    {
+        "id": "copiii-din-miez-de-noapte-salman-rushdie",
+        "title": "Copiii din miez de noapte",
+        "author": "Salman Rushdie",
+        "profiles": {
+            "explorer": -0.162438,
+            "analyst": -0.223562,
+            "empath": -0.026556,
+            "adventurer": 0.233444,
+            "realist": 0.360955,
+            "visionary": -0.408439
+        }
+    },
+    {
+        "id": "rușine-salman-rushdie",
+        "title": "Rușine",
+        "author": "Salman Rushdie",
+        "profiles": {
+            "explorer": -0.277263,
+            "analyst": -0.282622,
+            "empath": 0.005384,
+            "adventurer": 0.066931,
+            "realist": 0.420363,
+            "visionary": -0.585642
+        }
+    },
+    {
+        "id": "băiatul-cu-pijamale-în-dungi-john-boyne",
+        "title": "Băiatul cu pijamale în dungi",
+        "author": "John Boyne",
+        "profiles": {
+            "explorer": -0.637536,
+            "analyst": -0.43767,
+            "empath": 0.165849,
+            "adventurer": -0.501691,
+            "realist": 0.45436,
+            "visionary": -0.844519
+        }
+    },
+    {
+        "id": "scara-lui-iacob-ludmila-ulițkaia",
+        "title": "Scara lui Iacob",
+        "author": "Ludmila Ulițkaia",
+        "profiles": {
+            "explorer": -0.015178,
+            "analyst": 0.35213,
+            "empath": 0.713539,
+            "adventurer": -0.143219,
+            "realist": 0.83501,
+            "visionary": -0.252098
+        }
+    },
+    {
+        "id": "daniel-stein-traducător-ludmila-ulițkaia",
+        "title": "Daniel Stein, traducător",
+        "author": "Ludmila Ulițkaia",
+        "profiles": {
+            "explorer": 0.018189,
+            "analyst": 0.343609,
+            "empath": 0.724305,
+            "adventurer": 0.161121,
+            "realist": 0.851601,
+            "visionary": -0.185912
+        }
+    },
+    {
+        "id": "puritate-jonathan-franzen",
+        "title": "Puritate",
+        "author": "Jonathan Franzen",
+        "profiles": {
+            "explorer": -0.464785,
+            "analyst": -0.408957,
+            "empath": 0.438614,
+            "adventurer": -0.134282,
+            "realist": 0.621824,
+            "visionary": -0.738566
+        }
+    },
+    {
+        "id": "lincoln-între-vieți-george-saunders",
+        "title": "Lincoln între vieți",
+        "author": "George Saunders",
+        "profiles": {
+            "explorer": 0.269376,
+            "analyst": 0.428568,
+            "empath": 0.043263,
+            "adventurer": 0.395523,
+            "realist": 0.160672,
+            "visionary": 0.344235
+        }
+    },
+    {
+        "id": "underground-railroad-colson-whitehead",
+        "title": "Underground Railroad",
+        "author": "Colson Whitehead",
+        "profiles": {
+            "explorer": -0.360916,
+            "analyst": -0.511707,
+            "empath": -0.575704,
+            "adventurer": 0.197943,
+            "realist": -0.40576,
+            "visionary": -0.24085
+        }
+    },
+    {
+        "id": "băieții-de-la-nickel-colson-whitehead",
+        "title": "Băieții de la Nickel",
+        "author": "Colson Whitehead",
+        "profiles": {
+            "explorer": -0.436884,
+            "analyst": -0.761175,
+            "empath": 0.056788,
+            "adventurer": -0.012186,
+            "realist": 0.325851,
+            "visionary": -0.800801
+        }
+    },
+    {
+        "id": "lapvona-ottessa-moshfegh",
+        "title": "Lapvona",
+        "author": "Ottessa Moshfegh",
+        "profiles": {
+            "explorer": -0.452177,
+            "analyst": -0.66338,
+            "empath": 0.200601,
+            "adventurer": 0.123673,
+            "realist": 0.391623,
+            "visionary": -0.708992
+        }
+    },
+    {
+        "id": "eileen-ottessa-moshfegh",
+        "title": "Eileen",
+        "author": "Ottessa Moshfegh",
+        "profiles": {
+            "explorer": -0.546799,
+            "analyst": -0.722007,
+            "empath": 0.145953,
+            "adventurer": 0.038181,
+            "realist": 0.280475,
+            "visionary": -0.703831
+        }
+    },
+    {
+        "id": "my-year-of-rest-and-relaxation-anul-meu-de-odihnă-și-relaxare-ottessa-moshfegh",
+        "title": "My Year of Rest and Relaxation (Anul meu de odihnă și relaxare)",
+        "author": "Ottessa Moshfegh",
+        "profiles": {
+            "explorer": -0.669617,
+            "analyst": 0.071902,
+            "empath": 0.221085,
+            "adventurer": -0.694922,
+            "realist": 0.074829,
+            "visionary": -0.28798
+        }
+    },
+    {
+        "id": "mâine-și-mâine-și-mâine-gabrielle-zevin",
+        "title": "Mâine, și mâine, și mâine",
+        "author": "Gabrielle Zevin",
+        "profiles": {
+            "explorer": -0.155106,
+            "analyst": -0.398963,
+            "empath": -0.472905,
+            "adventurer": 0.189925,
+            "realist": -0.00847,
+            "visionary": -0.398134
+        }
+    },
+    {
+        "id": "cântecul-profetului-paul-lynch",
+        "title": "Cântecul profetului",
+        "author": "Paul Lynch",
+        "profiles": {
+            "explorer": 0.170826,
+            "analyst": -0.133748,
+            "empath": 0.502501,
+            "adventurer": 0.501046,
+            "realist": 0.51621,
+            "visionary": -0.089803
+        }
+    },
+    {
+        "id": "fata-femeie-alta-bernardine-evaristo",
+        "title": "Fata, femeie, alta",
+        "author": "Bernardine Evaristo",
+        "profiles": {
+            "explorer": 0.198132,
+            "analyst": 0.527858,
+            "empath": 0.082788,
+            "adventurer": 0.17117,
+            "realist": 0.285871,
+            "visionary": 0.208621
+        }
+    },
+    {
+        "id": "hamnet-maggie-ofarrell",
+        "title": "Hamnet",
+        "author": "Maggie O'Farrell",
+        "profiles": {
+            "explorer": -0.270507,
+            "analyst": -0.03906,
+            "empath": 0.559421,
+            "adventurer": -0.34979,
+            "realist": 0.705443,
+            "visionary": -0.53768
+        }
+    },
+    {
+        "id": "camera-lui-giovanni-james-baldwin",
+        "title": "Camera lui Giovanni",
+        "author": "James Baldwin",
+        "profiles": {
+            "explorer": -0.130612,
+            "analyst": 0.212511,
+            "empath": 0.764947,
+            "adventurer": -0.179157,
+            "realist": 0.677998,
+            "visionary": -0.195423
+        }
+    },
+    {
+        "id": "dacă-strada-beale-ar-putea-vorbi-james-baldwin",
+        "title": "Dacă strada Beale ar putea vorbi",
+        "author": "James Baldwin",
+        "profiles": {
+            "explorer": 0.31571,
+            "analyst": 0.512845,
+            "empath": 0.640329,
+            "adventurer": 0.158132,
+            "realist": 0.81168,
+            "visionary": -0.019087
+        }
+    },
+    {
+        "id": "un-gentleman-la-moscova-amor-towles",
+        "title": "Un gentleman la Moscova",
+        "author": "Amor Towles",
+        "profiles": {
+            "explorer": -0.480585,
+            "analyst": 0.254654,
+            "empath": 0.329534,
+            "adventurer": -0.524322,
+            "realist": 0.621638,
+            "visionary": -0.521464
+        }
+    },
+    {
+        "id": "regulile-bunelor-maniere-amor-towles",
+        "title": "Regulile bunelor maniere",
+        "author": "Amor Towles",
+        "profiles": {
+            "explorer": -0.503652,
+            "analyst": -0.584411,
+            "empath": -0.04975,
+            "adventurer": -0.168867,
+            "realist": 0.36487,
+            "visionary": -0.836408
+        }
+    },
+    {
+        "id": "arborele-fumului-denis-johnson",
+        "title": "Arborele fumului",
+        "author": "Denis Johnson",
+        "profiles": {
+            "explorer": -0.280596,
+            "analyst": -0.059601,
+            "empath": 0.248552,
+            "adventurer": 0.293233,
+            "realist": 0.275901,
+            "visionary": -0.1492
+        }
+    },
+    {
+        "id": "îngrijorarea-serii-marieke-lucas-rijneveld",
+        "title": "Îngrijorarea serii",
+        "author": "Marieke Lucas Rijneveld",
+        "profiles": {
+            "explorer": -0.062203,
+            "analyst": -0.058401,
+            "empath": 0.532263,
+            "adventurer": -0.04953,
+            "realist": 0.631039,
+            "visionary": -0.34107
+        }
+    },
+    {
+        "id": "confesiunile-kanae-minato",
+        "title": "Confesiunile",
+        "author": "Kanae Minato",
+        "profiles": {
+            "explorer": -0.354287,
+            "analyst": -0.42833,
+            "empath": 0.333262,
+            "adventurer": 0.158997,
+            "realist": 0.606691,
+            "visionary": -0.667079
+        }
+    },
+    {
+        "id": "iepurele-blestemat-bora-chung",
+        "title": "Iepurele blestemat",
+        "author": "Bora Chung",
+        "profiles": {
+            "explorer": 0.320409,
+            "analyst": 0.242814,
+            "empath": 0.278568,
+            "adventurer": 0.574835,
+            "realist": 0.326171,
+            "visionary": 0.251113
+        }
+    },
+    {
+        "id": "temporada-uraganelor-fernanda-melchor",
+        "title": "Temporada uraganelor",
+        "author": "Fernanda Melchor",
+        "profiles": {
+            "explorer": -0.453378,
+            "analyst": -0.358395,
+            "empath": 0.017009,
+            "adventurer": 0.093601,
+            "realist": 0.145294,
+            "visionary": -0.388707
+        }
+    },
+    {
+        "id": "kentukis-samanta-schweblin",
+        "title": "Kentukis",
+        "author": "Samanta Schweblin",
+        "profiles": {
+            "explorer": -0.103219,
+            "analyst": 0.320195,
+            "empath": -0.38244,
+            "adventurer": -0.221218,
+            "realist": -0.247057,
+            "visionary": 0.170779
+        }
+    },
+    {
+        "id": "patria-fernando-aramburu",
+        "title": "Patria",
+        "author": "Fernando Aramburu",
+        "profiles": {
+            "explorer": -0.324864,
+            "analyst": -0.229723,
+            "empath": 0.328086,
+            "adventurer": 0.007666,
+            "realist": 0.725949,
+            "visionary": -0.713476
+        }
+    },
+    {
+        "id": "o-inimă-atât-de-albă-javier-marías",
+        "title": "O inimă atât de albă",
+        "author": "Javier Marías",
+        "profiles": {
+            "explorer": -0.437062,
+            "analyst": -0.165623,
+            "empath": 0.386093,
+            "adventurer": 0.016414,
+            "realist": 0.648901,
+            "visionary": -0.60324
+        }
+    },
+    {
+        "id": "soldații-din-salamina-javier-cercas",
+        "title": "Soldații din Salamina",
+        "author": "Javier Cercas",
+        "profiles": {
+            "explorer": -0.241048,
+            "analyst": -0.228351,
+            "empath": 0.361104,
+            "adventurer": 0.221524,
+            "realist": 0.697994,
+            "visionary": -0.576509
+        }
+    },
+    {
+        "id": "o-istorie-succintă-a-șapte-crime-marlon-james",
+        "title": "O istorie succintă a șapte crime",
+        "author": "Marlon James",
+        "profiles": {
+            "explorer": -0.30844,
+            "analyst": -0.651429,
+            "empath": -0.184477,
+            "adventurer": 0.296768,
+            "realist": 0.260893,
+            "visionary": -0.695573
+        }
+    },
+    {
+        "id": "homegoing-yaa-gyasi",
+        "title": "Homegoing",
+        "author": "Yaa Gyasi",
+        "profiles": {
+            "explorer": -0.291526,
+            "analyst": -0.369286,
+            "empath": 0.270956,
+            "adventurer": 0.120095,
+            "realist": 0.680634,
+            "visionary": -0.720679
+        }
+    },
+    {
+        "id": "femeia-cu-fustă-violet-natsuko-imamura",
+        "title": "Femeia cu fustă violet",
+        "author": "Natsuko Imamura",
+        "profiles": {
+            "explorer": -0.555001,
+            "analyst": -0.567466,
+            "empath": 0.099504,
+            "adventurer": -0.168804,
+            "realist": 0.168358,
+            "visionary": -0.606218
+        }
+    },
+    {
+        "id": "țara-zăpezilor-yasunari-kawabata",
+        "title": "Țara zăpezilor",
+        "author": "Yasunari Kawabata",
+        "profiles": {
+            "explorer": -0.647644,
+            "analyst": -0.356799,
+            "empath": 0.165631,
+            "adventurer": -0.532777,
+            "realist": 0.367489,
+            "visionary": -0.757097
+        }
+    },
+    {
+        "id": "câmpia-în-flăcări-juan-rulfo",
+        "title": "Câmpia în flăcări",
+        "author": "Juan Rulfo",
+        "profiles": {
+            "explorer": -0.466939,
+            "analyst": -0.481786,
+            "empath": 0.220228,
+            "adventurer": -0.057989,
+            "realist": 0.532825,
+            "visionary": -0.778185
+        }
+    },
+    {
+        "id": "pedro-páramo-juan-rulfo",
+        "title": "Pedro Páramo",
+        "author": "Juan Rulfo",
+        "profiles": {
+            "explorer": -0.423315,
+            "analyst": -0.095214,
+            "empath": 0.218791,
+            "adventurer": -0.422266,
+            "realist": 0.174271,
+            "visionary": -0.301154
+        }
+    },
+    {
+        "id": "fiul-povestitorului-pierre-jarawan",
+        "title": "Fiul povestitorului",
+        "author": "Pierre Jarawan",
+        "profiles": {
+            "explorer": -0.089046,
+            "analyst": -0.160116,
+            "empath": 0.299232,
+            "adventurer": 0.132902,
+            "realist": 0.720265,
+            "visionary": -0.557222
+        }
+    },
+    {
+        "id": "grădina-de-sticlă-tatiana-țîbuleac",
+        "title": "Grădina de sticlă",
+        "author": "Tatiana Țîbuleac",
+        "profiles": {
+            "explorer": -0.073891,
+            "analyst": 0.282043,
+            "empath": 0.649173,
+            "adventurer": -0.229777,
+            "realist": 0.725096,
+            "visionary": -0.228703
+        }
+    },
+    {
+        "id": "matei-brunul-lucian-dan-teodorovici",
+        "title": "Matei Brunul",
+        "author": "Lucian Dan Teodorovici",
+        "profiles": {
+            "explorer": -0.431617,
+            "analyst": -0.040269,
+            "empath": 0.447724,
+            "adventurer": -0.097577,
+            "realist": 0.707533,
+            "visionary": -0.611764
+        }
+    },
+    {
+        "id": "sunt-o-babă-comunistă-dan-lungu",
+        "title": "Sunt o babă comunistă!",
+        "author": "Dan Lungu",
+        "profiles": {
+            "explorer": -0.088574,
+            "analyst": 0.274009,
+            "empath": 0.457315,
+            "adventurer": -0.118917,
+            "realist": 0.717798,
+            "visionary": -0.316532
+        }
+    },
+    {
+        "id": "cruciada-copiilor-florina-ilis",
+        "title": "Cruciada copiilor",
+        "author": "Florina Ilis",
+        "profiles": {
+            "explorer": -0.21048,
+            "analyst": -0.254795,
+            "empath": 0.386981,
+            "adventurer": 0.380026,
+            "realist": 0.561287,
+            "visionary": -0.404993
+        }
+    },
+    {
+        "id": "manuscrisul-fanariot-doina-ruști",
+        "title": "Manuscrisul fanariot",
+        "author": "Doina Ruști",
+        "profiles": {
+            "explorer": -0.28843,
+            "analyst": -0.162062,
+            "empath": -0.105502,
+            "adventurer": 0.184467,
+            "realist": 0.333906,
+            "visionary": -0.467447
+        }
+    },
+    {
+        "id": "lizoanca-la-11-ani-doina-ruști",
+        "title": "Lizoanca la 11 ani",
+        "author": "Doina Ruști",
+        "profiles": {
+            "explorer": -0.297561,
+            "analyst": -0.266732,
+            "empath": 0.399417,
+            "adventurer": 0.009832,
+            "realist": 0.777654,
+            "visionary": -0.727389
+        }
+    },
+    {
+        "id": "apropierea-marin-mălaicu-hondrari",
+        "title": "Apropierea",
+        "author": "Marin Mălaicu-Hondrari",
+        "profiles": {
+            "explorer": -0.355584,
+            "analyst": -0.187238,
+            "empath": 0.567302,
+            "adventurer": -0.175468,
+            "realist": 0.777162,
+            "visionary": -0.666894
+        }
+    },
+    {
+        "id": "hotel-universal-simona-sora",
+        "title": "Hotel Universal",
+        "author": "Simona Sora",
+        "profiles": {
+            "explorer": -0.621055,
+            "analyst": -0.382625,
+            "empath": 0.295407,
+            "adventurer": -0.037619,
+            "realist": 0.539005,
+            "visionary": -0.753447
+        }
+    },
+    {
+        "id": "interior-zero-lavinia-braniște",
+        "title": "Interior zero",
+        "author": "Lavinia Braniște",
+        "profiles": {
+            "explorer": -0.759033,
+            "analyst": -0.487447,
+            "empath": 0.057484,
+            "adventurer": -0.275215,
+            "realist": 0.239192,
+            "visionary": -0.755619
+        }
+    },
+    {
+        "id": "soldații-poveste-din-ferentari-adrian-schiop",
+        "title": "Soldații. Poveste din Ferentari",
+        "author": "Adrian Schiop",
+        "profiles": {
+            "explorer": -0.093794,
+            "analyst": -0.117427,
+            "empath": 0.001274,
+            "adventurer": 0.234783,
+            "realist": 0.458448,
+            "visionary": -0.413574
+        }
+    },
+    {
+        "id": "kinderland-liliana-corobca",
+        "title": "Kinderland",
+        "author": "Liliana Corobca",
+        "profiles": {
+            "explorer": -0.568934,
+            "analyst": -0.342729,
+            "empath": 0.441329,
+            "adventurer": -0.360844,
+            "realist": 0.612865,
+            "visionary": -0.769565
+        }
+    },
+    {
+        "id": "cititorul-bernhard-schlink",
+        "title": "Cititorul",
+        "author": "Bernhard Schlink",
+        "profiles": {
+            "explorer": -0.37857,
+            "analyst": 0.086639,
+            "empath": 0.687071,
+            "adventurer": -0.381489,
+            "realist": 0.712264,
+            "visionary": -0.460653
+        }
+    },
+    {
+        "id": "nepoata-bernhard-schlink",
+        "title": "Nepoata",
+        "author": "Bernhard Schlink",
+        "profiles": {
+            "explorer": -0.1028,
+            "analyst": -0.017153,
+            "empath": 0.570419,
+            "adventurer": -0.052269,
+            "realist": 0.736277,
+            "visionary": -0.401927
+        }
+    },
+    {
+        "id": "măsurarea-lumii-daniel-kehlmann",
+        "title": "Măsurarea lumii",
+        "author": "Daniel Kehlmann",
+        "profiles": {
+            "explorer": -0.125902,
+            "analyst": 0.114443,
+            "empath": -0.232949,
+            "adventurer": 0.027105,
+            "realist": 0.116352,
+            "visionary": -0.190901
+        }
+    },
+    {
+        "id": "eu-și-kaminski-daniel-kehlmann",
+        "title": "Eu și Kaminski",
+        "author": "Daniel Kehlmann",
+        "profiles": {
+            "explorer": -0.184613,
+            "analyst": 0.417271,
+            "empath": 0.296891,
+            "adventurer": 0.064078,
+            "realist": 0.423296,
+            "visionary": -0.065763
+        }
+    },
+    {
+        "id": "pădurea-clarei-jenny-erpenbeck",
+        "title": "Pădurea Clarei",
+        "author": "Jenny Erpenbeck",
+        "profiles": {
+            "explorer": -0.213574,
+            "analyst": 0.255233,
+            "empath": 0.695012,
+            "adventurer": -0.373142,
+            "realist": 0.769435,
+            "visionary": -0.352736
+        }
+    },
+    {
+        "id": "kairos-jenny-erpenbeck",
+        "title": "Kairos",
+        "author": "Jenny Erpenbeck",
+        "profiles": {
+            "explorer": -0.126087,
+            "analyst": 0.000516,
+            "empath": 0.628424,
+            "adventurer": 0.288813,
+            "realist": 0.658041,
+            "visionary": -0.220497
+        }
+    },
+    {
+        "id": "extincție-o-destrămare-thomas-bernhard",
+        "title": "Extincție. O destrămare",
+        "author": "Thomas Bernhard",
+        "profiles": {
+            "explorer": -0.418501,
+            "analyst": -0.250608,
+            "empath": 0.35884,
+            "adventurer": 0.32405,
+            "realist": 0.49405,
+            "visionary": -0.467625
+        }
+    },
+    {
+        "id": "aleea-soarelui-thomas-brussig",
+        "title": "Aleea Soarelui",
+        "author": "Thomas Brussig",
+        "profiles": {
+            "explorer": -0.558539,
+            "analyst": -0.003569,
+            "empath": 0.23198,
+            "adventurer": -0.292072,
+            "realist": 0.571031,
+            "visionary": -0.614701
+        }
+    },
+    {
+        "id": "cele-șapte-vieți-ale-lui-felix-k-jan-koneffke",
+        "title": "Cele șapte vieți ale lui Felix K.",
+        "author": "Jan Koneffke",
+        "profiles": {
+            "explorer": -0.637331,
+            "analyst": -0.077588,
+            "empath": 0.005562,
+            "adventurer": -0.256101,
+            "realist": 0.411001,
+            "visionary": -0.662422
+        }
+    },
+    {
+        "id": "o-iubire-la-tibru-jan-koneffke",
+        "title": "O iubire la Tibru",
+        "author": "Jan Koneffke",
+        "profiles": {
+            "explorer": -0.580731,
+            "analyst": -0.248671,
+            "empath": 0.457336,
+            "adventurer": -0.416743,
+            "realist": 0.641451,
+            "visionary": -0.756669
+        }
+    },
+    {
+        "id": "animalul-inimii-herta-müller",
+        "title": "Animalul inimii",
+        "author": "Herta Müller",
+        "profiles": {
+            "explorer": -0.047776,
+            "analyst": 0.003571,
+            "empath": 0.575806,
+            "adventurer": 0.156642,
+            "realist": 0.788137,
+            "visionary": -0.393854
+        }
+    },
+    {
+        "id": "frunze-de-dor-ion-druță",
+        "title": "Frunze de dor",
+        "author": "Ion Druță",
+        "profiles": {
+            "explorer": -0.110415,
+            "analyst": 0.238542,
+            "empath": 0.626632,
+            "adventurer": -0.331099,
+            "realist": 0.775986,
+            "visionary": -0.363391
+        }
+    },
+    {
+        "id": "povara-bunătății-noastre-ion-druță",
+        "title": "Povara bunătății noastre",
+        "author": "Ion Druță",
+        "profiles": {
+            "explorer": -0.102336,
+            "analyst": 0.244049,
+            "empath": 0.67165,
+            "adventurer": -0.242261,
+            "realist": 0.798276,
+            "visionary": -0.338549
+        }
+    },
+    {
+        "id": "zbor-frânt-vladimir-beșleagă",
+        "title": "Zbor frânt",
+        "author": "Vladimir Beșleagă",
+        "profiles": {
+            "explorer": -0.542617,
+            "analyst": -0.115933,
+            "empath": 0.292377,
+            "adventurer": -0.155065,
+            "realist": 0.461562,
+            "visionary": -0.52423
+        }
+    },
+    {
+        "id": "viața-și-moartea-nefericitului-filimon-vladimir-beșleagă",
+        "title": "Viața și moartea nefericitului Filimon",
+        "author": "Vladimir Beșleagă",
+        "profiles": {
+            "explorer": -0.121922,
+            "analyst": 0.022099,
+            "empath": 0.522857,
+            "adventurer": 0.240019,
+            "realist": 0.543247,
+            "visionary": -0.196004
+        }
+    },
+    {
+        "id": "woldemar-oleg-serebrian",
+        "title": "Woldemar",
+        "author": "Oleg Serebrian",
+        "profiles": {
+            "explorer": -0.233553,
+            "analyst": 0.342436,
+            "empath": 0.605734,
+            "adventurer": -0.482165,
+            "realist": 0.774643,
+            "visionary": -0.387648
+        }
+    },
+    {
+        "id": "femeia-de-la-poarta-închisorii-ileana-rusu",
+        "title": "Femeia de la poarta închisorii",
+        "author": "Ileana Rusu",
+        "profiles": {
+            "explorer": 0.028369,
+            "analyst": 0.331483,
+            "empath": 0.713777,
+            "adventurer": -0.0583,
+            "realist": 0.846108,
+            "visionary": -0.22567
+        }
+    },
+    {
+        "id": "viața-bună-în-altă-parte-vladimir-lorcenkov",
+        "title": "Viața bună în altă parte",
+        "author": "Vladimir Lorcenkov",
+        "profiles": {
+            "explorer": -0.076159,
+            "analyst": 0.058783,
+            "empath": -0.182824,
+            "adventurer": 0.176096,
+            "realist": 0.166886,
+            "visionary": -0.180021
+        }
+    },
+    {
+        "id": "gabriela-cuișoare-și-scorțișoară-jorge-amado",
+        "title": "Gabriela, cuișoare și scorțișoară",
+        "author": "Jorge Amado",
+        "profiles": {
+            "explorer": -0.318344,
+            "analyst": -0.29953,
+            "empath": 0.174084,
+            "adventurer": -0.327017,
+            "realist": 0.503303,
+            "visionary": -0.66271
+        }
+    },
+    {
+        "id": "dona-flor-și-cei-doi-soți-ai-ei-jorge-amado",
+        "title": "Dona Flor și cei doi soți ai ei",
+        "author": "Jorge Amado",
+        "profiles": {
+            "explorer": -0.06215,
+            "analyst": 0.249398,
+            "empath": 0.712568,
+            "adventurer": 0.066892,
+            "realist": 0.789636,
+            "visionary": -0.193166
+        }
+    },
+    {
+        "id": "aproape-de-inima-vijelioasă-clarice-lispector",
+        "title": "Aproape de inima vijelioasă",
+        "author": "Clarice Lispector",
+        "profiles": {
+            "explorer": -0.481313,
+            "analyst": -0.437988,
+            "empath": 0.437196,
+            "adventurer": -0.078997,
+            "realist": 0.614513,
+            "visionary": -0.737677
+        }
+    },
+    {
+        "id": "ora-stelei-clarice-lispector",
+        "title": "Ora stelei",
+        "author": "Clarice Lispector",
+        "profiles": {
+            "explorer": -0.347688,
+            "analyst": -0.063294,
+            "empath": 0.193641,
+            "adventurer": 0.08516,
+            "realist": 0.5293,
+            "visionary": -0.511134
+        }
+    },
+    {
+        "id": "memoriile-postume-ale-lui-brás-cubas-machado-de-assis",
+        "title": "Memoriile postume ale lui Brás Cubas",
+        "author": "Machado de Assis",
+        "profiles": {
+            "explorer": -0.104889,
+            "analyst": 0.450741,
+            "empath": -0.131471,
+            "adventurer": -0.354042,
+            "realist": 0.366122,
+            "visionary": -0.232463
+        }
+    },
+    {
+        "id": "dom-casmurro-machado-de-assis",
+        "title": "Dom Casmurro",
+        "author": "Machado de Assis",
+        "profiles": {
+            "explorer": -0.24428,
+            "analyst": -0.268687,
+            "empath": 0.493259,
+            "adventurer": -0.020896,
+            "realist": 0.670067,
+            "visionary": -0.577542
+        }
+    },
+    {
+        "id": "șotron-julio-cortázar",
+        "title": "Șotron",
+        "author": "Julio Cortázar",
+        "profiles": {
+            "explorer": -0.652463,
+            "analyst": -0.377246,
+            "empath": -0.134381,
+            "adventurer": 0.046489,
+            "realist": 0.082029,
+            "visionary": -0.511395
+        }
+    },
+    {
+        "id": "axolotul-povestiri-cu-cronopi-și-glorii-julio-cortázar",
+        "title": "Axolotul. Povestiri cu cronopi și glorii",
+        "author": "Julio Cortázar",
+        "profiles": {
+            "explorer": 0.152614,
+            "analyst": -0.036726,
+            "empath": -0.150949,
+            "adventurer": 0.652658,
+            "realist": -0.215385,
+            "visionary": 0.333267
+        }
+    },
+    {
+        "id": "tunelul-ernesto-sabato",
+        "title": "Tunelul",
+        "author": "Ernesto Sabato",
+        "profiles": {
+            "explorer": -0.4624,
+            "analyst": -0.632244,
+            "empath": 0.307771,
+            "adventurer": 0.137087,
+            "realist": 0.314799,
+            "visionary": -0.554601
+        }
+    },
+    {
+        "id": "despre-eroi-și-morminte-ernesto-sabato",
+        "title": "Despre eroi și morminte",
+        "author": "Ernesto Sabato",
+        "profiles": {
+            "explorer": -0.500445,
+            "analyst": -0.369258,
+            "empath": -0.282922,
+            "adventurer": 0.131474,
+            "realist": 0.014709,
+            "visionary": -0.414106
+        }
+    },
+    {
+        "id": "invenția-lui-morel-adolfo-bioy-casares",
+        "title": "Invenția lui Morel",
+        "author": "Adolfo Bioy Casares",
+        "profiles": {
+            "explorer": -0.267075,
+            "analyst": -0.203951,
+            "empath": 0.025749,
+            "adventurer": 0.083516,
+            "realist": 0.060431,
+            "visionary": -0.193515
+        }
+    },
+    {
+        "id": "detectivii-sălbatici-roberto-bolaño",
+        "title": "Detectivii sălbatici",
+        "author": "Roberto Bolaño",
+        "profiles": {
+            "explorer": -0.32075,
+            "analyst": -0.07196,
+            "empath": -0.272056,
+            "adventurer": 0.111233,
+            "realist": -0.110669,
+            "visionary": -0.125752
+        }
+    },
+    {
+        "id": "2666-roberto-bolaño",
+        "title": "2666",
+        "author": "Roberto Bolaño",
+        "profiles": {
+            "explorer": -0.360438,
+            "analyst": -0.571056,
+            "empath": -0.31305,
+            "adventurer": 0.319167,
+            "realist": 0.037877,
+            "visionary": -0.517756
+        }
+    },
+    {
+        "id": "orașul-și-câinii-mario-vargas-llosa",
+        "title": "Orașul și câinii",
+        "author": "Mario Vargas Llosa",
+        "profiles": {
+            "explorer": -0.12478,
+            "analyst": -0.004078,
+            "empath": 0.552335,
+            "adventurer": 0.001781,
+            "realist": 0.744932,
+            "visionary": -0.426606
+        }
+    },
+    {
+        "id": "conversație-la-catedrală-mario-vargas-llosa",
+        "title": "Conversație la Catedrală",
+        "author": "Mario Vargas Llosa",
+        "profiles": {
+            "explorer": 0.264538,
+            "analyst": 0.379269,
+            "empath": 0.722963,
+            "adventurer": 0.141929,
+            "realist": 0.743539,
+            "visionary": 0.027717
+        }
+    },
+    {
+        "id": "râurile-adânci-josé-maría-arguedas",
+        "title": "Râurile adânci",
+        "author": "José María Arguedas",
+        "profiles": {
+            "explorer": -0.25719,
+            "analyst": 0.121532,
+            "empath": 0.559621,
+            "adventurer": -0.248639,
+            "realist": 0.656884,
+            "visionary": -0.379886
+        }
+    },
+    {
+        "id": "fiul-hoțului-manuel-rojas",
+        "title": "Fiul hoțului",
+        "author": "Manuel Rojas",
+        "profiles": {
+            "explorer": -0.500655,
+            "analyst": -0.219053,
+            "empath": 0.502732,
+            "adventurer": 0.12288,
+            "realist": 0.632282,
+            "visionary": -0.564901
+        }
+    },
+    {
+        "id": "strada-palatului-naguib-mahfouz",
+        "title": "Strada Palatului",
+        "author": "Naguib Mahfouz",
+        "profiles": {
+            "explorer": -0.243887,
+            "analyst": -0.070956,
+            "empath": 0.544482,
+            "adventurer": -0.023852,
+            "realist": 0.770489,
+            "visionary": -0.530243
+        }
+    },
+    {
+        "id": "clădirea-yacoubian-alaa-al-aswany",
+        "title": "Clădirea Yacoubian",
+        "author": "Alaa Al Aswany",
+        "profiles": {
+            "explorer": 0.095426,
+            "analyst": 0.161605,
+            "empath": 0.499814,
+            "adventurer": 0.201696,
+            "realist": 0.695136,
+            "visionary": -0.186084
+        }
+    },
+    {
+        "id": "taxi-khaled-al-khamissi",
+        "title": "Taxi",
+        "author": "Khaled Al Khamissi",
+        "profiles": {
+            "explorer": -0.398668,
+            "analyst": -0.081823,
+            "empath": -0.000842,
+            "adventurer": -0.078826,
+            "realist": 0.440904,
+            "visionary": -0.57473
+        }
+    },
+    {
+        "id": "insuportabila-ușurătate-a-ființei-milan-kundera",
+        "title": "Insuportabila ușurătate a ființei",
+        "author": "Milan Kundera",
+        "profiles": {
+            "explorer": -0.651531,
+            "analyst": -0.228773,
+            "empath": 0.393292,
+            "adventurer": -0.447507,
+            "realist": 0.495424,
+            "visionary": -0.685207
+        }
+    },
+    {
+        "id": "gluma-milan-kundera",
+        "title": "Gluma",
+        "author": "Milan Kundera",
+        "profiles": {
+            "explorer": 0.103113,
+            "analyst": 0.354179,
+            "empath": 0.608397,
+            "adventurer": -0.034793,
+            "realist": 0.789684,
+            "visionary": -0.195819
+        }
+    },
+    {
+        "id": "război-cu-salamandrele-karel-čapek",
+        "title": "Război cu salamandrele",
+        "author": "Karel Čapek",
+        "profiles": {
+            "explorer": -0.15328,
+            "analyst": -0.314193,
+            "empath": -0.364351,
+            "adventurer": 0.385414,
+            "realist": -0.006525,
+            "visionary": -0.289049
+        }
+    },
+    {
+        "id": "o-singurătate-prea-zgomotoasă-bohumil-hrabal",
+        "title": "O singurătate prea zgomotoasă",
+        "author": "Bohumil Hrabal",
+        "profiles": {
+            "explorer": -0.385894,
+            "analyst": -0.522867,
+            "empath": 0.186156,
+            "adventurer": -0.026259,
+            "realist": 0.308347,
+            "visionary": -0.573542
+        }
+    },
+    {
+        "id": "peripețiile-bravului-soldat-švejk-jaroslav-hašek",
+        "title": "Peripețiile bravului soldat Švejk",
+        "author": "Jaroslav Hašek",
+        "profiles": {
+            "explorer": -0.647479,
+            "analyst": -0.700474,
+            "empath": -0.37603,
+            "adventurer": 0.113306,
+            "realist": -0.104984,
+            "visionary": -0.641652
+        }
+    },
+    {
+        "id": "ușa-magda-szabó",
+        "title": "Ușa",
+        "author": "Magda Szabó",
+        "profiles": {
+            "explorer": -0.208919,
+            "analyst": -0.097043,
+            "empath": 0.635011,
+            "adventurer": -0.075816,
+            "realist": 0.751277,
+            "visionary": -0.498253
+        }
+    },
+    {
+        "id": "moștenirea-eszterei-sándor-márai",
+        "title": "Moștenirea Eszterei",
+        "author": "Sándor Márai",
+        "profiles": {
+            "explorer": -0.27448,
+            "analyst": -0.067163,
+            "empath": 0.532225,
+            "adventurer": -0.026092,
+            "realist": 0.675393,
+            "visionary": -0.464367
+        }
+    },
+    {
+        "id": "fără-destin-imre-kertész",
+        "title": "Fără destin",
+        "author": "Imre Kertész",
+        "profiles": {
+            "explorer": -0.64255,
+            "analyst": -0.790238,
+            "empath": -0.427644,
+            "adventurer": -0.015565,
+            "realist": -0.257755,
+            "visionary": -0.607606
+        }
+    },
+    {
+        "id": "omul-fără-însușiri-robert-musil",
+        "title": "Omul fără însușiri",
+        "author": "Robert Musil",
+        "profiles": {
+            "explorer": -0.417679,
+            "analyst": 0.355917,
+            "empath": 0.277269,
+            "adventurer": -0.40457,
+            "realist": 0.39546,
+            "visionary": -0.272428
+        }
+    },
+    {
+        "id": "orbire-elias-canetti",
+        "title": "Orbire",
+        "author": "Elias Canetti",
+        "profiles": {
+            "explorer": -0.333157,
+            "analyst": -0.049652,
+            "empath": 0.492645,
+            "adventurer": 0.032854,
+            "realist": 0.444509,
+            "visionary": -0.252382
+        }
+    },
+    {
+        "id": "dicționarul-khazar-milorad-pavić",
+        "title": "Dicționarul khazar",
+        "author": "Milorad Pavić",
+        "profiles": {
+            "explorer": 0.190406,
+            "analyst": 0.240247,
+            "empath": -0.199113,
+            "adventurer": 0.39976,
+            "realist": -0.339133,
+            "visionary": 0.515078
+        }
+    },
+    {
+        "id": "grădina-cenușa-danilo-kiš",
+        "title": "Grădina, cenușa",
+        "author": "Danilo Kiš",
+        "profiles": {
+            "explorer": -0.251488,
+            "analyst": -0.058233,
+            "empath": 0.646035,
+            "adventurer": -0.188473,
+            "realist": 0.742146,
+            "visionary": -0.495888
+        }
+    },
+    {
+        "id": "götz-și-meyer-david-albahari",
+        "title": "Götz și Meyer",
+        "author": "David Albahari",
+        "profiles": {
+            "explorer": -0.402974,
+            "analyst": -0.366246,
+            "empath": 0.035825,
+            "adventurer": -0.138384,
+            "realist": 0.363193,
+            "visionary": -0.64133
+        }
+    },
+    {
+        "id": "familia-glembay-miroslav-krleža",
+        "title": "Familia Glembay",
+        "author": "Miroslav Krleža",
+        "profiles": {
+            "explorer": -0.242418,
+            "analyst": 0.032392,
+            "empath": 0.668774,
+            "adventurer": -0.269156,
+            "realist": 0.731253,
+            "visionary": -0.468702
+        }
+    },
+    {
+        "id": "ministerul-durerii-dubravka-ugrešić",
+        "title": "Ministerul durerii",
+        "author": "Dubravka Ugrešić",
+        "profiles": {
+            "explorer": -0.209358,
+            "analyst": 0.002816,
+            "empath": 0.56097,
+            "adventurer": 0.020965,
+            "realist": 0.681294,
+            "visionary": -0.373311
+        }
+    },
+    {
+        "id": "peștele-are-picioare-jón-kalman-stefánsson",
+        "title": "Peștele are picioare",
+        "author": "Jón Kalman Stefánsson",
+        "profiles": {
+            "explorer": -0.28384,
+            "analyst": -0.171326,
+            "empath": 0.116571,
+            "adventurer": -0.239084,
+            "realist": 0.686402,
+            "visionary": -0.791465
+        }
+    },
+    {
+        "id": "lumină-de-vară-apoi-vine-noaptea-jón-kalman-stefánsson",
+        "title": "Lumină de vară, apoi vine noaptea",
+        "author": "Jón Kalman Stefánsson",
+        "profiles": {
+            "explorer": 0.247093,
+            "analyst": -0.003383,
+            "empath": 0.064187,
+            "adventurer": -0.102199,
+            "realist": 0.533498,
+            "visionary": -0.365852
+        }
+    },
+    {
+        "id": "lumea-sofiei-jostein-gaarder",
+        "title": "Lumea Sofiei",
+        "author": "Jostein Gaarder",
+        "profiles": {
+            "explorer": -0.333539,
+            "analyst": 0.026731,
+            "empath": -0.085086,
+            "adventurer": -0.683351,
+            "realist": 0.233241,
+            "visionary": -0.423807
+        }
+    },
+    {
+        "id": "pasărea-cu-piept-roșu-jo-nesbø",
+        "title": "Pasărea cu piept roșu",
+        "author": "Jo Nesbø",
+        "profiles": {
+            "explorer": -0.476084,
+            "analyst": -0.111129,
+            "empath": 0.284614,
+            "adventurer": -0.056953,
+            "realist": 0.593837,
+            "visionary": -0.565989
+        }
+    },
+    {
+        "id": "noi-cei-înecați-carsten-jensen",
+        "title": "Noi, cei înecați",
+        "author": "Carsten Jensen",
+        "profiles": {
+            "explorer": -0.423791,
+            "analyst": -0.476651,
+            "empath": 0.146541,
+            "adventurer": 0.071277,
+            "realist": 0.550905,
+            "visionary": -0.778426
+        }
+    },
+    {
+        "id": "domnișoara-smilla-și-simțul-zăpezii-peter-høeg",
+        "title": "Domnișoara Smilla și simțul zăpezii",
+        "author": "Peter Høeg",
+        "profiles": {
+            "explorer": -0.490732,
+            "analyst": -0.243201,
+            "empath": -0.085392,
+            "adventurer": -0.297222,
+            "realist": 0.242681,
+            "visionary": -0.596757
+        }
+    },
+    {
+        "id": "omul-care-vorbea-limba-șerpilor-andrus-kivirähk",
+        "title": "Omul care vorbea limba șerpilor",
+        "author": "Andrus Kivirähk",
+        "profiles": {
+            "explorer": 0.156137,
+            "analyst": 0.251954,
+            "empath": -0.20741,
+            "adventurer": 0.162058,
+            "realist": 0.068107,
+            "visionary": 0.100637
+        }
+    },
+    {
+        "id": "muzeul-secretelor-abandonate-oksana-zabujko",
+        "title": "Muzeul secretelor abandonate",
+        "author": "Oksana Zabujko",
+        "profiles": {
+            "explorer": -0.572274,
+            "analyst": 0.108828,
+            "empath": 0.100169,
+            "adventurer": -0.569001,
+            "realist": 0.167754,
+            "visionary": -0.335204
+        }
+    },
+    {
+        "id": "internat-serhiy-jadan",
+        "title": "Internat",
+        "author": "Serhiy Jadan",
+        "profiles": {
+            "explorer": -0.435537,
+            "analyst": -0.556424,
+            "empath": 0.237506,
+            "adventurer": -0.012282,
+            "realist": 0.503928,
+            "visionary": -0.75694
+        }
+    },
+    {
+        "id": "ora-25-constantin-virgil-gheorghiu",
+        "title": "Ora 25",
+        "author": "Constantin Virgil Gheorghiu",
+        "profiles": {
+            "explorer": -0.247296,
+            "analyst": 0.164398,
+            "empath": 0.584629,
+            "adventurer": 0.039277,
+            "realist": 0.815236,
+            "visionary": -0.445225
+        }
+    },
+    {
+        "id": "pânza-de-păianjen-cella-serghi",
+        "title": "Pânza de păianjen",
+        "author": "Cella Serghi",
+        "profiles": {
+            "explorer": -0.556398,
+            "analyst": -0.062797,
+            "empath": 0.284348,
+            "adventurer": -0.30206,
+            "realist": 0.627622,
+            "visionary": -0.690967
+        }
+    },
+    {
+        "id": "arta-conversației-ileana-vulpescu",
+        "title": "Arta conversației",
+        "author": "Ileana Vulpescu",
+        "profiles": {
+            "explorer": -0.133975,
+            "analyst": 0.220502,
+            "empath": 0.65887,
+            "adventurer": -0.223289,
+            "realist": 0.824421,
+            "visionary": -0.388199
+        }
+    },
+    {
+        "id": "dimineață-pierdută-gabriela-adameșteanu",
+        "title": "Dimineață pierdută",
+        "author": "Gabriela Adameșteanu",
+        "profiles": {
+            "explorer": -0.344829,
+            "analyst": 0.245811,
+            "empath": 0.203332,
+            "adventurer": -0.347903,
+            "realist": 0.55164,
+            "visionary": -0.434649
+        }
+    },
+    {
+        "id": "drumul-egal-al-fiecărei-zile-gabriela-adameșteanu",
+        "title": "Drumul egal al fiecărei zile",
+        "author": "Gabriela Adameșteanu",
+        "profiles": {
+            "explorer": -0.439286,
+            "analyst": -0.226949,
+            "empath": 0.377064,
+            "adventurer": -0.210814,
+            "realist": 0.617692,
+            "visionary": -0.675855
+        }
+    },
+    {
+        "id": "simion-liftnicul-petru-cimpoeșu",
+        "title": "Simion liftnicul",
+        "author": "Petru Cimpoeșu",
+        "profiles": {
+            "explorer": 0.106993,
+            "analyst": 0.202918,
+            "empath": 0.058661,
+            "adventurer": 0.209163,
+            "realist": 0.400258,
+            "visionary": -0.096925
+        }
+    },
+    {
+        "id": "o-sută-de-ani-de-zile-la-porțile-orientului-ioan-groșan",
+        "title": "O sută de ani de zile la Porțile Orientului",
+        "author": "Ioan Groșan",
+        "profiles": {
+            "explorer": -0.607248,
+            "analyst": 0.076466,
+            "empath": 0.113909,
+            "adventurer": -0.60423,
+            "realist": 0.388557,
+            "visionary": -0.615182
+        }
+    },
+    {
+        "id": "fetița-care-se-juca-de-a-dumnezeu-dan-lungu",
+        "title": "Fetița care se juca de-a Dumnezeu",
+        "author": "Dan Lungu",
+        "profiles": {
+            "explorer": -0.111493,
+            "analyst": 0.428278,
+            "empath": 0.270876,
+            "adventurer": -0.17264,
+            "realist": 0.2437,
+            "visionary": 0.097201
+        }
+    },
+    {
+        "id": "mă-găsești-când-vrei-lavinia-braniște",
+        "title": "Mă găsești când vrei",
+        "author": "Lavinia Braniște",
+        "profiles": {
+            "explorer": -0.434158,
+            "analyst": -0.268728,
+            "empath": 0.30756,
+            "adventurer": 0.177123,
+            "realist": 0.417472,
+            "visionary": -0.458794
+        }
+    },
+    {
+        "id": "darul-lui-serafim-simona-antonescu",
+        "title": "Darul lui Serafim",
+        "author": "Simona Antonescu",
+        "profiles": {
+            "explorer": -0.059096,
+            "analyst": 0.44641,
+            "empath": 0.593051,
+            "adventurer": -0.085681,
+            "realist": 0.822384,
+            "visionary": -0.252389
+        }
+    },
+    {
+        "id": "fotograful-curții-regale-simona-antonescu",
+        "title": "Fotograful Curții Regale",
+        "author": "Simona Antonescu",
+        "profiles": {
+            "explorer": -0.630893,
+            "analyst": -0.032103,
+            "empath": 0.464746,
+            "adventurer": -0.171859,
+            "realist": 0.520837,
+            "visionary": -0.502617
+        }
+    },
+    {
+        "id": "cântecul-păsării-de-plajă-tudor-ganea",
+        "title": "Cântecul păsării de plajă",
+        "author": "Tudor Ganea",
+        "profiles": {
+            "explorer": 0.246984,
+            "analyst": 0.337976,
+            "empath": 0.599158,
+            "adventurer": 0.150494,
+            "realist": 0.802828,
+            "visionary": -0.113722
+        }
+    },
+    {
+        "id": "ploile-amare-alexandru-vlad",
+        "title": "Ploile amare",
+        "author": "Alexandru Vlad",
+        "profiles": {
+            "explorer": -0.352151,
+            "analyst": -0.114621,
+            "empath": 0.410433,
+            "adventurer": -0.371323,
+            "realist": 0.685847,
+            "visionary": -0.658149
+        }
+    },
+    {
+        "id": "cartea-șoaptelor-varujan-vosganian",
+        "title": "Cartea șoaptelor",
+        "author": "Varujan Vosganian",
+        "profiles": {
+            "explorer": -0.178318,
+            "analyst": -0.117558,
+            "empath": 0.452696,
+            "adventurer": 0.015075,
+            "realist": 0.762535,
+            "visionary": -0.558177
+        }
+    },
+    {
+        "id": "acasă-pe-câmpia-armaghedonului-marta-petreu",
+        "title": "Acasă, pe Câmpia Armaghedonului",
+        "author": "Marta Petreu",
+        "profiles": {
+            "explorer": -0.296654,
+            "analyst": 0.104149,
+            "empath": 0.46205,
+            "adventurer": -0.116066,
+            "realist": 0.742559,
+            "visionary": -0.486629
+        }
+    },
+    {
+        "id": "războiul-sfârșitului-lumii-mario-vargas-llosa",
+        "title": "Războiul sfârșitului lumii",
+        "author": "Mario Vargas Llosa",
+        "profiles": {
+            "explorer": -0.022772,
+            "analyst": -0.39401,
+            "empath": 0.259017,
+            "adventurer": 0.267547,
+            "realist": 0.367594,
+            "visionary": -0.315706
+        }
+    },
+    {
+        "id": "procesul-franz-kafka",
+        "title": "Procesul",
+        "author": "Franz Kafka",
+        "profiles": {
+            "explorer": -0.675938,
+            "analyst": -0.50569,
+            "empath": 0.259291,
+            "adventurer": -0.243921,
+            "realist": 0.108352,
+            "visionary": -0.534306
+        }
+    },
+    {
+        "id": "grădinile-lunii-steven-erikson",
+        "title": "Grădinile Lunii",
+        "author": "Steven Erikson",
+        "profiles": {
+            "explorer": -0.738428,
+            "analyst": -0.497864,
+            "empath": -0.206936,
+            "adventurer": -0.315896,
+            "realist": -0.242687,
+            "visionary": -0.39903
+        }
+    },
+    {
+        "id": "divina-comedie-dante-alighieri",
+        "title": "Divina Comedie",
+        "author": "Dante Alighieri",
+        "profiles": {
+            "explorer": 0.339832,
+            "analyst": 0.628689,
+            "empath": 0.742456,
+            "adventurer": -0.061589,
+            "realist": 0.756396,
+            "visionary": 0.137103
+        }
+    },
+    {
+        "id": "versetele-satanice-salman-rushdie",
+        "title": "Versetele satanice",
+        "author": "Salman Rushdie",
+        "profiles": {
+            "explorer": 0.442673,
+            "analyst": 0.441708,
+            "empath": 0.038409,
+            "adventurer": 0.430074,
+            "realist": 0.026048,
+            "visionary": 0.542536
+        }
+    },
+    {
+        "id": "faust-johann-wolfgang-von-goethe",
+        "title": "Faust",
+        "author": "Johann Wolfgang von Goethe",
+        "profiles": {
+            "explorer": -0.503246,
+            "analyst": -0.281479,
+            "empath": 0.255302,
+            "adventurer": -0.13657,
+            "realist": 0.414399,
+            "visionary": -0.550762
+        }
+    },
+    {
+        "id": "ferma-animalelor-george-orwell",
+        "title": "Ferma animalelor",
+        "author": "George Orwell",
+        "profiles": {
+            "explorer": -0.059976,
+            "analyst": 0.171178,
+            "empath": 0.51751,
+            "adventurer": -0.016644,
+            "realist": 0.84281,
+            "visionary": -0.443249
+        }
+    },
+    {
+        "id": "fram-ursul-polar-cezar-petrescu",
+        "title": "Fram, ursul polar",
+        "author": "Cezar Petrescu",
+        "profiles": {
+            "explorer": -0.580235,
+            "analyst": -0.422807,
+            "empath": -0.311379,
+            "adventurer": 0.045599,
+            "realist": -0.050715,
+            "visionary": -0.486941
+        }
+    },
+    {
+        "id": "contele-de-monte-cristo-alexandre-dumas",
+        "title": "Contele de Monte-Cristo",
+        "author": "Alexandre Dumas",
+        "profiles": {
+            "explorer": -0.087764,
+            "analyst": -0.232244,
+            "empath": 0.086001,
+            "adventurer": 0.460512,
+            "realist": 0.476614,
+            "visionary": -0.388427
+        }
+    },
+    {
+        "id": "scorpionul-anna-elisabet-weirauch",
+        "title": "Scorpionul",
+        "author": "Anna Elisabet Weirauch",
+        "profiles": {
+            "explorer": -0.14206,
+            "analyst": -0.063478,
+            "empath": 0.222281,
+            "adventurer": 0.402837,
+            "realist": 0.302205,
+            "visionary": -0.114569
+        }
+    },
+    {
+        "id": "inocenții-ioana-pârvulescu",
+        "title": "Inocenții",
+        "author": "Ioana Pârvulescu",
+        "profiles": {
+            "explorer": -0.58635,
+            "analyst": -0.265426,
+            "empath": 0.515995,
+            "adventurer": -0.343035,
+            "realist": 0.604457,
+            "visionary": -0.711206
+        }
+    },
+    {
+        "id": "împăratul-muștelor-william-golding",
+        "title": "Împăratul muștelor",
+        "author": "William Golding",
+        "profiles": {
+            "explorer": -0.608153,
+            "analyst": -0.874837,
+            "empath": -0.114088,
+            "adventurer": 0.05647,
+            "realist": -0.021915,
+            "visionary": -0.685292
+        }
+    },
+    {
+        "id": "zenobia-gellu-naum",
+        "title": "Zenobia",
+        "author": "Gellu Naum",
+        "profiles": {
+            "explorer": 0.303072,
+            "analyst": 0.691105,
+            "empath": 0.734745,
+            "adventurer": 0.11057,
+            "realist": 0.645552,
+            "visionary": 0.294757
+        }
+    },
+    {
+        "id": "crimele-familiei-borgia-michel-zévaco",
+        "title": "Crimele familiei Borgia",
+        "author": "Michel Zévaco",
+        "profiles": {
+            "explorer": -0.543013,
+            "analyst": -0.485693,
+            "empath": 0.334887,
+            "adventurer": 0.056719,
+            "realist": 0.59202,
+            "visionary": -0.789107
+        }
+    },
+    {
+        "id": "ghidul-autostopistului-galactic-douglas-adams",
+        "title": "Ghidul autostopistului galactic",
+        "author": "Douglas Adams",
+        "profiles": {
+            "explorer": -0.355787,
+            "analyst": -0.312064,
+            "empath": -0.572391,
+            "adventurer": 0.073776,
+            "realist": -0.408082,
+            "visionary": -0.144323
+        }
+    },
+    {
+        "id": "aprilie-spulberat-ismail-kadare",
+        "title": "Aprilie spulberat",
+        "author": "Ismail Kadare",
+        "profiles": {
+            "explorer": -0.404443,
+            "analyst": -0.351978,
+            "empath": 0.340502,
+            "adventurer": 0.0584,
+            "realist": 0.71319,
+            "visionary": -0.748879
+        }
+    },
+    {
+        "id": "legată-cu-funia-de-pământ-lorina-bălteanu",
+        "title": "Legată cu funia de pământ",
+        "author": "Lorina Bălteanu",
+        "profiles": {
+            "explorer": -0.22061,
+            "analyst": -0.087422,
+            "empath": 0.270868,
+            "adventurer": 0.106825,
+            "realist": 0.58126,
+            "visionary": -0.423995
+        }
+    },
+    {
+        "id": "leagănul-respirației-herta-müller",
+        "title": "Leagănul respirației",
+        "author": "Herta Müller",
+        "profiles": {
+            "explorer": -0.077967,
+            "analyst": 0.155799,
+            "empath": 0.475505,
+            "adventurer": 0.037808,
+            "realist": 0.656849,
+            "visionary": -0.258007
+        }
+    },
+    {
+        "id": "firida-rușinii-ismail-kadare",
+        "title": "Firida Rușinii",
+        "author": "Ismail Kadare",
+        "profiles": {
+            "explorer": 0.165626,
+            "analyst": 0.296742,
+            "empath": 0.627191,
+            "adventurer": -0.011335,
+            "realist": 0.81222,
+            "visionary": -0.18808
+        }
+    },
+    {
+        "id": "dezrădăcinații-cătălin-ceaușoglu",
+        "title": "Dezrădăcinații",
+        "author": "Cătălin Ceaușoglu",
+        "profiles": {
+            "explorer": -0.667742,
+            "analyst": -0.192427,
+            "empath": 0.113343,
+            "adventurer": -0.183188,
+            "realist": 0.464665,
+            "visionary": -0.67951
+        }
+    },
+    {
+        "id": "miere-tudor-ganea",
+        "title": "Miere",
+        "author": "Tudor Ganea",
+        "profiles": {
+            "explorer": 0.084081,
+            "analyst": 0.040359,
+            "empath": 0.425541,
+            "adventurer": 0.117116,
+            "realist": 0.723659,
+            "visionary": -0.341248
+        }
+    },
+    {
+        "id": "să-nu-lași-moartea-să-te-găsească-bogdan-răileanu",
+        "title": "Să nu lași moartea să te găsească",
+        "author": "Bogdan Răileanu",
+        "profiles": {
+            "explorer": -0.128758,
+            "analyst": 0.247415,
+            "empath": 0.635043,
+            "adventurer": 0.060017,
+            "realist": 0.677417,
+            "visionary": -0.185818
+        }
+    },
+    {
+        "id": "zeii-înșiși-isaac-asimov",
+        "title": "Zeii înșiși",
+        "author": "Isaac Asimov",
+        "profiles": {
+            "explorer": -0.026077,
+            "analyst": -0.142306,
+            "empath": -0.287699,
+            "adventurer": 0.321068,
+            "realist": -0.145905,
+            "visionary": 0.026487
+        }
+    },
+    {
+        "id": "quo-vadis-henryk-sienkiewicz",
+        "title": "Quo Vadis",
+        "author": "Henryk Sienkiewicz",
+        "profiles": {
+            "explorer": -0.250349,
+            "analyst": -0.311544,
+            "empath": 0.539404,
+            "adventurer": 0.253624,
+            "realist": 0.66576,
+            "visionary": -0.5321
+        }
+    },
+    {
+        "id": "metamorfoza-franz-kafka",
+        "title": "Metamorfoza",
+        "author": "Franz Kafka",
+        "profiles": {
+            "explorer": -0.056358,
+            "analyst": 0.16302,
+            "empath": 0.620858,
+            "adventurer": 0.087827,
+            "realist": 0.515553,
+            "visionary": -0.03672
+        }
+    },
+    {
+        "id": "marea-marea-iris-murdoch",
+        "title": "Marea, marea",
+        "author": "Iris Murdoch",
+        "profiles": {
+            "explorer": -0.402336,
+            "analyst": -0.108608,
+            "empath": 0.657057,
+            "adventurer": 0.052259,
+            "realist": 0.648606,
+            "visionary": -0.427872
+        }
+    },
+    {
+        "id": "sfârșitul-șoaptelor-ruta-sepetys",
+        "title": "Sfârșitul șoaptelor",
+        "author": "Ruta Sepetys",
+        "profiles": {
+            "explorer": -0.430238,
+            "analyst": -0.39603,
+            "empath": 0.234148,
+            "adventurer": 0.190464,
+            "realist": 0.56479,
+            "visionary": -0.687148
+        }
+    },
+    {
+        "id": "alice-în-țara-minunilor-lewis-carroll",
+        "title": "Alice în Țara Minunilor",
+        "author": "Lewis Carroll",
+        "profiles": {
+            "explorer": -0.106881,
+            "analyst": -0.466789,
+            "empath": -0.360489,
+            "adventurer": 0.322693,
+            "realist": -0.059259,
+            "visionary": -0.251381
+        }
+    },
+    {
+        "id": "sandman-preludii-și-nocturne-neil-gaiman",
+        "title": "Sandman: Preludii și nocturne",
+        "author": "Neil Gaiman",
+        "profiles": {
+            "explorer": 0.127614,
+            "analyst": -0.083552,
+            "empath": 0.108442,
+            "adventurer": 0.395294,
+            "realist": -0.115889,
+            "visionary": 0.262504
+        }
+    },
+    {
+        "id": "watchmen-alan-moore",
+        "title": "Watchmen",
+        "author": "Alan Moore",
+        "profiles": {
+            "explorer": -0.136851,
+            "analyst": -0.400466,
+            "empath": -0.194298,
+            "adventurer": 0.452382,
+            "realist": -0.118471,
+            "visionary": -0.132987
+        }
+    },
+    {
+        "id": "jocul-lui-westing-ellen-raskin",
+        "title": "Jocul lui Westing",
+        "author": "Ellen Raskin",
+        "profiles": {
+            "explorer": -0.422531,
+            "analyst": -0.374868,
+            "empath": -0.248249,
+            "adventurer": 0.123916,
+            "realist": 0.018088,
+            "visionary": -0.419893
+        }
+    },
+    {
+        "id": "dezrădăcinat-sașa-zare",
+        "title": "Dezrădăcinat",
+        "author": "Sașa Zare",
+        "profiles": {
+            "explorer": -0.361115,
+            "analyst": -0.179961,
+            "empath": 0.298296,
+            "adventurer": 0.178383,
+            "realist": 0.557349,
+            "visionary": -0.48302
+        }
+    },
+    {
+        "id": "vara-în-care-mama-a-avut-ochii-verzi-tatiana-țîbuleac",
+        "title": "Vara în care mama a avut ochii verzi",
+        "author": "Tatiana Țîbuleac",
+        "profiles": {
+            "explorer": 0.034728,
+            "analyst": 0.330922,
+            "empath": 0.76909,
+            "adventurer": -0.162562,
+            "realist": 0.86858,
+            "visionary": -0.227529
+        }
+    },
+    {
+        "id": "portretul-lui-dorian-gray-oscar-wilde",
+        "title": "Portretul lui Dorian Gray",
+        "author": "Oscar Wilde",
+        "profiles": {
+            "explorer": 0.085273,
+            "analyst": 0.462571,
+            "empath": 0.906276,
+            "adventurer": -0.198548,
+            "realist": 0.721336,
+            "visionary": 0.030818
+        }
+    },
+    {
+        "id": "marele-gatsby-f-scott-fitzgerald",
+        "title": "Marele Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "profiles": {
+            "explorer": -0.08968,
+            "analyst": -0.19775,
+            "empath": 0.470899,
+            "adventurer": 0.166576,
+            "realist": 0.693939,
+            "visionary": -0.46756
+        }
+    },
+    {
+        "id": "nopți-albe-fyodor-dostoevsky",
+        "title": "Nopți albe",
+        "author": "Fyodor Dostoevsky",
+        "profiles": {
+            "explorer": -0.387895,
+            "analyst": 0.020402,
+            "empath": 0.087617,
+            "adventurer": -0.490645,
+            "realist": 0.419833,
+            "visionary": -0.541968
+        }
+    },
+    {
+        "id": "clopotul-de-sticlă-sylvia-plath",
+        "title": "Clopotul de sticlă",
+        "author": "Sylvia Plath",
+        "profiles": {
+            "explorer": -0.061068,
+            "analyst": 0.235001,
+            "empath": 0.720574,
+            "adventurer": -0.130436,
+            "realist": 0.670522,
+            "visionary": -0.141332
+        }
+    },
+    {
+        "id": "tapetul-galben-charlotte-perkins-gilman",
+        "title": "Tapetul galben",
+        "author": "Charlotte Perkins Gilman",
+        "profiles": {
+            "explorer": -0.445789,
+            "analyst": -0.170214,
+            "empath": 0.454582,
+            "adventurer": -0.355876,
+            "realist": 0.386212,
+            "visionary": -0.410945
+        }
+    },
+    {
+        "id": "spionaj-la-mănăstire-rodica-ojog-brașoveanu",
+        "title": "Spionaj la mănăstire",
+        "author": "Rodica Ojog-Brașoveanu",
+        "profiles": {
+            "explorer": -0.419013,
+            "analyst": -0.036854,
+            "empath": -0.097987,
+            "adventurer": -0.049072,
+            "realist": 0.252973,
+            "visionary": -0.424245
+        }
+    },
+    {
+        "id": "dezumanizat-osamu-dazai",
+        "title": "Dezumanizat",
+        "author": "Osamu Dazai",
+        "profiles": {
+            "explorer": -0.664289,
+            "analyst": -0.354536,
+            "empath": -0.200192,
+            "adventurer": -0.398729,
+            "realist": 0.106746,
+            "visionary": -0.675454
+        }
+    },
+    {
+        "id": "amurg-osamu-dazai",
+        "title": "Amurg",
+        "author": "Osamu Dazai",
+        "profiles": {
+            "explorer": -0.367879,
+            "analyst": -0.126585,
+            "empath": 0.565754,
+            "adventurer": -0.182325,
+            "realist": 0.596976,
+            "visionary": -0.479465
+        }
+    },
+    {
+        "id": "mireasa-străvechiului-mag-vol-1-kore-yamazaki",
+        "title": "Mireasa Străvechiului Mag, Vol. 1",
+        "author": "Kore Yamazaki",
+        "profiles": {
+            "explorer": -0.088231,
+            "analyst": 0.11435,
+            "empath": 0.425316,
+            "adventurer": 0.25364,
+            "realist": 0.409696,
+            "visionary": -0.024006
+        }
+    },
+    {
+        "id": "motanul-care-voia-să-salveze-cărțile-sōsuke-natsukawa",
+        "title": "Motanul care voia să salveze cărțile",
+        "author": "Sōsuke Natsukawa",
+        "profiles": {
+            "explorer": -0.012806,
+            "analyst": -0.150369,
+            "empath": -0.307686,
+            "adventurer": 0.212075,
+            "realist": -0.048816,
+            "visionary": -0.114211
+        }
+    },
+    {
+        "id": "atelierul-vrăjitoarelor-vol-1-kamome-shirahama",
+        "title": "Atelierul Vrăjitoarelor, Vol. 1",
+        "author": "Kamome Shirahama",
+        "profiles": {
+            "explorer": -0.328119,
+            "analyst": -0.198108,
+            "empath": -0.543049,
+            "adventurer": -0.006755,
+            "realist": -0.284153,
+            "visionary": -0.155184
+        }
+    },
+    {
+        "id": "20000-de-leghe-sub-mări-jules-verne",
+        "title": "20.000 de leghe sub mări",
+        "author": "Jules Verne",
+        "profiles": {
+            "explorer": -0.309282,
+            "analyst": 0.111829,
+            "empath": -0.437213,
+            "adventurer": -0.122518,
+            "realist": -0.154601,
+            "visionary": -0.110928
+        }
+    },
+    {
+        "id": "călătorie-spre-centrul-pământului-jules-verne",
+        "title": "Călătorie spre centrul Pământului",
+        "author": "Jules Verne",
+        "profiles": {
+            "explorer": -0.517768,
+            "analyst": -0.426872,
+            "empath": -0.659577,
+            "adventurer": -0.330001,
+            "realist": -0.230199,
+            "visionary": -0.559328
+        }
+    },
+    {
+        "id": "castelul-din-carpați-jules-verne",
+        "title": "Castelul din Carpați",
+        "author": "Jules Verne",
+        "profiles": {
+            "explorer": -0.357926,
+            "analyst": 0.059763,
+            "empath": 0.040899,
+            "adventurer": -0.266737,
+            "realist": 0.226631,
+            "visionary": -0.28019
+        }
+    },
+    {
+        "id": "cuore-edmondo-de-amicis",
+        "title": "Cuore",
+        "author": "Edmondo De Amicis",
+        "profiles": {
+            "explorer": -0.168239,
+            "analyst": 0.179818,
+            "empath": 0.701136,
+            "adventurer": -0.172315,
+            "realist": 0.880444,
+            "visionary": -0.426959
+        }
+    },
+    {
+        "id": "dumbrava-minunată-mihail-sadoveanu",
+        "title": "Dumbrava minunată",
+        "author": "Mihail Sadoveanu",
+        "profiles": {
+            "explorer": 0.201327,
+            "analyst": 0.125973,
+            "empath": 0.440281,
+            "adventurer": 0.444813,
+            "realist": 0.591312,
+            "visionary": -0.055212
+        }
+    },
+    {
+        "id": "micul-prinț-antoine-de-saint-exupéry",
+        "title": "Micul prinț",
+        "author": "Antoine de Saint-Exupéry",
+        "profiles": {
+            "explorer": -0.684168,
+            "analyst": -0.460299,
+            "empath": 0.160915,
+            "adventurer": -0.485836,
+            "realist": 0.280024,
+            "visionary": -0.747124
+        }
+    },
+    {
+        "id": "vrăjitorul-din-oz-l-frank-baum",
+        "title": "Vrăjitorul din Oz",
+        "author": "L. Frank Baum",
+        "profiles": {
+            "explorer": -0.33625,
+            "analyst": -0.481652,
+            "empath": -0.297433,
+            "adventurer": 0.227519,
+            "realist": -0.098324,
+            "visionary": -0.313404
+        }
+    },
+    {
+        "id": "ultimul-mohican-james-fenimore-cooper",
+        "title": "Ultimul mohican",
+        "author": "James Fenimore Cooper",
+        "profiles": {
+            "explorer": -0.403936,
+            "analyst": -0.769246,
+            "empath": -0.019696,
+            "adventurer": 0.259203,
+            "realist": 0.186539,
+            "visionary": -0.651511
+        }
+    },
+    {
+        "id": "călătoriile-lui-gulliver-jonathan-swift",
+        "title": "Călătoriile lui Gulliver",
+        "author": "Jonathan Swift",
+        "profiles": {
+            "explorer": -0.290682,
+            "analyst": -0.420935,
+            "empath": -0.351347,
+            "adventurer": 0.250008,
+            "realist": -0.180685,
+            "visionary": -0.265356
+        }
+    },
+    {
+        "id": "concert-din-muzică-de-bach-hortensia-papadat-bengescu",
+        "title": "Concert din muzică de Bach",
+        "author": "Hortensia Papadat-Bengescu",
+        "profiles": {
+            "explorer": -0.175911,
+            "analyst": 0.375499,
+            "empath": 0.642727,
+            "adventurer": -0.176421,
+            "realist": 0.780228,
+            "visionary": -0.265804
+        }
+    },
+    {
+        "id": "cât-timp-înfloresc-lămâii-zoulfa-katouh",
+        "title": "Cât timp înfloresc lămâii",
+        "author": "Zoulfa Katouh",
+        "profiles": {
+            "explorer": 0.202455,
+            "analyst": 0.539134,
+            "empath": 0.76784,
+            "adventurer": -0.027892,
+            "realist": 0.851759,
+            "visionary": -0.032887
+        }
+    },
+    {
+        "id": "minunata-călătorie-a-lui-nils-holgersson-prin-suedia-selma-lagerlöf",
+        "title": "Minunata călătorie a lui Nils Holgersson prin Suedia",
+        "author": "Selma Lagerlöf",
+        "profiles": {
+            "explorer": -0.410766,
+            "analyst": -0.067139,
+            "empath": -0.085479,
+            "adventurer": -0.25716,
+            "realist": 0.156486,
+            "visionary": -0.393362
+        }
+    },
+    {
+        "id": "heidi-fetița-munților-johanna-spyri",
+        "title": "Heidi, fetița munților",
+        "author": "Johanna Spyri",
+        "profiles": {
+            "explorer": -0.405273,
+            "analyst": -0.324472,
+            "empath": -0.099022,
+            "adventurer": -0.290228,
+            "realist": 0.497928,
+            "visionary": -0.816419
+        }
+    },
+    {
+        "id": "morcoveață-jules-renard",
+        "title": "Morcoveață",
+        "author": "Jules Renard",
+        "profiles": {
+            "explorer": -0.408158,
+            "analyst": 0.041286,
+            "empath": 0.532065,
+            "adventurer": -0.446404,
+            "realist": 0.659252,
+            "visionary": -0.531153
+        }
+    },
+    {
+        "id": "din-lumea-celor-care-nu-cuvântă-emil-gârleanu",
+        "title": "Din lumea celor care nu cuvântă",
+        "author": "Emil Gârleanu",
+        "profiles": {
+            "explorer": -0.25157,
+            "analyst": 0.069074,
+            "empath": 0.05414,
+            "adventurer": -0.711277,
+            "realist": 0.406607,
+            "visionary": -0.513936
+        }
+    }
+]

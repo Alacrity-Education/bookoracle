@@ -1,32 +1,35 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
 import PageLayout from "../../components/ui/PageLayout/PageLayout";
+import Button from "../../components/ui/Button/Button";
 
 import type { QuestionnaireResult } from "../../types";
 
-import Button from "../../components/ui/Button/Button";
+import participationService from "../../services/participationService";
 
 import "./Results.css";
 
-interface ResultsLocationState {
-    result?: QuestionnaireResult;
+interface Recommendation {
+    rank: number;
+    book_id: string;
+    title: string;
+    author: string;
+    dimension_score: number;
+    profile_score: number;
+    base_score: number;
+    source_score: number;
+    source_bonus: number;
+    final_score: number;
 }
 
-const dimensionLabels = {
-    curiosity: "Curiozitate",
-    reflection: "Reflecție",
-    complexity: "Complexitate",
-    emotionality: "Emoționalitate",
-    characters: "Personaje",
-    pace: "Ritm",
-    imagination: "Imaginație",
-    realism: "Realism",
-    ambiguity: "Ambiguitate",
-    culture: "Deschidere culturală",
-};
+interface ResultsLocationState {
+    result?: QuestionnaireResult;
+    recommendations?: Recommendation[];
+    answers?: Record<number, number>;
+    category?: "prose" | "poetry";
+}
 
 function Results() {
-
     const location = useLocation();
     const navigate = useNavigate();
 
@@ -34,31 +37,64 @@ function Results() {
         location.state as ResultsLocationState | null;
 
     const result = state?.result;
+    const recommendations = state?.recommendations ?? [];
 
     if (!result) {
         return (
             <PageLayout>
-                <h1>Rezultatul nu este disponibil</h1>
+                <section className="results-page results-empty">
+                    <h1>Rezultatul nu este disponibil</h1>
 
-                <p>
-                    Nu am putut încărca rezultatul testului.
-                </p>
+                    <p>
+                        Nu am putut încărca rezultatul testului.
+                    </p>
 
-                <Button onClick={() => navigate("/")}>
-                    Înapoi la început
-                </Button>
+                    <Button onClick={() => navigate("/")}>
+                        Înapoi la început
+                    </Button>
+                </section>
             </PageLayout>
         );
     }
 
     const mainProfile = result.profiles[0];
 
+    const handleFinish = async (
+        destination: "email" | "finish",
+    ) => {
+        if (!state?.answers || !state.category) {
+            return;
+        }
+
+        try {
+            await participationService.saveParticipation(
+                state.category,
+                state.answers,
+                destination,
+            );
+
+            if (destination === "email") {
+                navigate("/email");
+            } else {
+                navigate("/finish");
+            }
+        } catch (error) {
+            console.error(
+                "Could not save participation:",
+                error,
+            );
+        }
+    };
+
     return (
         <PageLayout>
-
             <section className="results-page">
 
-                <div className="results-header">
+                {/* ========================= */}
+                {/* Literary profile            */}
+                {/* ========================= */}
+
+                <section className="results-profile">
 
                     <p className="results-eyebrow">
                         Profilul tău literar
@@ -72,107 +108,121 @@ function Results() {
                         {mainProfile.description}
                     </p>
 
-                </div>
+                    <div className="profile-match">
+                        <span className="profile-match-label">
+                            Potrivire cu profilul tău
+                        </span>
 
-                <section className="results-dimensions">
-
-                    <h2>
-                        Profilul tău de lectură
-                    </h2>
-
-                    <div className="dimension-list">
-
-                        {Object.entries(
-                            result.normalized_scores
-                        ).map(
-                            ([dimension, score]) => (
-                                <div
-                                    className="dimension-item"
-                                    key={dimension}
-                                >
-
-                                    <div className="dimension-header">
-
-                                        <span>
-                                            {dimensionLabels[dimension as keyof typeof dimensionLabels]}
-                                        </span>
-
-                                        <span>
-                                            {Math.round(score)}
-                                        </span>
-
-                                    </div>
-
-                                    <div className="dimension-bar">
-
-                                        <div
-                                            className="dimension-bar-fill"
-                                            style={{
-                                                width: `${score}%`,
-                                            }}
-                                        />
-
-                                    </div>
-
-                                </div>
-                            )
-                        )}
-
+                        <strong>
+                            {Math.round(
+                                mainProfile.similarity * 100
+                            )}%
+                        </strong>
                     </div>
+
+                    <p className="profile-explanation">
+                        Acesta este profilul literar care se
+                        potrivește cel mai bine cu răspunsurile tale.
+                    </p>
 
                 </section>
 
-                <section className="results-profiles">
 
-                    <h2>
-                        Alte profiluri apropiate
-                    </h2>
+                {/* ========================= */}
+                {/* Recommendations             */}
+                {/* ========================= */}
 
-                    <div className="profile-list">
+                <section className="results-recommendations">
 
-                        {result.profiles
-                            .slice(1, 3)
-                            .map((profile) => (
+                    <div className="recommendations-header">
+                        <p className="results-eyebrow">
+                            Recomandările LIRA
+                        </p>
+
+                        <h2>
+                            Uite ce cărți îți recomandăm
+                        </h2>
+
+                        <p>
+                            Am ales aceste cărți pe baza
+                            personalității tale literare.
+                        </p>
+                    </div>
+
+
+                    {recommendations.length > 0 ? (
+                        <div className="recommendation-list">
+
+                            {recommendations.map((book) => (
                                 <article
-                                    className="profile-card"
-                                    key={profile.id}
+                                    className="recommendation-card"
+                                    key={book.book_id}
                                 >
 
-                                    <h3>
-                                        {profile.name}
-                                    </h3>
+                                    <div className="recommendation-rank">
+                                        {String(book.rank).padStart(2, "0")}
+                                    </div>
 
-                                    <p>
-                                        {profile.description}
-                                    </p>
+                                    <div className="recommendation-content">
 
-                                    <span>
-                                        Potrivire:{" "}
-                                        {Math.round(
-                                            profile.similarity * 100
-                                        )}
-                                        %
-                                    </span>
+                                        <h3>
+                                            {book.title}
+                                        </h3>
+
+                                        <p className="recommendation-author">
+                                            {book.author}
+                                        </p>
+
+                                        <div className="recommendation-meta">
+
+                                            <span>
+                                                Potrivire cu profilul tău
+                                            </span>
+
+                                            <strong>
+                                                {Math.round(
+                                                    book.base_score * 100
+                                                )}%
+                                            </strong>
+
+                                        </div>
+
+                                    </div>
 
                                 </article>
                             ))}
 
-                    </div>
+                        </div>
+                    ) : (
+                        <p className="recommendations-empty">
+                            Recomandările nu sunt disponibile momentan.
+                        </p>
+                    )}
 
                 </section>
 
+
+                {/* ========================= */}
+                {/* Actions                     */}
+                {/* ========================= */}
+
                 <div className="results-actions">
 
-                    <Button onClick={() => navigate("/")}>
+                    <Button
+                        onClick={() => handleFinish("email")}
+                    >
+                        Trimite-mi rezultatele pe mail
+                    </Button>
 
-                        Înapoi la început
-
+                    <Button
+                        onClick={() => handleFinish("finish")}
+                    >
+                        Revin la început
                     </Button>
 
                 </div>
 
             </section>
-
         </PageLayout>
     );
 }

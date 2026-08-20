@@ -18,6 +18,7 @@ import { useNavigate } from "react-router-dom";
 
 
 import "./Prose.css";
+import recommendationService from "../../../services/recommendationService";
 
 function Prose() {
 
@@ -72,7 +73,9 @@ function Prose() {
 
             const result = await submitQuestionnaire("prose", answers);
 
-            navigate("/results/prose", { state: { result } });
+            const recommendations = await recommendationService.getRecommendations("prose", answers);
+
+            navigate("/results/prose", { state: { result, recommendations: recommendations.recommendations, answers, category: "prose" } });
         } catch (error) {
             console.error("Error submitting questionnaire:", error);
 

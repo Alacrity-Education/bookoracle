@@ -6,6 +6,8 @@ from app.schemas.questionnaire_submission import QuestionnaireSubmission
 from app.schemas.questionnaire_result import QuestionnaireResult
 from app.services.personality_service import calculate_profile
 from app.schemas.questionnaire_category import QuestionnaireCategory
+from app.schemas.questionnaire_completion import QuestionnaireCompletion
+from app.services.participation_service import save_participation
 
 router = APIRouter()
 
@@ -20,3 +22,14 @@ def submit_questionnaire(category: QuestionnaireCategory, submission: Questionna
         answers=submission.answers, 
         category=category.value,
     )
+
+@router.post("/{category}/complete")
+def complete_questionnaire(category: QuestionnaireCategory, completion: QuestionnaireCompletion):
+    save_participation(
+        category=category.value,
+        answers=completion.answers,
+        destination=completion.destination,
+    )
+    return { 
+        "status": "saved",
+    }
