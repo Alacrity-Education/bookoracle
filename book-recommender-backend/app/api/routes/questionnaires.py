@@ -8,6 +8,7 @@ from app.services.personality_service import calculate_profile
 from app.schemas.questionnaire_category import QuestionnaireCategory
 from app.schemas.questionnaire_completion import QuestionnaireCompletion
 from app.services.participation_service import save_participation
+from app.services.email_service import send_results_email
 
 router = APIRouter()
 
@@ -25,11 +26,27 @@ def submit_questionnaire(category: QuestionnaireCategory, submission: Questionna
 
 @router.post("/{category}/complete")
 def complete_questionnaire(category: QuestionnaireCategory, completion: QuestionnaireCompletion):
-    save_participation(
+    participant_id = save_participation(
         category=category.value,
         answers=completion.answers,
         destination=completion.destination,
+        email=str(completion.email) if completion.email else None,
+        newsletter=completion.newsletter,
     )
+
+    if (
+        completion.destination == "email"
+        and completion.email
+        and completion.profile
+        and completion.recommendations
+    ):
+        send_results_email(
+            to_email=str(completion.email),
+            profile=completion.profile,
+            recommendations=completion.recommendations,
+        )
+    
     return { 
         "status": "saved",
+        "participant_id": participant_id,
     }

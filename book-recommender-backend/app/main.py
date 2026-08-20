@@ -6,6 +6,10 @@ from app.api.routes.questionnaires import router as questionnaire_router
 
 from app.api.routes import recommendations
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 app = FastAPI(
     title="LIRA API",
     version="1.0.0",

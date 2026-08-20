@@ -4,3 +4,4 @@ __pycache__/
 .env
 .embedding_cache/
 participations.csv
+newsletter.csv

@@ -66,18 +66,30 @@ function Results() {
             return;
         }
 
+        if (destination === "email") {
+            navigate("/email", {
+                state: {
+                    result,
+                    recommendations,
+                    answers: state.answers,
+                    category: state.category,
+                },
+            });
+
+            return;
+        }
+
         try {
-            await participationService.saveParticipation(
+            await participationService.complete(
                 state.category,
-                state.answers,
-                destination,
+                {
+                    answers: state.answers,
+                    destination: "finish",
+                    newsletter: false,
+                },
             );
 
-            if (destination === "email") {
-                navigate("/email");
-            } else {
-                navigate("/finish");
-            }
+            navigate("/finish");
         } catch (error) {
             console.error(
                 "Could not save participation:",
