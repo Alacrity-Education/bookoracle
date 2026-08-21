@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import PageLayout from "@/components/ui/PageLayout/PageLayout";
 import QuestionCard from "@/components/ui/QuestionCard/QuestionCard";
 
-import { computeResults, warmScoringData } from "@/lib/scoring";
+import { submitQuestionnaire } from "@/services/questionnaireService";
+import recommendationService from "@/services/recommendationService";
 import { useSession } from "@/lib/session";
 
 import type { Questionnaire, QuestionnaireCategory } from "@/types/questionnaire";
@@ -28,13 +29,6 @@ export default function QuestionnaireStepper({
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
-  // The book data is a couple of hundred kilobytes and is not needed until the
-  // last question is answered. Fetching it now means the reader never waits
-  // for it, and that it is on the device before the tablet loses its network.
-  useEffect(() => {
-    warmScoringData();
-  }, []);
 
   const currentQuestion = questionnaire.questions[currentQuestionIndex];
 
@@ -64,12 +58,10 @@ export default function QuestionnaireStepper({
     try {
       setSubmitting(true);
 
-      // Scored on the device against the very questions the reader answered,
-      // so the result does not depend on a network the tablet may not have.
-      const { result, recommendations } = await computeResults(
-        questionnaire.questions,
-        answers,
-      );
+      const result = await submitQuestionnaire(category, answers);
+
+      const { recommendations } =
+        await recommendationService.getRecommendations(category, answers);
 
       // Replaces react-router's navigate(..., { state }): the results page
       // reads this from the session context instead of the router.
@@ -77,9 +69,9 @@ export default function QuestionnaireStepper({
 
       router.push(`/results/${category}`);
     } catch (submitError) {
-      console.error("Error scoring questionnaire:", submitError);
+      console.error("Error submitting questionnaire:", submitError);
 
-      setError("A apărut o eroare la calcularea rezultatelor.");
+      setError("A apărut o eroare la trimiterea chestionarului.");
       setSubmitting(false);
     }
   };

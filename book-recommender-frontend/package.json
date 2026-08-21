@@ -7,10 +7,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "lint": "oxlint",
-    "sync:offline-data": "node scripts/sync-offline-data.mjs",
-    "check:parity": "node scripts/check-parity.mjs",
-    "check:precache": "node scripts/check-precache.mjs"
+    "lint": "oxlint"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.3",

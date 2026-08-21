@@ -1,24 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 import PageLayout from "@/components/ui/PageLayout/PageLayout";
 import { useSession } from "@/lib/session";
-import { takeQueuedNotice } from "@/lib/offlineQueue";
 
 
 export default function FinishPage() {
   const router = useRouter();
   const { clearSession } = useSession();
-
-  // Set by the completion that just ran when it could not reach the backend.
-  const [queued, setQueued] = useState(false);
-
-  useEffect(() => {
-    // Read after mount: sessionStorage does not exist while rendering.
-    setQueued(takeQueuedNotice());
-  }, []);
 
   useEffect(() => {
     // The run is over; drop the stored answers so a later visit starts clean
@@ -47,13 +38,6 @@ export default function FinishPage() {
               Îți mulțumim că ai completat chestionarul. Sperăm ca recomandările
               LIRA să te ajute să descoperi următoarea ta lectură.
             </p>
-
-            {queued && (
-              <p className="mx-auto mt-5 max-w-[560px] text-[0.9rem] leading-[1.6] opacity-70">
-                Tableta este offline, așa că rezultatele tale au fost salvate și
-                se trimit automat imediat ce revine internetul.
-              </p>
-            )}
 
             <div className="mt-12 w-full max-w-[450px]">
               <div className="h-2 w-full overflow-hidden rounded-full">

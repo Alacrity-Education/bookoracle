@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import PageLayout from "@/components/ui/PageLayout/PageLayout";
@@ -13,9 +12,6 @@ import { useSession } from "@/lib/session";
 export default function ResultsPage() {
   const router = useRouter();
   const { session, ready } = useSession();
-
-  // Guards against a second tap on a touchscreen recording the run twice.
-  const [finishing, setFinishing] = useState(false);
 
   // Wait for sessionStorage to be read before concluding there is no result,
   // otherwise a refresh would flash the empty state.
@@ -50,24 +46,17 @@ export default function ResultsPage() {
       return;
     }
 
-    setFinishing(true);
-
     try {
-      // Queues itself when the tablet has no network, so this resolves either
-      // way and the reader is never held on the results page by a failed save.
       await participationService.complete(category, {
         answers,
         destination: "finish",
         newsletter: false,
       });
+
+      router.push("/finish");
     } catch (error) {
-      // Only reached when the backend answered with an error it will keep
-      // answering. Nothing the reader can do about it, and nothing that should
-      // keep them from finishing.
       console.error("Could not save participation:", error);
     }
-
-    router.push("/finish");
   };
 
   return (
@@ -161,17 +150,11 @@ export default function ResultsPage() {
 
         <div className="mt-14 flex justify-center gap-4">
 
-          <Button
-            onClick={() => handleFinish("email")}
-            disabled={finishing}
-          >
+          <Button onClick={() => handleFinish("email")}>
             Trimite-mi rezultatele pe mail
           </Button>
 
-          <Button
-            onClick={() => handleFinish("finish")}
-            disabled={finishing}
-          >
+          <Button onClick={() => handleFinish("finish")}>
             Revin la început
           </Button>
 
