@@ -1,8 +1,7 @@
-import type { Dimension } from "./dimension";
-
 export interface DimensionContribution {
-    questionId: number;
-    dimension: Dimension;
+    /** snake_case because this mirrors the backend's Contribution schema. */
+    question_id: number;
+    dimension: string;
     contribution: number;
 }
 
@@ -14,8 +13,13 @@ export interface ProfileResult {
 }
 
 export interface QuestionnaireResult {
-    raw_scores: Record<Dimension, number>;
-    normalized_scores: Record<Dimension, number>;
+    /**
+     * Keyed by dimension name, but not necessarily complete: a dimension no
+     * answered question carries a weight for is absent rather than zero, in
+     * both the backend and the browser engine that mirrors it.
+     */
+    raw_scores: Record<string, number>;
+    normalized_scores: Record<string, number>;
     contributions: DimensionContribution[];
     profiles: ProfileResult[];
 }

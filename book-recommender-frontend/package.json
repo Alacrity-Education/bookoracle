@@ -7,14 +7,19 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "lint": "oxlint"
+    "lint": "oxlint",
+    "sync:offline-data": "node scripts/sync-offline-data.mjs",
+    "check:parity": "node scripts/check-parity.mjs",
+    "check:precache": "node scripts/check-precache.mjs"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "axios": "^1.18.1",
     "next": "^16.3.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-icons": "^5.7.0"
+    "react-icons": "^5.7.0",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@types/node": "^24.13.2",

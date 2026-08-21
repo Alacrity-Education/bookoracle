@@ -1,7 +1,5 @@
 import type { ReactNode } from "react";
 
-import "./ContentCard.css";
-
 interface ContentCardProps {
 
     title?: string;
@@ -28,15 +26,18 @@ function ContentCard({
 
     return(
 
-        <section className={`content-card ${className}`}>
+        // mx-auto centres the card inside the wider PageLayout container.
+        <section
+            className={`mx-auto w-full max-w-[760px] animate-fade-in rounded-large border border-border bg-surface p-6 shadow-small md:p-10 ${className}`}
+        >
 
             {(title || subtitle) && (
 
-                <header className="content-card__header">
+                <header className="mb-8">
 
                     {title &&
 
-                        <h1 className="content-card__title">
+                        <h1 className="mb-3 text-text">
 
                             {title}
 
@@ -46,7 +47,7 @@ function ContentCard({
 
                     {subtitle &&
 
-                        <p className="content-card__subtitle">
+                        <p className="text-subtle leading-[1.6]">
 
                             {subtitle}
 
@@ -58,7 +59,7 @@ function ContentCard({
 
             )}
 
-            <div className="content-card__body">
+            <div className="flex flex-col gap-6">
 
                 {children}
 

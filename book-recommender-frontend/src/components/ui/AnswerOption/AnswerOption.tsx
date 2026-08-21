@@ -1,5 +1,3 @@
-import "./AnswerOption.css";
-
 interface AnswerOptionProps {
     label: string;
     value: number;
@@ -16,12 +14,19 @@ function AnswerOption({
     return (
         <button
             type="button"
-            className={`answer-option ${
-                selected ? "answer-option--selected" : ""
+            data-answer={value}
+            className={`flex w-full cursor-pointer items-center gap-4 rounded-medium border p-4 transition-all duration-200 hover:border-primary ${
+                selected
+                    ? "border-primary bg-[rgba(101,80,163,0.08)]"
+                    : "border-border bg-background"
             }`}
             onClick={() => onSelect(value)}
         >
-            <span className="answer-option__indicator" />
+            <span
+                className={`size-[18px] shrink-0 rounded-full border-2 border-primary ${
+                    selected ? "bg-primary" : ""
+                }`}
+            />
 
             <span>{label}</span>
         </button>

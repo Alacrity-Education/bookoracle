@@ -11,7 +11,6 @@ import Button from "@/components/ui/Button/Button";
 import { ROUTES } from "@/utils/routes";
 import termsText from "@/content/terms";
 
-import "./Terms.css";
 
 export default function TermsPage() {
   const router = useRouter();
@@ -24,7 +23,7 @@ export default function TermsPage() {
         title="Termeni și Condiții"
         subtitle="Te rugăm să citești informațiile de mai jos înainte de a continua."
       >
-        <div className="terms-content">
+        <div className="flex flex-col gap-4 leading-[1.7]">
           {termsText.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}

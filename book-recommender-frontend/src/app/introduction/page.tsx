@@ -13,7 +13,6 @@ import SelectionCard from "@/components/ui/SelectionCard/SelectionCard";
 
 import { questionnaireRoute } from "@/utils/routes";
 
-import "./Introduction.css";
 
 export default function IntroductionPage() {
   const router = useRouter();
@@ -24,7 +23,7 @@ export default function IntroductionPage() {
         title="Ești pregătit să începi?"
         subtitle="Mai ai doar un pas până la recomandările tale personalizate."
       >
-        <div className="introduction-description">
+        <div className="flex flex-col gap-4">
           <p>
             Vei răspunde la <strong>20 de întrebări</strong> despre preferințele
             tale de lectură.
@@ -36,24 +35,24 @@ export default function IntroductionPage() {
           </p>
         </div>
 
-        <div className="introduction-info">
-          <div className="info-item">
-            <FaBook /> 20 întrebări
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <div className="rounded-medium border border-border bg-surface p-4 text-center">
+            <FaBook className="inline" /> 20 întrebări
           </div>
 
-          <div className="info-item">
-            <RiTimerLine /> Aproximativ 2-3 minute
+          <div className="rounded-medium border border-border bg-surface p-4 text-center">
+            <RiTimerLine className="inline" /> Aproximativ 2-3 minute
           </div>
 
-          <div className="info-item">
-            <SiBookstack /> Recomandări personalizate
+          <div className="rounded-medium border border-border bg-surface p-4 text-center">
+            <SiBookstack className="inline" /> Recomandări personalizate
           </div>
         </div>
 
         <SelectionCard
           title="Proză"
           description="Descoperă romane și volume de proză potrivite preferințelor tale."
-          icon={<FaBookOpen />}
+          icon={<FaBookOpen className="inline" />}
         >
           <Button onClick={() => router.push(questionnaireRoute("prose"))}>
             Începe testul
@@ -63,7 +62,7 @@ export default function IntroductionPage() {
         <SelectionCard
           title="Poezie"
           description="Această secțiune va fi disponibilă într-o versiune viitoare."
-          icon={<FaPenNib />}
+          icon={<FaPenNib className="inline" />}
           disabled
         >
           <Button variant="outline" disabled>

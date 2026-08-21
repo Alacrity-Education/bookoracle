@@ -5,8 +5,6 @@ import Button from "../Button/Button";
 
 import type { Question } from "../../../types/question";
 
-import "./QuestionCard.css";
-
 interface QuestionCardProps {
     question: Question;
     current: number;
@@ -39,7 +37,7 @@ function QuestionCard({
                 total={total}
             />
 
-            <div className="question-card__header">
+            <div>
 
                 <span>Întrebare</span>
 
@@ -47,7 +45,7 @@ function QuestionCard({
 
             </div>
 
-            <div className="question-card__answers">
+            <div className="flex flex-col gap-4">
                 {question.answers.map((answer) => (
                     <AnswerOption
                         key={answer.value}
@@ -59,7 +57,8 @@ function QuestionCard({
                 ))}
             </div>
 
-            <div className="question-card__actions">
+            {/* Stacks on narrow screens, with the primary action on top. */}
+            <div className="flex justify-between gap-4 max-md:flex-col-reverse max-md:[&>button]:w-full">
                 {onPrevious && (
                     <Button
                         variant="outline"

@@ -9,7 +9,6 @@ import Button from "@/components/ui/Button/Button";
 import participationService from "@/services/participationService";
 import { useSession } from "@/lib/session";
 
-import "./Email.css";
 
 export default function EmailPage() {
   const router = useRouter();
@@ -31,7 +30,7 @@ export default function EmailPage() {
   if (!session) {
     return (
       <PageLayout>
-        <section className="email-page email-empty">
+        <section className="flex min-h-[70vh] items-center justify-center px-6 py-16 text-center">
 
           <h1>Rezultatul nu este disponibil</h1>
 
@@ -104,23 +103,23 @@ export default function EmailPage() {
 
   return (
     <PageLayout>
-      <section className="email-page">
-        <div className="email-content">
+      <section className="flex min-h-[70vh] items-center justify-center px-6 py-16">
+        <div className="w-full max-w-[560px] text-center">
 
-          <p className="email-eyebrow">Rezultatele tale</p>
+          <p className="mb-3 text-[0.85rem] font-semibold uppercase tracking-[0.12em] opacity-65">Rezultatele tale</p>
 
-          <h1>Primește rezultatele pe email</h1>
+          <h1 className="text-[clamp(2.2rem,6vw,4rem)] leading-[1.05]">Primește rezultatele pe email</h1>
 
-          <p className="email-description">
+          <p className="mx-auto mt-6 mb-10 max-w-[480px] leading-[1.7] opacity-70">
             Îți vom trimite profilul tău literar și cărțile pe care LIRA ți le
             recomandă.
           </p>
 
-          <form className="email-form" onSubmit={handleSubmit}>
+          <form className="flex flex-col gap-6 text-left" onSubmit={handleSubmit}>
 
-            <div className="email-field">
+            <div className="flex flex-col gap-2">
 
-              <label htmlFor="email">Adresa de email</label>
+              <label htmlFor="email" className="text-[0.9rem] font-semibold">Adresa de email</label>
 
               <input
                 id="email"
@@ -133,18 +132,20 @@ export default function EmailPage() {
                 }}
                 placeholder="exemplu@email.com"
                 autoComplete="email"
+                className="w-full rounded-[10px] border border-field bg-transparent px-4 py-3.5 focus:border-current focus:outline-none"
               />
 
-              {error && <p className="email-error">{error}</p>}
+              {error && <p className="text-[0.85rem] opacity-80">{error}</p>}
 
             </div>
 
-            <label className="newsletter-option">
+            <label className="flex cursor-pointer items-start gap-3 text-[0.9rem] leading-[1.5] opacity-75">
 
               <input
                 type="checkbox"
                 checked={newsletter}
                 onChange={(event) => setNewsletter(event.target.checked)}
+                className="mt-1 shrink-0"
               />
 
               <span>

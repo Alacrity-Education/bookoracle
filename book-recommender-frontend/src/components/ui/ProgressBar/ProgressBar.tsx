@@ -1,5 +1,3 @@
-import "./ProgressBar.css";
-
 interface ProgressBarProps {
     current: number;
     total: number;
@@ -13,9 +11,9 @@ function ProgressBar({
     const progress = (current / total) * 100;
 
     return (
-        <div className="progress">
+        <div className="flex flex-col gap-3">
 
-            <div className="progress__header">
+            <div className="flex justify-between text-[0.95rem]">
 
                 <span>
 
@@ -31,10 +29,10 @@ function ProgressBar({
 
             </div>
 
-            <div className="progress__track">
+            <div className="h-2.5 w-full overflow-hidden rounded-full bg-border">
 
                 <div
-                    className="progress__fill"
+                    className="h-full bg-primary transition-[width] duration-300"
                     style={{
                         width: `${progress}%`,
                     }}

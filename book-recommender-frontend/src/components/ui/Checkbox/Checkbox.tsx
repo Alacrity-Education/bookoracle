@@ -1,8 +1,8 @@
-import "./Checkbox.css";
+import type { ReactNode } from "react";
 
 interface CheckboxProps {
     id: string;
-    label: React.ReactNode;
+    label: ReactNode;
     checked: boolean;
     onChange: (checked: boolean) => void;
 }
@@ -15,9 +15,11 @@ function Checkbox({
 }: CheckboxProps) {
     return (
         <label
-            className="checkbox"
+            className="flex cursor-pointer select-none items-start gap-[0.8rem]"
             htmlFor={id}
         >
+            {/* The real input stays in the DOM but hidden, and drives the
+                custom box below through the `peer` variant. */}
             <input
                 id={id}
                 type="checkbox"
@@ -25,11 +27,14 @@ function Checkbox({
                 onChange={(event) =>
                     onChange(event.target.checked)
                 }
+                className="peer hidden"
             />
 
-            <span className="checkbox__custom"></span>
+            <span
+                className="mt-0.5 flex size-[22px] shrink-0 items-center justify-center rounded-[6px] border-2 border-primary transition duration-200 after:text-[14px] after:text-white peer-checked:bg-primary peer-checked:after:content-['✓']"
+            />
 
-            <span className="checkbox__label">
+            <span className="text-base leading-[1.5]">
                 {label}
             </span>
         </label>

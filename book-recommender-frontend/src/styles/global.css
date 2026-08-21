@@ -1,25 +1,113 @@
-@import "./variables.css";
-@import "./typography.css";
-@import "./layout.css";
-@import "./buttons.css";
-@import "./forms.css";
+@import "tailwindcss";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ---------------------------------------------------------------------------
+   Design tokens.
+
+   These are the values that used to live in variables.css. Declaring them in
+   @theme both defines the custom properties and generates the matching
+   utilities, so --color-surface gives bg-surface, --radius-large gives
+   rounded-large, and so on. The palette stays single-sourced.
+   --------------------------------------------------------------------------- */
+@theme {
+  --color-primary: #6550a3;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #9d174d;
+  --color-secondary-content: #ffffff;
+
+  --color-accent: #5863ff;
+  --color-accent-content: #ffffff;
+
+  --color-background: #ffffff;
+  --color-surface: #f8f8f8;
+
+  --color-border: #eeeeee;
+
+  --color-text: #18181b;
+
+  /* Muted greys that the page styles used as literals. */
+  --color-subtle: #666666;
+  --color-hairline: rgba(127, 127, 127, 0.25);
+  --color-hairline-strong: rgba(127, 127, 127, 0.55);
+  --color-field: rgba(127, 127, 127, 0.35);
+
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 18px;
+
+  --shadow-small: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 8px 18px rgba(0, 0, 0, 0.12);
+
+  /* Inter is referenced but never loaded, exactly as before, so the browser
+     falls back to its default sans. Kept identical to avoid a font shift. */
+  --font-sans: "Inter", sans-serif;
+
+  --animate-fade-in: fade-in 0.35s ease;
+  --animate-finish-progress: finish-progress 5s linear forwards;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes finish-progress {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
 }
 
-html,
-body {
-    width: 100%;
-    min-height: 100%;
-}
+/* ---------------------------------------------------------------------------
+   Base element styles.
 
-body {
+   Preflight strips heading sizes and paragraph leading, so the type scale from
+   typography.css is restored here. Element defaults belong in the base layer;
+   everything else is a utility in the markup.
+   --------------------------------------------------------------------------- */
+@layer base {
+  body {
     min-width: 20rem;
     min-height: 100vh;
 
-    background-color: var(--background);
-    color: var(--text);
+    /* Preflight sets a root line-height of 1.5. The previous stylesheets
+       inherited the browser default, and restoring it keeps every text block
+       at its original height. Delete this line to adopt Tailwind's rhythm
+       instead - it makes text slightly taller throughout. */
+    line-height: normal;
+
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  /* typography.css set only a size and leaned on the browser's bold default,
+     which Preflight resets to inherit. */
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
 }

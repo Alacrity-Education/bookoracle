@@ -11,7 +11,6 @@ import Button from "@/components/ui/Button/Button";
 import { ROUTES } from "@/utils/routes";
 import gdprText from "@/content/gdpr";
 
-import "./GDPR.css";
 
 export default function GdprPage() {
   const router = useRouter();
@@ -24,7 +23,7 @@ export default function GdprPage() {
         title="Protecția datelor (GDPR)"
         subtitle="Înainte de a începe testul, te rugăm să citești informațiile privind prelucrarea datelor."
       >
-        <div className="gdpr-content">
+        <div className="flex flex-col gap-4 leading-[1.7]">
           {gdprText.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
