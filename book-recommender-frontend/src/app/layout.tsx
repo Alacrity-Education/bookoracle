@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 import { SessionProvider } from "@/lib/session";
+import AlacrityCredit from "@/components/ui/AlacrityCredit/AlacrityCredit";
 
 // Global stylesheet, imported once at the root. It @imports variables,
 // typography, layout, buttons and forms.
@@ -23,6 +24,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* Holds the questionnaire result across the client-side navigation
             from the questionnaire to /results, /email and /finish. */}
         <SessionProvider>{children}</SessionProvider>
+
+        {/* Outside the provider: it is a fixed overlay on every page and
+            depends on nothing in the session. */}
+        <AlacrityCredit />
       </body>
     </html>
   );
